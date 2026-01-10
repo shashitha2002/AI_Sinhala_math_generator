@@ -1,0 +1,3 @@
+".idea/\n__pycache__/\nvenv/" 
+.env
+*.pyc
