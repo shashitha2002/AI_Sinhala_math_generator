@@ -23,3 +23,11 @@ class QuestionResponse(BaseModel):
     questions: List[Question]
     generation_time_seconds: float
     model_used: str
+
+class genratedQuestionInDB(BaseModel):
+    id: Optional[str] = Field(None, alias="_id")
+    user_email: str
+    topic: str
+    difficulty: DifficultyLevel
+    questions: List[Question]
+    model_used: str
