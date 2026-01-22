@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facial Emotion Recognition</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            margin-bottom: 30px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 15px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 350px;
+            gap: 30px;
+        }
+        
+        .video-section {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .status-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 15px;
+            background: #f9f9f9;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #4CAF50;
+        }
+        
+        .status-text {
+            color: #666;
+            font-weight: 500;
+        }
+        
+        .video-container {
+            background: #000;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 15px;
+            aspect-ratio: 4/3;
+        }
+        
+        .video-container canvas {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        
+        .controls {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-start;
+        }
+        
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        
+        .btn-primary {
+            background: #0066cc;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #0052a3;
+        }
+        
+        .btn-danger {
+            background: #cc0000;
+            color: white;
+        }
+        
+        .btn-danger:hover {
+            background: #990000;
+        }
+        
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .prediction-panel {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            padding: 20px;
+        }
+        
+        .prediction-panel h2 {
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .emotion-display {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        
+        .emotion-name {
+            font-size: 36px;
+            font-weight: bold;
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+        
+        .confidence-container {
+            margin-bottom: 15px;
+        }
+        
+        .confidence-label {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+        
+        .confidence-bar {
+            width: 100%;
+            height: 24px;
+            background: #e0e0e0;
+            border-radius: 2px;
+            overflow: hidden;
+            border: 1px solid #bbb;
+        }
+        
+        .confidence-fill {
+            height: 100%;
+            background: #0066cc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            transition: width 0.3s;
+        }
+        
+        .stats {
+            border-top: 1px solid #e0e0e0;
+            padding-top: 15px;
+        }
+        
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            font-size: 13px;
+        }
+        
+        .stat-label {
+            color: #666;
+        }
+        
+        .stat-value {
+            color: #0066cc;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        
+        .error {
+            background: #ffebee;
+            color: #c62828;
+            padding: 12px 15px;
+            border-radius: 4px;
+            border-left: 3px solid #c62828;
+            margin-bottom: 15px;
+            display: none;
+            font-size: 13px;
+        }
+        
+        @media (max-width: 900px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+            
+            .sidebar {
+                flex-direction: row;
+            }
+            
+            .prediction-panel {
+                flex: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Facial Emotion Recognition</h1>
+            <p>Real-time emotion detection from webcam</p>
+        </div>
+        
+        <div class="error" id="errorMessage"></div>
+        
+        <div class="content">
+            <div class="video-section">
+                <div class="status-bar">
+                    <div class="status-indicator">
+                        <div class="status-dot"></div>
+                        <span class="status-text">Camera: <strong id="cameraStatus">Active</strong></span>
+                    </div>
+                    <div class="status-indicator">
+                        <span class="status-text" id="frameCount">Frames: 0</span>
+                    </div>
+                </div>
+                
+                <div class="video-container">
+                    <canvas id="videoCanvas"></canvas>
+                </div>
+                
+                <div class="controls">
+                    <button class="btn-primary" onclick="startCamera()">Start Camera</button>
+                    <button class="btn-danger" onclick="stopCamera()">Stop Camera</button>
+                </div>
+            </div>
+            
+            <div class="sidebar">
+                <div class="prediction-panel">
+                    <h2>Current Emotion</h2>
+                    
+                    <div class="emotion-display">
+                        <div class="emotion-name" id="emotionLabel">-</div>
+                    </div>
+                    
+                    <div class="confidence-container">
+                        <div class="confidence-label">Confidence Level</div>
+                        <div class="confidence-bar">
+                            <div class="confidence-fill" id="confidenceFill" style="width: 0%">
+                                <span id="confidencePercent">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-label">Faces Detected:</span>
+                            <span class="stat-value" id="facesDetected">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let isStreamActive = false;
+        let streamAbortController = null;
+        let frameCount = 0;
+        let facesCount = 0;
+        let currentEmotion = '-';
+        let currentConfidence = 0;
+
+        // Initialize camera on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Page loaded, starting camera...');
+            startCamera();
+        });
+
+        function startCamera() {
+            const canvas = document.getElementById('videoCanvas');
+            const ctx = canvas.getContext('2d');
+            const cameraStatus = document.getElementById('cameraStatus');
+            const errorMessage = document.getElementById('errorMessage');
+            
+            if (isStreamActive) {
+                console.log('Stream already active');
+                return;
+            }
+
+            isStreamActive = true;
+            streamAbortController = new AbortController();
+            frameCount = 0;
+            
+            // Set canvas size to match container
+            const container = document.querySelector('.video-container');
+            canvas.width = container.offsetWidth;
+            canvas.height = Math.max(container.offsetWidth * 0.75, 400);
+
+            cameraStatus.textContent = 'Active';
+            cameraStatus.style.color = '#4CAF50';
+            errorMessage.style.display = 'none';
+
+            console.log('Starting MJPEG stream from /video_feed');
+
+            // Fetch and display Motion JPEG stream
+            fetch('/video_feed', { signal: streamAbortController.signal })
+                .then(response => {
+                    console.log('Got response from /video_feed');
+                    console.log('Content-Type:', response.headers.get('content-type'));
+                    
+                    if (!response.body) {
+                        throw new Error('Response body is empty');
+                    }
+                    
+                    const reader = response.body.getReader();
+                    let buffer = new Uint8Array(0);
+                    const boundary = '--frame';
+
+                    function readChunk() {
+                        reader.read().then(({ done, value }) => {
+                            if (done) {
+                                console.log('Stream ended');
+                                return;
+                            }
+
+                            // Append new data to buffer
+                            const newBuffer = new Uint8Array(buffer.length + value.length);
+                            newBuffer.set(buffer);
+                            newBuffer.set(value, buffer.length);
+                            buffer = newBuffer;
+
+                            // Find and process JPEG frames
+                            const bufferString = new TextDecoder('utf-8', { fatal: false }).decode(buffer);
+                            const boundaryIndex = bufferString.indexOf(boundary);
+
+                            if (boundaryIndex !== -1) {
+                                // Find the content-length header
+                                const headerEndIndex = bufferString.indexOf('\r\n\r\n', boundaryIndex);
+                                if (headerEndIndex !== -1) {
+                                    // Parse content-length
+                                    const headerSection = bufferString.substring(boundaryIndex, headerEndIndex);
+                                    const lengthMatch = headerSection.match(/Content-Length: (\d+)/);
+                                    
+                                    if (lengthMatch) {
+                                        const contentLength = parseInt(lengthMatch[1]);
+                                        const dataStart = headerEndIndex + 4;
+                                        const dataEnd = dataStart + contentLength;
+                                        
+                                        if (buffer.length >= dataEnd) {
+                                            // We have a complete frame
+                                            const jpegData = buffer.slice(dataStart, dataEnd);
+                                            
+                                            // Display the frame
+                                            const blob = new Blob([jpegData], { type: 'image/jpeg' });
+                                            const url = URL.createObjectURL(blob);
+                                            
+                                            const img = new Image();
+                                            img.onload = function() {
+                                                ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+                                                URL.revokeObjectURL(url);
+                                                frameCount++;
+                                                updateStats();
+                                            };
+                                            img.onerror = function() {
+                                                console.error('Failed to load frame image');
+                                                URL.revokeObjectURL(url);
+                                            };
+                                            img.src = url;
+                                            
+                                            // Remove processed data from buffer
+                                            buffer = buffer.slice(dataEnd);
+                                            console.log('Processed frame, remaining buffer size:', buffer.length);
+                                        }
+                                    }
+                                }
+                            }
+
+                            // Continue reading
+                            readChunk();
+                        }).catch(error => {
+                            if (error.name !== 'AbortError') {
+                                console.error('Stream read error:', error);
+                                showError('Error reading video stream: ' + error.message);
+                                isStreamActive = false;
+                                cameraStatus.textContent = 'Error';
+                                cameraStatus.style.color = '#ff6b6b';
+                            }
+                        });
+                    }
+
+                    readChunk();
+                })
+                .catch(error => {
+                    if (error.name !== 'AbortError') {
+                        console.error('Fetch error:', error);
+                        showError('Failed to connect to camera: ' + error.message);
+                        isStreamActive = false;
+                        cameraStatus.textContent = 'Error';
+                        cameraStatus.style.color = '#ff6b6b';
+                    }
+                });
+
+            console.log('Camera start request sent');
+        }
+
+        function stopCamera() {
+            const cameraStatus = document.getElementById('cameraStatus');
+            const canvas = document.getElementById('videoCanvas');
+            const ctx = canvas.getContext('2d');
+            
+            if (streamAbortController) {
+                streamAbortController.abort();
+            }
+            
+            isStreamActive = false;
+
+            fetch('/stop')
+                .then(response => response.text())
+                .then(data => {
+                    cameraStatus.textContent = 'Stopped';
+                    cameraStatus.style.color = '#ff6b6b';
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    ctx.fillStyle = '#333';
+                    ctx.font = '20px Arial';
+                    ctx.fillText('Camera Stopped', 20, 30);
+                    console.log('Camera stopped:', data);
+                })
+                .catch(error => {
+                    console.error('Error stopping camera:', error);
+                    showError('Failed to stop camera');
+                });
+        }
+
+        function updateStats() {
+            document.getElementById('frameCount').textContent = 'Frames: ' + frameCount;
+            document.getElementById('emotionLabel').textContent = currentEmotion;
+            document.getElementById('confidencePercent').textContent = Math.round(currentConfidence) + '%';
+            document.getElementById('confidenceFill').style.width = currentConfidence + '%';
+            document.getElementById('facesDetected').textContent = facesCount;
+        }
+
+        function showError(message) {
+            const errorDiv = document.getElementById('errorMessage');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+
+        // Handle window resize
+        window.addEventListener('resize', function() {
+            const canvas = document.getElementById('videoCanvas');
+            const container = document.querySelector('.video-container');
+            canvas.width = container.offsetWidth;
+            canvas.height = Math.max(container.offsetWidth * 0.75, 400);
+        });
+
+        // Update emotion data from server (polling) - real-time updates
+        setInterval(function() {
+            fetch('/get_emotion_data')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.emotion) {
+                        currentEmotion = data.emotion;
+                        currentConfidence = data.confidence;
+                        facesCount = data.faces_detected;
+                        updateStats();
+                    }
+                })
+                .catch(error => {
+                    console.log('Could not fetch emotion data');
+                });
+        }, 100);
+    </script>
+</body>
+</html>
