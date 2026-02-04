@@ -119,6 +119,46 @@ class VideoCamera:
                             y = int(landmark.y * frame.shape[0])
                             # Draw small white dots for all mesh points
                             cv2.circle(frame, (x, y), 1, (255, 255, 255), -1)
+
+                        # Feature indices
+                        LEFT_EYE = [33, 246, 161, 160, 159, 158, 157, 173, 133, 155, 154, 153, 145, 144, 163, 7]
+                        RIGHT_EYE = [362, 398, 384, 385, 386, 387, 388, 466, 263, 382, 381, 380, 374, 373, 390, 249]
+                        LEFT_EYEBROW = [70, 63, 105, 66, 107, 55, 65, 52, 53, 46]
+                        RIGHT_EYEBROW = [336, 296, 334, 293, 300, 276, 283, 282, 295, 285]
+                        NOSE = [1, 2, 98, 327, 195, 197]
+                        MOUTH = [0, 267, 269, 270, 409, 291, 375, 321, 405, 314, 17, 84, 181, 91, 146, 61, 185, 40, 39, 37]
+
+                        # Helper function to get bounding box from indices
+                        def draw_feature_box(indices, color):
+                            try:
+                                landmark_points = []
+                                for idx in indices:
+                                    lm = face_landmarks[idx]
+                                    px = int(lm.x * frame.shape[1])
+                                    py = int(lm.y * frame.shape[0])
+                                    landmark_points.append((px, py))
+                                
+                                if landmark_points:
+                                    x_coords = [p[0] for p in landmark_points]
+                                    y_coords = [p[1] for p in landmark_points]
+                                    min_x, max_x = min(x_coords), max(x_coords)
+                                    min_y, max_y = min(y_coords), max(y_coords)
+                                    
+                                    # Add padding
+                                    padding = 5
+                                    cv2.rectangle(frame, (min_x - padding, min_y - padding), 
+                                                (max_x + padding, max_y + padding), color, 2)
+                            except IndexError:
+                                pass
+
+                        # Draw bounding boxes for features
+                        # Colors in BGR: Blue, Green, Red, Yellow
+                        draw_feature_box(LEFT_EYE, (255, 0, 0))       # Blue for Eyes
+                        draw_feature_box(RIGHT_EYE, (255, 0, 0))
+                        draw_feature_box(LEFT_EYEBROW, (0, 255, 0))   # Green for Eyebrows
+                        draw_feature_box(RIGHT_EYEBROW, (0, 255, 0))
+                        draw_feature_box(NOSE, (0, 0, 255))           # Red for Nose
+                        draw_feature_box(MOUTH, (0, 255, 255))        # Yellow for Mouth
             except Exception as e:
                 print(f"Face Mesh Error: {e}")
             # --------------------------------------
