@@ -10,6 +10,27 @@ from keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
 import threading
 import os
+import threading
+import os
+import mediapipe as mp
+from mediapipe.tasks import python
+from mediapipe.tasks.python import vision
+
+# Initialize MediaPipe Face Mesh (Tasks API)
+model_path = os.path.abspath('face_landmarker.task')
+if not os.path.exists(model_path):
+    raise FileNotFoundError(f"Model file not found at: {model_path}")
+
+base_options = python.BaseOptions(model_asset_path=model_path)
+options = vision.FaceLandmarkerOptions(
+    base_options=base_options,
+    output_face_blendshapes=False,
+    output_facial_transformation_matrixes=False,
+    num_faces=2,
+    min_face_detection_confidence=0.5,
+    min_face_presence_confidence=0.5,
+    min_tracking_confidence=0.5)
+detector = vision.FaceLandmarker.create_from_options(options)
 
 app = Flask(__name__)
 
@@ -52,6 +73,7 @@ class VideoCamera:
                 raise Exception("Could not read from webcam")
             
             print("✓ Camera initialized successfully - Ready to stream")
+            
         except Exception as e:
             print(f"✗ Camera initialization failed: {e}")
             self.video = None
@@ -77,7 +99,29 @@ class VideoCamera:
             # Flip frame for mirror effect
             frame = cv2.flip(frame, 1)
             
+            # Create a clean copy for emotion detection BEFORE drawing the mesh
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+            # --- MediaPipe Face Mesh Processing (Tasks API) ---
+            try:
+                # Convert to RGB (MediaPipe requirement)
+                # Create MP Image
+                mp_image = mp.Image(image_format=mp.ImageFormat.SRGB, data=cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
+                
+                # Detect
+                detection_result = detector.detect(mp_image)
+                
+                # Draw landmarks manually
+                if detection_result.face_landmarks:
+                    for face_landmarks in detection_result.face_landmarks:
+                        for landmark in face_landmarks:
+                            x = int(landmark.x * frame.shape[1])
+                            y = int(landmark.y * frame.shape[0])
+                            # Draw small white dots for all mesh points
+                            cv2.circle(frame, (x, y), 1, (255, 255, 255), -1)
+            except Exception as e:
+                print(f"Face Mesh Error: {e}")
+            # --------------------------------------
             faces = face_cascade.detectMultiScale(gray, 1.3, 5, minSize=(30, 30))
             
             # Update faces detected count
@@ -108,8 +152,9 @@ class VideoCamera:
                         confidence = prediction[emotion_idx] * 100
                         
                         # Update global emotion data
-                        emotion_data['emotion'] = emotion_label
-                        emotion_data['confidence'] = confidence
+                        emotion_data['emotion'] = str(emotion_label)
+                        emotion_data['confidence'] = float(confidence)
+                        emotion_data['faces_detected'] = int(len(faces))
                         
                         # Put text on frame
                         label_text = f'{emotion_label} ({confidence:.1f}%)'
