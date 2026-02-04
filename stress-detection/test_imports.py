@@ -18,8 +18,16 @@ for module in modules_to_test:
     try:
         mod = __import__(module)
         version = getattr(mod, '__version__', 'unknown')
-        print(f"✓ {module}: {version}")
+        print(f"[OK] {module}: {version}")
     except ImportError as e:
-        print(f"✗ {module}: {e}")
+        print(f"[FAIL] {module}: {e}")
+
+print("\nChecking specific imports...")
+try:
+    from keras.utils import img_to_array
+    print("[OK] from keras.utils import img_to_array: Success")
+except ImportError as e:
+    print(f"[FAIL] from keras.utils import img_to_array: {e}")
+
 
 print("\nAttempting to run main.py...")
