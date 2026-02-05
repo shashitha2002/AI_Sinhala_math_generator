@@ -1,0 +1,780 @@
+{
+  "examples": [
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සරල සමීකරණ",
+      "question": "අඹ ගෙඩි 60ක් යහළුවන් කිහිපදෙනෙකු සමානව බෙදා ගන්නා ලදි. ඉන් එක් අයකු වන අමල් තමන්ට ලැබුණු අඹවලින් ගෙඩි 3ක් විකිණූ පසු ඔහු ළඟ ඉතිරි වූයේ ගෙඩි 2ක් පමණි. අඹ ගෙඩි 60 බෙදා ගත් යහළුවන් ගණන කීය ද?",
+      "Steps": [
+        { "step_description": null, "step_answer": "යහළුවන් ගණන = x" },
+        {
+          "step_description": null,
+          "step_answer": "එක් අයකුට ලැබුණු අඹ ගෙඩි ගණන = 60/x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "අමල් විකිණූ අඹ ගෙඩි ගණන = 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "එවිට ඔහු ළඟ ඉතිරි අඹ ගෙඩි ගණන = 60/x - 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "තව ද, ඔහු ළඟ ඉතිරි අඹ ගෙඩි ගණන 2ක් බැවින් = 60/x - 3 = 2"
+        },
+        { "step_description": null, "step_answer": "60/x - 3 + 3 = 2 + 3" },
+        { "step_description": null, "step_answer": "60/x = 5" },
+        { "step_description": null, "step_answer": "5x = 60" },
+        { "step_description": null, "step_answer": "x = 12" }
+      ],
+      "Final_answer": "12"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සරල සමීකරණ",
+      "question": "(3/a) + (2/a) = 1/2",
+      "Steps": [
+        { "step_description": null, "step_answer": "(5/a) = (1/2)" },
+        { "step_description": null, "step_answer": " a = 10" }
+      ],
+      "Final_answer": "10"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සරල සමීකරණ",
+      "question": "(3/(x+2)) = 1/2",
+      "Steps": [
+        { "step_description": null, "step_answer": "1*(x+2) = 2*3" },
+        { "step_description": null, "step_answer": "x + 2 = 6" },
+        { "step_description": null, "step_answer": "x = 4" }
+      ],
+      "Final_answer": ""
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සරල සමීකරණ",
+      "question": "(3/(x+2)) = 1/2",
+      "Steps": [
+        { "step_description": null, "step_answer": "1*(x+2) = 2*3" },
+        { "step_description": null, "step_answer": "x + 2 = 6" },
+        { "step_description": null, "step_answer": "x = 4" }
+      ],
+      "Final_answer": "4"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සරල සමීකරණ",
+      "question": "2/(x+5) = 3/2(x-3)",
+      "Steps": [
+        { "step_description": null, "step_answer": "4(x-3) = 3(x+5)" },
+        { "step_description": null, "step_answer": "4x - 12 = 3x + 15" },
+        { "step_description": null, "step_answer": "4x - 3x = 15 + 12" },
+        { "step_description": null, "step_answer": "x = 27" }
+      ],
+      "Final_answer": "27"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සරල සමීකරණ",
+      "question": "2/(x-1) - 1/2(x-1) = 3/4",
+      "Steps": [
+        { "step_description": null, "step_answer": "(4-1)/2(x-1) = 3/4" },
+        { "step_description": null, "step_answer": "3/2(x-1) = 3/4" },
+        { "step_description": null, "step_answer": "3 * 2(x-1) = 3 * 4" },
+        { "step_description": null, "step_answer": "x - 1 = 2" }
+      ],
+      "Final_answer": "3"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "භාගමය සංගුණක සහිත සමගාමී සමීකරණ",
+      "question": "කමල් හා නිමල් ළඟ යම් මුදල් ප්‍රමාණයක් ඇත. කමල් ළඟ ඇති මුදලින් 1/2 කට නිමල් ළග ඇති මුදලින් 1/3 ක් එකතු කළ විට රුපියල් 20ක් ලැබේ. කමල් ළඟ ඇති මුදලින් 1/4 ක් නිමල් ළඟ ඇති මුදලින් 1/6 කට සමාන නම්, දෙදෙනා ළඟ ඇති මුදල් ප්‍රමාණ වෙන වෙන ම සොයන්න.",
+      "steps": [
+        {
+          "step_description": "මෙම ගැටලුව සමගාමී සමීකරණ යුගලයක් ගොඩනගා විසඳන අයුරු සලකා බලමු. කමල් ළඟ ඇති මුදල් ප්‍රමාණය රුපියල් x ද, නිමල් ළග ඇති මුදල් ප්‍රමාණය රුපියල් y ද ලෙස ගනිමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "කමල් ළග ඇති මුදලෙන් 1/2ක් වන (1/2)x හා නිමල් ලග ඇති මුදලින් 1/3ක් වන (1/3)y එකතු කල විට (1/2)x + (1/3)y ලැබේ. එය රුපියල් 20ට සමාන බැවින් (1/2)x + (1/3)y = 20 ලෙස එක් සමීකරණයක් ලැබේ ",
+          "step_answer": " (1/2)x + (1/3)y = 20 ((1) සමීකරණය)"
+        },
+        {
+          "step_description": "කමල් ලග ඇති මුදලින් 1/4ක් නිමල් ලග ඇති මුදලින් 1/6කට සමාන නිසා (1/4)X = (1/6)y සමීකරණය ලැබේ. එය (1/4)x - (1/6)y = 0 ලෙස ලිවිය හැක.",
+          "step_answer": " (1/4)x - (1/6)y = 0 ((2) සමීකරණය)"
+        },
+        {
+          "step_description": "සංගුණක ලෙස භාග අඩංගු සමගාමී සමීකරණ විසඳීමේ දී ප්‍රථමයෙන් එම සංගුණක, නිඛිල බවට හරවා ගෙන, විසඳීම බොහෝ විට පහසු ය. ඒ අනුව (1) සමීකරණයේ සංගුණක වල හරයන්ගේ කුඩා පොදු ගුණාකාරයෙන් සමීකරණය ගුණ කිරිමෙන්, පහසුවෙන් සංගුණක නිඛිල බවට හරවා ගත හැකි ය. එමනිසා, (1) සමීකරණය 2 හා 3 හි කු.පො.ගු. වන 6න් හා (2) සමීකරණය 4 හා 6 හි කු.පො.ගු. වන 12න් ගුණ කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "සංගුණක ලෙස භාග අඩංගු සමගාමී සමීකරණ විසඳීමේ දී ප්‍රථමයෙන් එම සංගුණක, නිඛිල බවට හරවා ගෙන, විසඳීම බොහෝ විට පහසු ය. ඒ අනුව (1) සමීකරණයේ සංගුණක වල හරයන්ගේ කුඩා පොදු ගුණාකාරයෙන් සමීකරණය ගුණ කිරිමෙන්, පහසුවෙන් සංගුණක නිඛිල බවට හරවා ගත හැකි ය.එමනිසා, (1) සමීකරණය 2 හා 3 හි කු.පො.ගු. වන 6න් හා (2) සමීකරණය 4 හා 6 හි කු.පො.ගු. වන 12න් ගුණ කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "(1) සමීකරණය * 6න්",
+          "step_answer": "6 * (1/2)x + 6 * (1/3)y = 6 * 20"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3x + 2y = 120 ((3) සමීකරණය)"
+        },
+        {
+          "step_description": "(2) සමීකරණය * 12න්",
+          "step_answer": "12 * (1/4)x - 12 * (1/6)y = 12 * 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3x - 2y = 0 ((4) සමීකරණය)"
+        },
+        {
+          "step_description": "දැන් (1) හා (2) සමීකරණ විසඳීම වෙනුවට, එයට තුල්‍ය වන (3) හා (4) විසඳීම කළ හැකි ය. එමනිසා, (3) හා (4) සමීකරණ විසඳමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "(3) + (4)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "(3x + 2y) + (3x -2y) = 120 + 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3x + 2y + 3x - 2y = 120"
+        },
+        {
+          "step_description": null,
+          "step_answer": "6x/6 = 120/6"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 20"
+        },
+        {
+          "step_description": "x = 20 (4) සමීකරණයෙහි ආදේශයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "3 x 20 - 2y = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "2y = 60"
+        },
+        {
+          "step_description": null,
+          "step_answer": "y = 30"
+        },
+        {
+          "step_description": "කමල් ලග ඇති මුදල",
+          "step_answer": "කමල් ලග ඇති මුදල = රුපියල් 20"
+        },
+        {
+          "step_description": "නිමල් ලග ඇති මුදල",
+          "step_answer": "නිමල් ලග ඇති මුදල = රුපියල් 30"
+        }
+      ],
+      "final_answer": "කමල් ලග ඇති මුදල = රුපියල් 20, නිමල් ලග ඇති මුදල = රුපියල් 30"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "භාගමය සංගුණක සහිත සමගාමී සමීකරණ",
+      "question": "(1/6)a - (1/5)b = -2 (1), (1/3)a + (1/4)b = 9 (2) විසඳන්න",
+      "steps": [
+        {
+          "step_description": "මෙම සමීකරණ යුගලයෙන්, එක් අඥාතයක් උක්ත කර අනෙක් සමීකරණයට ආදේශ කොට විසදමු",
+          "step_answer": "(1/6)a - (1/5)b = -2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(1/6)a = -2 + (1/5)b"
+        },
+        {
+          "step_description": null,
+          "step_answer": "6 * (1/6)a = 6 * -2 + 6 * (1/5)b"
+        },
+        {
+          "step_description": null,
+          "step_answer": "a = -12 + (6/5)b"
+        },
+        {
+          "step_description": "මෙම a හි අගය (2) සමීකරණයට ආදේශ කරම්",
+          "step_answer": "1/3a + 1/4b = 9"
+        },
+        {
+          "step_description": null,
+          "step_answer": "1/3(-12 + 6/5b) + 1/4b = 9"
+        },
+        {
+          "step_description": null,
+          "step_answer": "-4 + 2/5b + 1/4b = 9"
+        },
+        {
+          "step_description": "4හි හා 5හි කුඩා පොදු ගුණාකාරය වන 20 පොදු හරය ලෙස සකසා ගෙන භාග සුළු කරමු",
+          "step_answer": "(8/20)b + (5/20)b = 9 + 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(13/20)b = 13"
+        },
+        {
+          "step_description": null,
+          "step_answer": "b = (13 * 20) / 13"
+        },
+        {
+          "step_description": null,
+          "step_answer": "b = 20"
+        },
+        {
+          "step_description": "b = 20 (3) සමීකරණයට අදේශයෙන් (මෙහිදී ඔනෑ ම සමීකරණයට ආදේශ කළ හැකි වේ)",
+          "step_answer": "a = -12 + 6/5b"
+        },
+        {
+          "step_description": null,
+          "step_answer": "a = -12 + (6/5) * 20"
+        },
+        {
+          "step_description": null,
+          "step_answer": "a = 12 + 24"
+        },
+        {
+          "step_description": null,
+          "step_answer": "a = 12"
+        }
+      ],
+      "final_answer": "a = 12 හා b = 20"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "භාගමය සංගුණක සහිත සමගාමී සමීකරණ",
+      "question": "(1/2)m + (2/3)n = 1 (1), (5/6)m + (1/3)n = 4 (2) විසඳන්න",
+      "steps": [
+        {
+          "step_description": "මෙම සමීකරණවල භාගමය සංගුණක, නිඛිල බවට පත් කර විසඳිය හැකි ය. තව ද, එක් විචල්‍යයක භාගමය සංගුණක සමාන කිරීමෙන් ද විසඳිය හැකි වේ. මේ සඳහා (2) සමීකරණය 2 න් ගුණ කිරීමෙන් n හි සංගුණක සමාන කර ගනිමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "(2) සමීකරණය * 2",
+          "step_answer": "(10/6)m + (2/3)n = 8 (3)"
+        },
+        {
+          "step_description": "(1) හා (2) සමීකරණ වෙනුවට (1) හා (3) සමීකරණ විසඳිය හැක",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "((10/6)m + (2/3)n) - ((1/2)m + (2/3)n) = 8 - 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(10/6)m + (2/3)n - (1/2)m - (2/3)n = 7"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(10/6)m - (3/6)m = 7"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(7/6)m = 7"
+        },
+        {
+          "step_description": null,
+          "step_answer": "7m = 7 * 6"
+        },
+        {
+          "step_description": null,
+          "step_answer": "m = 6"
+        },
+        {
+          "step_description": "m = 6 (1)ට ආදේශ කරමු",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "(1/2)m + (2/3)n = 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(1/2) * 6 + (2/3)n = 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3 + (2/3)n = 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(2/3)n = 1 - 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(2/3)n = -2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "2n = -6"
+        },
+        {
+          "step_description": null,
+          "step_answer": "n = -3"
+        }
+      ],
+      "final_answer": "m = 6 හා n = -3"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සාධක භාවිතයෙන් වර්ගජ සමීකරණ විසඳීම",
+      "question": "x² - 5x + 6 = 0 වර්ගජ සමීකරණයේ මූල සොයන්න",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "(x-2)(x-3) = 0"
+        },
+        {
+          "step_description": "x - 2 = 0 හෝ x - 3 = 0 විය යුතුය",
+          "step_answer": "x = 2 හෝ x = 3"
+        }
+      ],
+      "final_answer": "x = 2 හා x = 3"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සාධක භාවිතයෙන් වර්ගජ සමීකරණ විසඳීම",
+      "question": "2x² + 3x - 9 = 0 වර්ගජ සමීකරණයේ මූල සොයන්න",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2x² + 6x - 3x - 9 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "2x(x + 3)-3(x + 3) = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(2x - 3)(x + 3) = 0"
+        },
+        {
+          "step_description": "2x - 3 = 0 හෝ x + 3 = 0 විය යුතුය",
+          "step_answer": "x = 3/2 හෝ x = -3"
+        }
+      ],
+      "final_answer": "x = 1(1/2) හා x = -3"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සාධක භාවිතයෙන් වර්ගජ සමීකරණ විසඳීම",
+      "question": "(3/(2x - 1)) - (2/(3x + 2)) = 1 වර්ගජ සමීකරණයේ මූල සොයන්න",
+      "steps": [
+        {
+          "step_description": "\nමෙහි වර්ගජ සමීකරණයක් පෙනෙන්නට නැත. එහෙත්, මෙම සමීකරණය භාග රහිත සමීකරණයකට හැරවූ විට වර්ගජ සමීකරණයක් ලැබේ. ඒ සඳහා, මුලින් ම, සමීකරණයේ වම්පස පොදු හරය සලකමු (මුළු සමීකරණයම 2x 1හි හා 3x + 2 හි කුඩා පොදු ගුණාකාරයෙන් ගුණ කිරීමෙන් ද මෙය කළ හැකි ය).",
+          "step_answer": null
+        },
+        {
+          "step_description": "වම් පස තනි භාගයක් ලෙස ලිවීමෙන්",
+          "step_answer": "3(3x + 2)-2(2x - 1)/(2x - 1)(3x + 2) = 1"
+        },
+        {
+          "step_description": "හරස් ගුණිතය යෙදීමෙන්",
+          "step_answer": "3(3x + 2) – 2(2x – 1) = (2x – 1)(3x + 2)"
+        },
+        {
+          "step_description": "ප්රසාරණය කිරීමෙන් ්",
+          "step_answer": "9x + 6 – 4x + 2 = 6x2 + 4x – 3x – 2"
+        },
+        {
+          "step_description": "සුළු කිරීමෙන් ්",
+          "step_answer": "6x² – 4x – 10 = 0"
+        },
+        {
+          "step_description": "සමීකරණයේ සියලු පාද 2න් බෙදීමෙන් ්",
+          "step_answer": "3x² - 2x - 5 = 0"
+        },
+        {
+          "step_description": "සමීකරණයේ සියලු පාද 2න් බෙදීමෙන් ්",
+          "step_answer": "3x² - 2x - 5 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3x² - 5x + 3x - 5 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x(3x - 5) + 1 (3x - 5) = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(3x - 5)(x + 1) = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3x - 5 = 0 හෝ x + 1 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = (5/3) හෝ x = -1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 1(2/3) හෝ x = -1"
+        }
+      ],
+      "final_answer": "x = 1(2/3) හෝ x = -1 මෙම සමීකරණයේ මූල වේ"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සාධක භාවිතයෙන් වර්ගජ සමීකරණ විසඳීම",
+      "question": "(3/(2x - 1)) - (2/(3x + 2)) = 1 වර්ගජ සමීකරණයේ මූල සොයන්න",
+      "steps": [
+        {
+          "step_description": "\nමෙහි වර්ගජ සමීකරණයක් පෙනෙන්නට නැත. එහෙත්, මෙම සමීකරණය භාග රහිත සමීකරණයකට හැරවූ විට වර්ගජ සමීකරණයක් ලැබේ. ඒ සඳහා, මුලින් ම, සමීකරණයේ වම්පස පොදු හරය සලකමු (මුළු සමීකරණයම 2x 1හි හා 3x + 2 හි කුඩා පොදු ගුණාකාරයෙන් ගුණ කිරීමෙන් ද මෙය කළ හැකි ය).",
+          "step_answer": null
+        },
+        {
+          "step_description": "වම් පස තනි භාගයක් ලෙස ලිවීමෙන්",
+          "step_answer": "3(3x + 2)-2(2x - 1)/(2x - 1)(3x + 2) = 1"
+        },
+        {
+          "step_description": "හරස් ගුණිතය යෙදීමෙන්",
+          "step_answer": "3(3x + 2) – 2(2x – 1) = (2x – 1)(3x + 2)"
+        },
+        {
+          "step_description": "ප්රසාරණය කිරීමෙන් ්",
+          "step_answer": "9x + 6 – 4x + 2 = 6x2 + 4x – 3x – 2"
+        },
+        {
+          "step_description": "සුළු කිරීමෙන් ්",
+          "step_answer": "6x² – 4x – 10 = 0"
+        },
+        {
+          "step_description": "සමීකරණයේ සියලු පාද 2න් බෙදීමෙන් ්",
+          "step_answer": "3x² - 2x - 5 = 0"
+        },
+        {
+          "step_description": "සමීකරණයේ සියලු පාද 2න් බෙදීමෙන් ්",
+          "step_answer": "3x² - 2x - 5 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3x² - 5x + 3x - 5 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x(3x - 5) + 1 (3x - 5) = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(3x - 5)(x + 1) = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3x - 5 = 0 හෝ x + 1 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = (5/3) හෝ x = -1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 1(2/3) හෝ x = -1"
+        }
+      ],
+      "final_answer": "x = 1(2/3) හෝ x = -1 මෙම සමීකරණයේ මූල වේ"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "වර්ග පූර්ණයෙන් වර්ගජ සමීකරණ විසදිම",
+      "question": "x² + 2x - 3 = 0 වර්ග පූර්ණයෙන් විසඳන්න",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "x² + 2x - 3 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x² + 2x - 3 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x² + 2x = 3"
+        },
+        {
+          "step_description": "වම් පැත්ත පූර්ණ වර්ගයක් ලෙස ලිවීම සඳහා xහි සංගුණකයෙන් බාගයෙහි වර්ගය වන +1 එකතු කරමු. එවිට දකුණු පසට ද +1 එකතු කළ යුතු වේ",
+          "step_answer": "x² + 2x + 1 = 3 + 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(x + 1)² = 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x + 1 = ±√4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x + 1 = ±2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = ±2 - 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = ±2 - 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = +2 - 1 හෝ x = -2 - 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 1 හෝ x = -3"
+        }
+      ],
+      "final_answer": "x = 1 හෝ x = -3"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "වර්ග පූර්ණයෙන් වර්ගජ සමීකරණ විසදිම",
+      "question": "x² - 4x + 1 = 0 සමීකරණය වර්ග පූර්ණයෙන් විසඳන්න",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "x² - 4x  = -1"
+        },
+        {
+          "step_description": "වම් පැත්ත පූර්ණ වර්ගයක් ලෙස ලිවීම සඳහා xහි සංගුණකයෙන් බාගයෙහි වර්ගය වන +4 එකතු කරමු. එවිට දකුණු පසට ද +4 එකතු කළ යුතු වේ",
+          "step_answer": "x² - 4x + 4 = -1 + 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(x - 2)² = 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x - 2 = ±√3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x - 2 = ±1.732"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 2 ± 1.732"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 2 + 1.732 හෝ x = 2 - 1.732"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 3.732 හෝ x = 0.268"
+        }
+      ],
+      "final_answer": "x = 3.732 හෝ x = 0.268"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "වර්ග පූර්ණයෙන් වර්ගජ සමීකරණ විසදිම",
+      "question": "2x² + 6x - 5 = 0 විසඳා මූල සොයන්න (වර්ග පූර්ණයෙන්)",
+      "steps": [
+        {
+          "step_description": "මෙම සමීකරණය පූර්ණ වර්ගයක් ලෙස දැක්වීමේ දී ඤ්හී සංගුණකය 1 ලෙස සකසා ගැනීමෙන් වඩාත් පහසු වේ. සමීකරණය 2න් බෙදීමෙන් වර්ග පදයේ සංගුණකය 1 ලෙස පිළියෙල කර ගත හැකිය",
+          "step_answer": "x² + 3x - (5/2) = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x² + 3x = (5/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x² + 3x + (3/2)² = (5/2) + (3/2)²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(x + (3/2))² = (5/2) + (9/4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(x + (3/2))² = (10/4) + (9/4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(x + (3/2))² = (19/4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x + (3/2) = ±√(19/4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x + (3/2) = ±(√19)/2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = - (3/2) ± (√19)/2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = (-3 ± √19) / 2"
+        },
+        {
+          "step_description": "√19 සදහා ආසන්න අගයක් ලෙස 4.358 දී ඇතැයි ගනිමු",
+          "step_answer": "x = (-3 + 4.358) / 2 හෝ x = (-3 - 4.358) / 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 1.358 / 2 හෝ x = -7.358 / 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 0.679 හෝ x = -3.679"
+        }
+      ],
+      "final_answer": "x = 0.679 හෝ x = -3.679"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සූත්‍රය භාවිතයෙන් වර්ගජ සමීකරණ විසදීම",
+      "question": "2x² + 7x + 3 = 0  සමීකරණය සූත්‍රය භාවිතයෙන් විසදන්න",
+      "steps": [
+        {
+          "step_description": "x = -b ± √(b² - 4ac) / 2a සූත්‍රය භාවිතයෙන් විසදමු",
+          "step_answer": null
+        },
+        {
+          "step_description": "2x² + 7x + 3 = 0 සමීකරණයේ a = 2, b = 7, c = 3 වේ",
+          "step_answer": "x = -7 ± √(7² - 4 * 2 * 3) / 2 * 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -7 ± √(49 - 24) / 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -7 ± √25 / 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -7 ± 5 / 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = (-7 + 5) / 4 හෝ x = (-7 - 5) / 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -2 / 4 හෝ x = -12 / 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -1/2 හෝ x = -3"
+        }
+      ],
+      "final_answer": "x = -1/2 හෝ x = -3"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සූත්‍රය භාවිතයෙන් වර්ගජ සමීකරණ විසදීම",
+      "question": "4x² - 7x + 2 = 0  සමීකරණය සූත්‍රය භාවිතයෙන් විසදා මූල සොයන්න. √17 = 4.12 ලෙස ගන්න ",
+      "steps": [
+        {
+          "step_description": "4x² - 7x + 2 = 0 සමීකරණයේ a = 4, b = -7, c = 2 වේ. x = -b ± √(b² - 4ac) / 2a සූත්‍රය භාවිතයෙන් විසදමු",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -(-7) ± √((-7)² - 4 * 4 * 2) / 2 * 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 7 ± √(49 - 32) / 8"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 7 ± √17 / 8"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 7 ± 4.12 / 8"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = (7 + 4.12) / 8 හෝ x = (7 - 4.12) / 8"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 11.12 / 8 හෝ x = 2.88 / 8"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 1.39 හෝ x = 0.36"
+        }
+      ],
+      "final_answer": "x = 1.39 හෝ x = 0.36"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සූත්‍රය භාවිතයෙන් වර්ගජ සමීකරණ විසදීම",
+      "question": "x² + 2x - 1 = 0  සමීකරණය සූත්‍රය භාවිතයෙන් විසදා මූල දෙවන දශමස්ථානයට නිවැරදිව සොයන්න(√2 = 1.414 ලෙස ගන්න).",
+      "steps": [
+        {
+          "step_description": "x² + 2x - 1 = 0 සමීකරණයේ a = 1, b = 2, c = -1 වේ. x = -b ± √(b² - 4ac) / 2a සූත්‍රය භාවිතයෙන් විසදමු",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -2 ± √(2² - 4 * 1 * -1) / 2 * 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -2 ± √(4 + 4) / 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -2 ± √8 / 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -2 ± 2√2 / 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -2 ± 2(1.414) / 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = (-2 + 2.828) / 2 හෝ x = (-2 - 2.828) / 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 0.828 / 2 හෝ x = -4.828 / 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 0.41 හෝ x = -2.41"
+        }
+      ],
+      "final_answer": "x = 0.41 හෝ x = -2.41"
+    }
+  ]
+}

@@ -24,9 +24,9 @@ async def startup_event():
     try:
         rag = get_rag_system()
         rag.load_all_data() # Assuming this method exists in your class
-        print("✅ System Ready: RAG Data Loaded")
+        print("System Ready: RAG Data Loaded")
     except Exception as e:
-        print(f"⚠️ Warning: Could not auto-load RAG data: {e}")
+        print(f"Warning: Could not auto-load RAG data: {e}")
 
 @app.get("/")
 async def root():

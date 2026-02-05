@@ -1,8 +1,784 @@
 {
   "examples": [
     {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සරල සමීකරණ",
+      "question": "අඹ ගෙඩි 60ක් යහළුවන් කිහිපදෙනෙකු සමානව බෙදා ගන්නා ලදි. ඉන් එක් අයකු වන අමල් තමන්ට ලැබුණු අඹවලින් ගෙඩි 3ක් විකිණූ පසු ඔහු ළඟ ඉතිරි වූයේ ගෙඩි 2ක් පමණි. අඹ ගෙඩි 60 බෙදා ගත් යහළුවන් ගණන කීය ද?",
+      "steps": [
+        { "step_description": null, "step_answer": "යහළුවන් ගණන = x" },
+        {
+          "step_description": null,
+          "step_answer": "එක් අයකුට ලැබුණු අඹ ගෙඩි ගණන = 60/x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "අමල් විකිණූ අඹ ගෙඩි ගණන = 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "එවිට ඔහු ළඟ ඉතිරි අඹ ගෙඩි ගණන = 60/x - 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "තව ද, ඔහු ළඟ ඉතිරි අඹ ගෙඩි ගණන 2ක් බැවින් = 60/x - 3 = 2"
+        },
+        { "step_description": null, "step_answer": "60/x - 3 + 3 = 2 + 3" },
+        { "step_description": null, "step_answer": "60/x = 5" },
+        { "step_description": null, "step_answer": "5x = 60" },
+        { "step_description": null, "step_answer": "x = 12" }
+      ],
+      "Final_answer": "12"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සරල සමීකරණ",
+      "question": "(3/a) + (2/a) = 1/2",
+      "steps": [
+        { "step_description": null, "step_answer": "(5/a) = (1/2)" },
+        { "step_description": null, "step_answer": " a = 10" }
+      ],
+      "Final_answer": "10"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සරල සමීකරණ",
+      "question": "(3/(x+2)) = 1/2",
+      "steps": [
+        { "step_description": null, "step_answer": "1*(x+2) = 2*3" },
+        { "step_description": null, "step_answer": "x + 2 = 6" },
+        { "step_description": null, "step_answer": "x = 4" }
+      ],
+      "Final_answer": ""
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සරල සමීකරණ",
+      "question": "(3/(x+2)) = 1/2",
+      "steps": [
+        { "step_description": null, "step_answer": "1*(x+2) = 2*3" },
+        { "step_description": null, "step_answer": "x + 2 = 6" },
+        { "step_description": null, "step_answer": "x = 4" }
+      ],
+      "Final_answer": "4"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සරල සමීකරණ",
+      "question": "2/(x+5) = 3/2(x-3)",
+      "steps": [
+        { "step_description": null, "step_answer": "4(x-3) = 3(x+5)" },
+        { "step_description": null, "step_answer": "4x - 12 = 3x + 15" },
+        { "step_description": null, "step_answer": "4x - 3x = 15 + 12" },
+        { "step_description": null, "step_answer": "x = 27" }
+      ],
+      "Final_answer": "27"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සරල සමීකරණ",
+      "question": "2/(x-1) - 1/2(x-1) = 3/4",
+      "steps": [
+        { "step_description": null, "step_answer": "(4-1)/2(x-1) = 3/4" },
+        { "step_description": null, "step_answer": "3/2(x-1) = 3/4" },
+        { "step_description": null, "step_answer": "3 * 2(x-1) = 3 * 4" },
+        { "step_description": null, "step_answer": "x - 1 = 2" }
+      ],
+      "Final_answer": "3"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "භාගමය සංගුණක සහිත සමගාමී සමීකරණ",
+      "question": "කමල් හා නිමල් ළඟ යම් මුදල් ප්‍රමාණයක් ඇත. කමල් ළඟ ඇති මුදලින් 1/2 කට නිමල් ළග ඇති මුදලින් 1/3 ක් එකතු කළ විට රුපියල් 20ක් ලැබේ. කමල් ළඟ ඇති මුදලින් 1/4 ක් නිමල් ළඟ ඇති මුදලින් 1/6 කට සමාන නම්, දෙදෙනා ළඟ ඇති මුදල් ප්‍රමාණ වෙන වෙන ම සොයන්න.",
+      "steps": [
+        {
+          "step_description": "මෙම ගැටලුව සමගාමී සමීකරණ යුගලයක් ගොඩනගා විසඳන අයුරු සලකා බලමු. කමල් ළඟ ඇති මුදල් ප්‍රමාණය රුපියල් x ද, නිමල් ළග ඇති මුදල් ප්‍රමාණය රුපියල් y ද ලෙස ගනිමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "කමල් ළග ඇති මුදලෙන් 1/2ක් වන (1/2)x හා නිමල් ලග ඇති මුදලින් 1/3ක් වන (1/3)y එකතු කල විට (1/2)x + (1/3)y ලැබේ. එය රුපියල් 20ට සමාන බැවින් (1/2)x + (1/3)y = 20 ලෙස එක් සමීකරණයක් ලැබේ ",
+          "step_answer": " (1/2)x + (1/3)y = 20 ((1) සමීකරණය)"
+        },
+        {
+          "step_description": "කමල් ලග ඇති මුදලින් 1/4ක් නිමල් ලග ඇති මුදලින් 1/6කට සමාන නිසා (1/4)X = (1/6)y සමීකරණය ලැබේ. එය (1/4)x - (1/6)y = 0 ලෙස ලිවිය හැක.",
+          "step_answer": " (1/4)x - (1/6)y = 0 ((2) සමීකරණය)"
+        },
+        {
+          "step_description": "සංගුණක ලෙස භාග අඩංගු සමගාමී සමීකරණ විසඳීමේ දී ප්‍රථමයෙන් එම සංගුණක, නිඛිල බවට හරවා ගෙන, විසඳීම බොහෝ විට පහසු ය. ඒ අනුව (1) සමීකරණයේ සංගුණක වල හරයන්ගේ කුඩා පොදු ගුණාකාරයෙන් සමීකරණය ගුණ කිරිමෙන්, පහසුවෙන් සංගුණක නිඛිල බවට හරවා ගත හැකි ය. එමනිසා, (1) සමීකරණය 2 හා 3 හි කු.පො.ගු. වන 6න් හා (2) සමීකරණය 4 හා 6 හි කු.පො.ගු. වන 12න් ගුණ කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "සංගුණක ලෙස භාග අඩංගු සමගාමී සමීකරණ විසඳීමේ දී ප්‍රථමයෙන් එම සංගුණක, නිඛිල බවට හරවා ගෙන, විසඳීම බොහෝ විට පහසු ය. ඒ අනුව (1) සමීකරණයේ සංගුණක වල හරයන්ගේ කුඩා පොදු ගුණාකාරයෙන් සමීකරණය ගුණ කිරිමෙන්, පහසුවෙන් සංගුණක නිඛිල බවට හරවා ගත හැකි ය.එමනිසා, (1) සමීකරණය 2 හා 3 හි කු.පො.ගු. වන 6න් හා (2) සමීකරණය 4 හා 6 හි කු.පො.ගු. වන 12න් ගුණ කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "(1) සමීකරණය * 6න්",
+          "step_answer": "6 * (1/2)x + 6 * (1/3)y = 6 * 20"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3x + 2y = 120 ((3) සමීකරණය)"
+        },
+        {
+          "step_description": "(2) සමීකරණය * 12න්",
+          "step_answer": "12 * (1/4)x - 12 * (1/6)y = 12 * 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3x - 2y = 0 ((4) සමීකරණය)"
+        },
+        {
+          "step_description": "දැන් (1) හා (2) සමීකරණ විසඳීම වෙනුවට, එයට තුල්‍ය වන (3) හා (4) විසඳීම කළ හැකි ය. එමනිසා, (3) හා (4) සමීකරණ විසඳමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "(3) + (4)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "(3x + 2y) + (3x -2y) = 120 + 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3x + 2y + 3x - 2y = 120"
+        },
+        {
+          "step_description": null,
+          "step_answer": "6x/6 = 120/6"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 20"
+        },
+        {
+          "step_description": "x = 20 (4) සමීකරණයෙහි ආදේශයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "3 x 20 - 2y = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "2y = 60"
+        },
+        {
+          "step_description": null,
+          "step_answer": "y = 30"
+        },
+        {
+          "step_description": "කමල් ලග ඇති මුදල",
+          "step_answer": "කමල් ලග ඇති මුදල = රුපියල් 20"
+        },
+        {
+          "step_description": "නිමල් ලග ඇති මුදල",
+          "step_answer": "නිමල් ලග ඇති මුදල = රුපියල් 30"
+        }
+      ],
+      "final_answer": "කමල් ලග ඇති මුදල = රුපියල් 20, නිමල් ලග ඇති මුදල = රුපියල් 30"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "භාගමය සංගුණක සහිත සමගාමී සමීකරණ",
+      "question": "(1/6)a - (1/5)b = -2 (1), (1/3)a + (1/4)b = 9 (2) විසඳන්න",
+      "steps": [
+        {
+          "step_description": "මෙම සමීකරණ යුගලයෙන්, එක් අඥාතයක් උක්ත කර අනෙක් සමීකරණයට ආදේශ කොට විසදමු",
+          "step_answer": "(1/6)a - (1/5)b = -2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(1/6)a = -2 + (1/5)b"
+        },
+        {
+          "step_description": null,
+          "step_answer": "6 * (1/6)a = 6 * -2 + 6 * (1/5)b"
+        },
+        {
+          "step_description": null,
+          "step_answer": "a = -12 + (6/5)b"
+        },
+        {
+          "step_description": "මෙම a හි අගය (2) සමීකරණයට ආදේශ කරම්",
+          "step_answer": "1/3a + 1/4b = 9"
+        },
+        {
+          "step_description": null,
+          "step_answer": "1/3(-12 + 6/5b) + 1/4b = 9"
+        },
+        {
+          "step_description": null,
+          "step_answer": "-4 + 2/5b + 1/4b = 9"
+        },
+        {
+          "step_description": "4හි හා 5හි කුඩා පොදු ගුණාකාරය වන 20 පොදු හරය ලෙස සකසා ගෙන භාග සුළු කරමු",
+          "step_answer": "(8/20)b + (5/20)b = 9 + 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(13/20)b = 13"
+        },
+        {
+          "step_description": null,
+          "step_answer": "b = (13 * 20) / 13"
+        },
+        {
+          "step_description": null,
+          "step_answer": "b = 20"
+        },
+        {
+          "step_description": "b = 20 (3) සමීකරණයට අදේශයෙන් (මෙහිදී ඔනෑ ම සමීකරණයට ආදේශ කළ හැකි වේ)",
+          "step_answer": "a = -12 + 6/5b"
+        },
+        {
+          "step_description": null,
+          "step_answer": "a = -12 + (6/5) * 20"
+        },
+        {
+          "step_description": null,
+          "step_answer": "a = 12 + 24"
+        },
+        {
+          "step_description": null,
+          "step_answer": "a = 12"
+        }
+      ],
+      "final_answer": "a = 12 හා b = 20"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "භාගමය සංගුණක සහිත සමගාමී සමීකරණ",
+      "question": "(1/2)m + (2/3)n = 1 (1), (5/6)m + (1/3)n = 4 (2) විසඳන්න",
+      "steps": [
+        {
+          "step_description": "මෙම සමීකරණවල භාගමය සංගුණක, නිඛිල බවට පත් කර විසඳිය හැකි ය. තව ද, එක් විචල්‍යයක භාගමය සංගුණක සමාන කිරීමෙන් ද විසඳිය හැකි වේ. මේ සඳහා (2) සමීකරණය 2 න් ගුණ කිරීමෙන් n හි සංගුණක සමාන කර ගනිමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "(2) සමීකරණය * 2",
+          "step_answer": "(10/6)m + (2/3)n = 8 (3)"
+        },
+        {
+          "step_description": "(1) හා (2) සමීකරණ වෙනුවට (1) හා (3) සමීකරණ විසඳිය හැක",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "((10/6)m + (2/3)n) - ((1/2)m + (2/3)n) = 8 - 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(10/6)m + (2/3)n - (1/2)m - (2/3)n = 7"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(10/6)m - (3/6)m = 7"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(7/6)m = 7"
+        },
+        {
+          "step_description": null,
+          "step_answer": "7m = 7 * 6"
+        },
+        {
+          "step_description": null,
+          "step_answer": "m = 6"
+        },
+        {
+          "step_description": "m = 6 (1)ට ආදේශ කරමු",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "(1/2)m + (2/3)n = 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(1/2) * 6 + (2/3)n = 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3 + (2/3)n = 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(2/3)n = 1 - 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(2/3)n = -2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "2n = -6"
+        },
+        {
+          "step_description": null,
+          "step_answer": "n = -3"
+        }
+      ],
+      "final_answer": "m = 6 හා n = -3"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සාධක භාවිතයෙන් වර්ගජ සමීකරණ විසඳීම",
+      "question": "x² - 5x + 6 = 0 වර්ගජ සමීකරණයේ මූල සොයන්න",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "(x-2)(x-3) = 0"
+        },
+        {
+          "step_description": "x - 2 = 0 හෝ x - 3 = 0 විය යුතුය",
+          "step_answer": "x = 2 හෝ x = 3"
+        }
+      ],
+      "final_answer": "x = 2 හා x = 3"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සාධක භාවිතයෙන් වර්ගජ සමීකරණ විසඳීම",
+      "question": "2x² + 3x - 9 = 0 වර්ගජ සමීකරණයේ මූල සොයන්න",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2x² + 6x - 3x - 9 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "2x(x + 3)-3(x + 3) = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(2x - 3)(x + 3) = 0"
+        },
+        {
+          "step_description": "2x - 3 = 0 හෝ x + 3 = 0 විය යුතුය",
+          "step_answer": "x = 3/2 හෝ x = -3"
+        }
+      ],
+      "final_answer": "x = 1(1/2) හා x = -3"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සාධක භාවිතයෙන් වර්ගජ සමීකරණ විසඳීම",
+      "question": "(3/(2x - 1)) - (2/(3x + 2)) = 1 වර්ගජ සමීකරණයේ මූල සොයන්න",
+      "steps": [
+        {
+          "step_description": "\nමෙහි වර්ගජ සමීකරණයක් පෙනෙන්නට නැත. එහෙත්, මෙම සමීකරණය භාග රහිත සමීකරණයකට හැරවූ විට වර්ගජ සමීකරණයක් ලැබේ. ඒ සඳහා, මුලින් ම, සමීකරණයේ වම්පස පොදු හරය සලකමු (මුළු සමීකරණයම 2x 1හි හා 3x + 2 හි කුඩා පොදු ගුණාකාරයෙන් ගුණ කිරීමෙන් ද මෙය කළ හැකි ය).",
+          "step_answer": null
+        },
+        {
+          "step_description": "වම් පස තනි භාගයක් ලෙස ලිවීමෙන්",
+          "step_answer": "3(3x + 2)-2(2x - 1)/(2x - 1)(3x + 2) = 1"
+        },
+        {
+          "step_description": "හරස් ගුණිතය යෙදීමෙන්",
+          "step_answer": "3(3x + 2) – 2(2x – 1) = (2x – 1)(3x + 2)"
+        },
+        {
+          "step_description": "ප්රසාරණය කිරීමෙන් ්",
+          "step_answer": "9x + 6 – 4x + 2 = 6x2 + 4x – 3x – 2"
+        },
+        {
+          "step_description": "සුළු කිරීමෙන් ්",
+          "step_answer": "6x² – 4x – 10 = 0"
+        },
+        {
+          "step_description": "සමීකරණයේ සියලු පාද 2න් බෙදීමෙන් ්",
+          "step_answer": "3x² - 2x - 5 = 0"
+        },
+        {
+          "step_description": "සමීකරණයේ සියලු පාද 2න් බෙදීමෙන් ්",
+          "step_answer": "3x² - 2x - 5 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3x² - 5x + 3x - 5 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x(3x - 5) + 1 (3x - 5) = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(3x - 5)(x + 1) = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3x - 5 = 0 හෝ x + 1 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = (5/3) හෝ x = -1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 1(2/3) හෝ x = -1"
+        }
+      ],
+      "final_answer": "x = 1(2/3) හෝ x = -1 මෙම සමීකරණයේ මූල වේ"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සාධක භාවිතයෙන් වර්ගජ සමීකරණ විසඳීම",
+      "question": "(3/(2x - 1)) - (2/(3x + 2)) = 1 වර්ගජ සමීකරණයේ මූල සොයන්න",
+      "steps": [
+        {
+          "step_description": "\nමෙහි වර්ගජ සමීකරණයක් පෙනෙන්නට නැත. එහෙත්, මෙම සමීකරණය භාග රහිත සමීකරණයකට හැරවූ විට වර්ගජ සමීකරණයක් ලැබේ. ඒ සඳහා, මුලින් ම, සමීකරණයේ වම්පස පොදු හරය සලකමු (මුළු සමීකරණයම 2x 1හි හා 3x + 2 හි කුඩා පොදු ගුණාකාරයෙන් ගුණ කිරීමෙන් ද මෙය කළ හැකි ය).",
+          "step_answer": null
+        },
+        {
+          "step_description": "වම් පස තනි භාගයක් ලෙස ලිවීමෙන්",
+          "step_answer": "3(3x + 2)-2(2x - 1)/(2x - 1)(3x + 2) = 1"
+        },
+        {
+          "step_description": "හරස් ගුණිතය යෙදීමෙන්",
+          "step_answer": "3(3x + 2) – 2(2x – 1) = (2x – 1)(3x + 2)"
+        },
+        {
+          "step_description": "ප්රසාරණය කිරීමෙන් ්",
+          "step_answer": "9x + 6 – 4x + 2 = 6x2 + 4x – 3x – 2"
+        },
+        {
+          "step_description": "සුළු කිරීමෙන් ්",
+          "step_answer": "6x² – 4x – 10 = 0"
+        },
+        {
+          "step_description": "සමීකරණයේ සියලු පාද 2න් බෙදීමෙන් ්",
+          "step_answer": "3x² - 2x - 5 = 0"
+        },
+        {
+          "step_description": "සමීකරණයේ සියලු පාද 2න් බෙදීමෙන් ්",
+          "step_answer": "3x² - 2x - 5 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3x² - 5x + 3x - 5 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x(3x - 5) + 1 (3x - 5) = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(3x - 5)(x + 1) = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3x - 5 = 0 හෝ x + 1 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = (5/3) හෝ x = -1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 1(2/3) හෝ x = -1"
+        }
+      ],
+      "final_answer": "x = 1(2/3) හෝ x = -1 මෙම සමීකරණයේ මූල වේ"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "වර්ග පූර්ණයෙන් වර්ගජ සමීකරණ විසදිම",
+      "question": "x² + 2x - 3 = 0 වර්ග පූර්ණයෙන් විසඳන්න",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "x² + 2x - 3 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x² + 2x - 3 = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x² + 2x = 3"
+        },
+        {
+          "step_description": "වම් පැත්ත පූර්ණ වර්ගයක් ලෙස ලිවීම සඳහා xහි සංගුණකයෙන් බාගයෙහි වර්ගය වන +1 එකතු කරමු. එවිට දකුණු පසට ද +1 එකතු කළ යුතු වේ",
+          "step_answer": "x² + 2x + 1 = 3 + 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(x + 1)² = 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x + 1 = ±√4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x + 1 = ±2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = ±2 - 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = ±2 - 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = +2 - 1 හෝ x = -2 - 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 1 හෝ x = -3"
+        }
+      ],
+      "final_answer": "x = 1 හෝ x = -3"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "වර්ග පූර්ණයෙන් වර්ගජ සමීකරණ විසදිම",
+      "question": "x² - 4x + 1 = 0 සමීකරණය වර්ග පූර්ණයෙන් විසඳන්න",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "x² - 4x  = -1"
+        },
+        {
+          "step_description": "වම් පැත්ත පූර්ණ වර්ගයක් ලෙස ලිවීම සඳහා xහි සංගුණකයෙන් බාගයෙහි වර්ගය වන +4 එකතු කරමු. එවිට දකුණු පසට ද +4 එකතු කළ යුතු වේ",
+          "step_answer": "x² - 4x + 4 = -1 + 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(x - 2)² = 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x - 2 = ±√3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x - 2 = ±1.732"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 2 ± 1.732"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 2 + 1.732 හෝ x = 2 - 1.732"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 3.732 හෝ x = 0.268"
+        }
+      ],
+      "final_answer": "x = 3.732 හෝ x = 0.268"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "වර්ග පූර්ණයෙන් වර්ගජ සමීකරණ විසදිම",
+      "question": "2x² + 6x - 5 = 0 විසඳා මූල සොයන්න (වර්ග පූර්ණයෙන්)",
+      "steps": [
+        {
+          "step_description": "මෙම සමීකරණය පූර්ණ වර්ගයක් ලෙස දැක්වීමේ දී ඤ්හී සංගුණකය 1 ලෙස සකසා ගැනීමෙන් වඩාත් පහසු වේ. සමීකරණය 2න් බෙදීමෙන් වර්ග පදයේ සංගුණකය 1 ලෙස පිළියෙල කර ගත හැකිය",
+          "step_answer": "x² + 3x - (5/2) = 0"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x² + 3x = (5/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x² + 3x + (3/2)² = (5/2) + (3/2)²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(x + (3/2))² = (5/2) + (9/4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(x + (3/2))² = (10/4) + (9/4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "(x + (3/2))² = (19/4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x + (3/2) = ±√(19/4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x + (3/2) = ±(√19)/2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = - (3/2) ± (√19)/2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = (-3 ± √19) / 2"
+        },
+        {
+          "step_description": "√19 සදහා ආසන්න අගයක් ලෙස 4.358 දී ඇතැයි ගනිමු",
+          "step_answer": "x = (-3 + 4.358) / 2 හෝ x = (-3 - 4.358) / 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 1.358 / 2 හෝ x = -7.358 / 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 0.679 හෝ x = -3.679"
+        }
+      ],
+      "final_answer": "x = 0.679 හෝ x = -3.679"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සූත්‍රය භාවිතයෙන් වර්ගජ සමීකරණ විසදීම",
+      "question": "2x² + 7x + 3 = 0  සමීකරණය සූත්‍රය භාවිතයෙන් විසදන්න",
+      "steps": [
+        {
+          "step_description": "x = -b ± √(b² - 4ac) / 2a සූත්‍රය භාවිතයෙන් විසදමු",
+          "step_answer": null
+        },
+        {
+          "step_description": "2x² + 7x + 3 = 0 සමීකරණයේ a = 2, b = 7, c = 3 වේ",
+          "step_answer": "x = -7 ± √(7² - 4 * 2 * 3) / 2 * 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -7 ± √(49 - 24) / 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -7 ± √25 / 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -7 ± 5 / 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = (-7 + 5) / 4 හෝ x = (-7 - 5) / 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -2 / 4 හෝ x = -12 / 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -1/2 හෝ x = -3"
+        }
+      ],
+      "final_answer": "x = -1/2 හෝ x = -3"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සූත්‍රය භාවිතයෙන් වර්ගජ සමීකරණ විසදීම",
+      "question": "4x² - 7x + 2 = 0  සමීකරණය සූත්‍රය භාවිතයෙන් විසදා මූල සොයන්න. √17 = 4.12 ලෙස ගන්න ",
+      "steps": [
+        {
+          "step_description": "4x² - 7x + 2 = 0 සමීකරණයේ a = 4, b = -7, c = 2 වේ. x = -b ± √(b² - 4ac) / 2a සූත්‍රය භාවිතයෙන් විසදමු",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -(-7) ± √((-7)² - 4 * 4 * 2) / 2 * 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 7 ± √(49 - 32) / 8"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 7 ± √17 / 8"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 7 ± 4.12 / 8"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = (7 + 4.12) / 8 හෝ x = (7 - 4.12) / 8"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 11.12 / 8 හෝ x = 2.88 / 8"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 1.39 හෝ x = 0.36"
+        }
+      ],
+      "final_answer": "x = 1.39 හෝ x = 0.36"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමීකරණ",
+      "sub_topic": "සූත්‍රය භාවිතයෙන් වර්ගජ සමීකරණ විසදීම",
+      "question": "x² + 2x - 1 = 0  සමීකරණය සූත්‍රය භාවිතයෙන් විසදා මූල දෙවන දශමස්ථානයට නිවැරදිව සොයන්න(√2 = 1.414 ලෙස ගන්න).",
+      "steps": [
+        {
+          "step_description": "x² + 2x - 1 = 0 සමීකරණයේ a = 1, b = 2, c = -1 වේ. x = -b ± √(b² - 4ac) / 2a සූත්‍රය භාවිතයෙන් විසදමු",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -2 ± √(2² - 4 * 1 * -1) / 2 * 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -2 ± √(4 + 4) / 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -2 ± √8 / 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -2 ± 2√2 / 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = -2 ± 2(1.414) / 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = (-2 + 2.828) / 2 හෝ x = (-2 - 2.828) / 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 0.828 / 2 හෝ x = -4.828 / 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 0.41 හෝ x = -2.41"
+        }
+      ],
+      "final_answer": "x = 0.41 හෝ x = -2.41"
+    },
+    {
       "Question": " ගෘහ භාණ්ඩ නිෂ්පාදන සමාගමක් මගින් නිෂ්පාදනය ‌‌කෙරෙන රුපියල් 30 000ක් වටිනා ලී අල්මාරියක් පොලී රහිත මාසික වාරික 12කින් ගෙවීමේ කොන්දේසිය මත අලෙවි කරනු ලැබේ. මාසික ව ගෙවිය යුතු ණය වාරිකය කොපමණ ද?  ",
-      "Steps": [
+      "steps": [
         { "Step": "ණය වාරිකයක වටිනාකම = රු 30 000/12" },
         { "Step": " රු 2 500" }
       ],
@@ -10,7 +786,7 @@
     },
     {
       "Question": " රාජ්‍ය ආයතනයක සේවය කරන පුද්ගලයෙකුට උත්සව අත්තිකාරම් ලෙස  රුපියල් 5 000ක මුදලක් ලබාදෙන අතර එම මුදල පොලී රහිත මාසික වාරික 10ක් තුල ගෙවා නිම කළ යුතුය. එම මුදල මාසික ව වැටුපෙන් අඩු කරනු ලබයි නම් මාසික ව වැටුපෙන් අඩු වන මුදල කොපමණ ද?  ",
-      "Steps": [
+      "steps": [
         { "Step": "මාසික ව වැටුපෙන් අඩු වන මුදල = රු 5 000/10" },
         { "Step": " රු 500" }
       ],
@@ -18,7 +794,7 @@
     },
     {
       "Question": " වික්‍රමසිංහ මහතා 24%ක වාර්ෂික පොලියක් අය කෙරෙන බැංකුවකින් ව්‍යාපාරික ණයක් ලෙස රුපියල් 30 000ක මුදලක් ගෙන ඇත. එම ණය මුදල සමාන මාසික වාරික 6කින් ගෙවා නිම කළ යුතු අතර,  පොලිය අය කරනු ලබන්නේ හීන වන ශේෂ ක්‍රමයට නම් ඔහු විසින් ගෙවිය යුතු මාසික වාරිකයක් සොයන්න. ",
-      "Steps": [
+      "steps": [
         { "Step": "ලබාගෙන ඇති ණය මුදල = රු 30 000" },
         { "Step": " පොලී රහිත ණය වාරිකයක අගය = රු 30 000/6 = රු 5 000" },
         {
@@ -47,7 +823,7 @@
     },
     {
       "Question": " අත්පිට මුදලට රුපියල් 25 000ක් වූ රූපවාහිනී යන්ත්‍රයක් මුලින් රුපියල් 7 000ක් ගෙවා ඉතිරිය වසරක් තුළ සමාන මාසික වාරික මගින් ගෙවීමට ලබාගත හැකි ය. ණය සදහා හීන වන ශේෂ ක්‍රමය යටතේ 18%ක වාර්ෂික පොලියක් අය කරනු ලබයි නම් මාසික වාරිකයක් ගණනය කරන්න. ",
-      "Steps": [
+      "steps": [
         { "Step": "රූපවාහිනී යන්ත්‍රයේ වටිනාකම = රු 25 000" },
         { "Step": " පලමු ව ගෙවිය යුතු මුදල  = රු 7 000 " },
         { "Step": "ගෙවීමට ඇති ඉතිරි ණය මුදල = රු 25 000 - 7 000 = රු 18 000" },
@@ -63,7 +839,7 @@
     },
     {
       "Question": "වෙළදසලක දක්නට තිබූ දැන්වීමකින් උපුටාගත් කොටසක් පහත දැක්වේ. රුපියල් 30 000ක් වටිනා රෙදි සෝදන යන්ත්‍රයක් මුලින් රුපියල් 5 000ක් ගෙවා ඉතිරිය 2 720 බැගින් වූ සමාන මාසික වාරික 10 කින් ගෙවීමට ලබාගන්න. ණය සදහා පොලිය ගණනය කර ඇත්තේ  හීන වන ශේෂ ක්‍රමයට නම්, අය කරන වාර්ෂික පොලී අනුපාතිකය ගණනය කරන්න.",
-      "Steps": [
+      "steps": [
         { "Step": "රෙදි සෝදන යන්ත්‍රයේ වටිනාකම = රු 30 000" },
         { "Step": " පලමු ව ගෙවිය යුතු මුදල  = රු 5 000" },
         { "Step": "ගෙවීමට ඇති ඉතිරි ණය මුදල = රු 30 000 - 5 000 = රු 25 000" },
@@ -82,7 +858,7 @@
     },
     {
       "Question": "10%ක වාර්ෂික වැල් පොලී අනුපාතිකයක් යටතේ රුපියල් 10 000ක් ණයට ගත් පුද්ගලයෙකුට අවුරුදු 2ක් අවසානයේදී ණයෙන් නිදහස් වීම සදහා ගෙවිය යුතු මුළු මුදල සොයන්න. ",
-      "Steps": [
+      "steps": [
         { "Step": "ණයට ගත් මුදල = රු 10 000" },
         { "Step": "වාර්ෂික වැල් පොලී අනුපාතිකය = 10%" },
         { "Step": "පලමු අවුරුද්ද සදහා පොලිය = රු 10 000 * 10 /100 = රු 1 000" },
@@ -98,7 +874,7 @@
     },
     {
       "Question": "අමල් රුපියල් 50 000ක් 6%ක වාර්ෂික වැල් පොලී අනුපාතිකයක් යටතේ වසර තුනක් සදහා ස්ථීර තැන්පතුවක් ලෙස බැංකුවක ආ‌යෝජනය කරයි. නිමල් රුපියල් 50 000ක් 6%ක වාර්ෂික සුළු පොලී අනුපාතිකයක් යටතේ බැංකුවක තැන්පත් කරයි. වසර තුනක් අවසානයේ දී අමල්ට හා නිමල් ට හිමි වන මුළු මුදල් ප්‍රමාණය වෙන වෙනම සොයන්න.",
-      "Steps": [
+      "steps": [
         {
           "Step": "පලමුවැනි අවුරුද්ද අවසානයේ අමල්ට ලැබෙන මුළු මුදල = රු 50 000 * 106/100 = රු 53 000.00"
         },
@@ -119,6 +895,2651 @@
         }
       ],
       "Final_answer": "අමල් = රු 59 550.80, නිමල් = රු 59 000"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "√27 සරල කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "³√27 = 27^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (3³)^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3^(3 × 1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3"
+        }
+      ],
+      "final_answer": "3"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "(√25)² සරල කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "(√25)² = (25^(1/2))²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= ((5²)^(1/2))²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (5^(2 × 1/2))²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 5²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/5²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/25"
+        }
+      ],
+      "final_answer": "1/25"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "(iii) ³√(3/8) සරල කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "³√(3/8) = ³√3 / ³√8"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (27/8)^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (3³/2³)^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3^(3 × 1/3) / 2^(3 × 1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3/2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1 1/2"
+        }
+      ],
+      "final_answer": "1 1/2"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "(1/√x)³ සූත්‍ර ස්වරූපයක් පවතින සාමාන්‍ය භාවිතා කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "(1/√x)³ = (x^(-1/2))³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= x^(-1/2 × 3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= x^(-3/2)"
+        }
+      ],
+      "final_answer": "x^(-3/2)"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "(ii) (⁶√a)^(-1/2) සූත්‍ර ස්වරූපයක් පවතින සාමාන්‍ය භාවිතා කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "(⁶√a)^(-1/2) = (a^(1/6))^(-1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= a^(1/6 × -1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= a^(-1/12)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/a^(1/12)"
+        }
+      ],
+      "final_answer": "1/a^(1/12)"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "(iii) 1/√x³ සූත්‍ර ස්වරූපයක් පවතින සාමාන්‍ය භාවිතා කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "1/√x³ = 1/(x³)^(1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/x^(3 × 1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/x^(3/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= x^(-3/2)"
+        }
+      ],
+      "final_answer": "x^(-3/2)"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "(i) (27/64)^(2/3) අගය සොයන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "(27/64)^(2/3) = (3³/4³)^(2/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (3/4)^(3 × 2/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (3/4)^2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (3)² / (4)²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 9/16"
+        }
+      ],
+      "final_answer": "9/16"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "(ii) (16/81)^(-3/4) අගය සොයන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "(16/81)^(-3/4) = (2⁴/3⁴)^(-3/4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (2/3)^(4 × -3/4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (2/3)^(-3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (3/2)³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 27/8"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 3/8"
+        }
+      ],
+      "final_answer": "3 3/8"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "දැන් කැමති සංකීර්ණ ප්‍රශ්නයක් එක (125/64)^(-1/3) × (√32)³ × 3⁶ හි අගය සොයන්න අගයන් විකසන නැවත.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "(125/64)^(-1/3) × (√32)³ × 3⁶ = (5³/2⁶)^(-1/3) × (32^(1/2))³ × 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (5/2²)^(-1) × (2⁵)^(3/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2^(-6 × 1/3) / 5^(-1 × 1/3) × 2³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2² / 5 × 2³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2⁵ / 5"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 32/5"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 6 2/5"
+        }
+      ],
+      "final_answer": "6 2/5"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "³√(343x²/x) සරල කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "³√(343x²/x) = (343x²/x)^(1/3) ÷ x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 343^(1/3) × (x²)^(1/3) ÷ x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (7³)^(1/3) × (x²)^(1/3) ÷ x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 7¹ × x^(2/3) ÷ x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 7 × x^(2/3-1)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 7 × x^(-1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 7/x^(1/3)"
+        }
+      ],
+      "final_answer": "7/x^(1/3)"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "දර්ශක අසමතා සමීකරණ විසඳීම",
+      "question": "(i) 4ˣ = 64 විසඳන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "4ˣ = 64"
+        },
+        {
+          "step_description": null,
+          "step_answer": "4ˣ = 4³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ x = 3"
+        }
+      ],
+      "final_answer": "x = 3"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "දර්ශක අසමතා සමීකරණ විසඳීම",
+      "question": "(ii) x³ = 343 විසඳන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "x³ = 343"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x³ = 7³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ x = 7"
+        }
+      ],
+      "final_answer": "x = 7"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "දර්ශක අසමතා සමීකරණ විසඳීම",
+      "question": "(iii) 3 × 9⁴ˣ⁻¹ = 27⁻ˣ විසඳන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "3 × 9⁴ˣ⁻¹ = 27⁻ˣ"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3 × (3²)⁴ˣ⁻¹ = (3³)⁻ˣ"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3 × 3²⁽⁴ˣ⁻¹⁾ = 3⁻³ˣ"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3¹⁺⁸ˣ⁻² = 3⁻³ˣ"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 1 + 4x - 2 = -3x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "4x + 3x - 2 - 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "7x = 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 1/7"
+        }
+      ],
+      "final_answer": "x = 1/7"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක නීති",
+      "question": "(i) lg1000 විසඳන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "lg1000 = lg10³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 lg10"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 × 1    (lg10 = 1 නිසා)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3"
+        }
+      ],
+      "final_answer": "3"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක නීති",
+      "question": "(ii) log₄√64 විසඳන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "log₄√64 = log₄64^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/3 log₄64"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/3 log₄4³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/3 × 3 log₄4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= log₄4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1"
+        }
+      ],
+      "final_answer": "1"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක නීති",
+      "question": "(iii) 2 log₂2 + 3 log₂4 - 2log₂8 = 2log₂2 + 3 log₂2² - 2log₂2³ විසඳන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2 log₂2 + 3 log₂4 - 2log₂8 = 2log₂2 + 3 log₂2² - 2log₂2³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= log₂2² + log₂(2²)³ - log₂(2³)²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= log₂(2² × (2²)³ / (2³)²)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= log₂(2² × 2⁶ / 2⁶)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= log₂2²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2 log₂2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2"
+        }
+      ],
+      "final_answer": "2"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක නීති",
+      "question": "(i) 2lg 8 + 2lg 5 = lg 4³ + lg x විසඳන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2lg 8 + 2lg 5 = lg 4³ + lg x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ lg x = 2lg 8 + 2lg 5 - lg 4³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 8² + lg 5² - lg 4³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ lg x = lg(8² × 5² / 4³)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ lg x = lg 25"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ x = 25"
+        }
+      ],
+      "final_answer": "x = 25"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක නීති",
+      "question": "(ii) 2 log₂3 + 3 log₂2 - log₂72 = 1/2 log₂x විසඳන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2 log₂3 + 3 log₂2 - log₂72 = 1/2 log₂x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 2 log₂3 + 3 log₂2 - log₂72 = 1/2 log₂x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ log₂3² + log₂2³ - log₂72 = log₂x^(1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ log₂(3² × 2³ / 72) = log₂x^(1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 3² × 2³ / 72 = x^(1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 1² = (x^(1/2))²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 1 = x¹"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ x = 1"
+        }
+      ],
+      "final_answer": "x = 1"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක නීති",
+      "question": "සත්‍යාපනය කරන්න: log₅75 - log₅3 = log₅40 - log₅8 + 1",
+      "steps": [
+        {
+          "step_description": "වම් පාර්ශ්වය",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "log₅75 - log₅3 = log₅(75/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= log₅25"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= log₅5²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2"
+        },
+        {
+          "step_description": "දකුණු පාර්ශ්වය",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "log₅40 - log₅8 + 1 = log₅(40/8) + 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= log₅5 + 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1 + 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ log₅75 - log₅3 = log₅40 - log₅8 + 1"
+        }
+      ],
+      "final_answer": "සත්‍යාපිතයි"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "විශාල අතුළත් ලඝුගණක එකතු කිරීම හා අඩු කිරීම",
+      "question": "(i) 2̄.5143 + 1̄.2375 සූත්‍ර කරන්න; විශාලය සහ අතුළත ලැයිස්තු නම් එක විශාල ආකාරයකින් තබන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2̄.5143 + 1̄.2375 = -2 + 0.5143 + (-1) + 0.2375"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-2 - 1) + (0.5143 + 0.2375)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -3 + 0.7518"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3̄.7518"
+        }
+      ],
+      "final_answer": "3̄.7518"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "විශාල අතුළත් ලඝුගණක එකතු කිරීම හා අඩු කිරීම",
+      "question": "(ii) 3̄.9211 + 2̄.3142 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "3̄.9211 + 2̄.3142 = -3 + 0.9211 + 2 + 0.3142"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-3 + 2) + (0.9211 + 0.3142)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 1.2353"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 1 + 0.2353"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.2353"
+        }
+      ],
+      "final_answer": "0.2353"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "විශාල අතුළත් ලඝුගණක එකතු කිරීම හා අඩු කිරීම",
+      "question": "(iii) 3̄.8753 + 1̄.3475 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "3̄.8753 + 1̄.3475 = -3 + 0.8753 + 1 + 0.3475"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-3 + 1) + (0.8753 + 0.3475)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -2 + 1.2228"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -2 + 1 + 0.2228"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.2228"
+        }
+      ],
+      "final_answer": "1̄.2228"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "විශාල අතුළත් ලඝුගණක එකතු කිරීම හා අඩු කිරීම",
+      "question": "(i) 2̄.5143 - 1̄.3143 සූත්‍ර කරන්න; සඳහා අතුළත ලැයිස්තු නම් එක විශාල ආකාරයකින් තබන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2̄.5143 - 1̄.3143 = -2 + 0.5143 - (1 + 0.3143)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -2 + 0.5143 - 1 - 0.3143"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -2 - 1 + 0.5143 - 0.3143"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -3 + 0.2000"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3̄.2000"
+        }
+      ],
+      "final_answer": "3̄.2000"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "විශාල අතුළත් ලඝුගණක එකතු කිරීම හා අඩු කිරීම",
+      "question": "(ii) 2̄.5143 - 1̄.9143 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2̄.5143 - 1̄.9143 = 2 + 0.5143 - (-1 + 0.9143)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2 + 0.5143 + 1 - 0.9143"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 - 0.4000"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2.6000"
+        }
+      ],
+      "final_answer": "2.6000"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "විශාල අතුළත් ලඝුගණක එකතු කිරීම හා අඩු කිරීම",
+      "question": "(iii) 0.2143 - 1̄.8143 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "0.2143 - 1̄.8143 = 0.2143 - (-1 + 0.8143)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.2143 + 1 - 0.8143"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1 - 0.6000"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.4"
+        }
+      ],
+      "final_answer": "0.4"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "විශාල අතුළත් ලඝුගණක එකතු කිරීම හා අඩු කිරීම",
+      "question": "(iv) 2̄.5143 - 1̄.9143 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2̄.5143 - 1̄.9143 = -2 + 0.5143 - (-1 + 0.9143)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -2 + 0.5143 + 1 - 0.9143"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -2 + 1 + 0.5143 - 0.9143"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 - 0.4000"
+        },
+        {
+          "step_description": "මෙහි දී දැන් මෙටෙත් අගය ඍණයි ප්‍රමුඛයකයක ධනාත්මක වන",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "-1 - 0.4 = -1 - 1 + 1 - 0.4 (- 1+1 = 0 නිසා අතර හමුවුන එක)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -2 + 0.6"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2̄.6"
+        },
+        {
+          "step_description": "මෙහි දී වීය කොට ලැයිස්තු ප්‍රතිශක්යක - 1 ක් තව ඌනාකයකෙ + 1 ක් එකතු කිරීයි.",
+          "step_answer": null
+        },
+        {
+          "step_description": "උත්තරය: ඉහත (iv) හි ඉදිරිය වන විටයකින් දී මේ සඳහා අතර ඌනාකයකෙ ලැයිස්තු මිණෙහිය වන භාවින් දී නිරීක්ෂණය කරන්න ය:",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "-2 + 0.5143 + 1 - 0.9143 = -2 + 1.5143 - 0.9143 = -2 + 0.6 = 2̄.6"
+        }
+      ],
+      "final_answer": "2̄.6"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගුව භාවිතයෙන් ප්‍රකාශන සුළු කිරීම",
+      "question": "a. 43.85 × 0.7532 ගණනය කරන්න. මෙහි දී ප්‍රථමව පෙන්වීම සඳහා නිශ්චිතයන් සහ ගණිතීය ක්‍රමයන් විස්තරව තුළ P = 43.85 × 0.7532 අගය තහවුරු කරමු.",
+      "steps": [
+        {
+          "step_description": "එවිට, lg P = lg (43.85 × 0.7532)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 43.85 + lg 0.7532"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1.6420 + 1̄.8769"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1 + 0.6420 - 1 + 0.8769"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1.5189"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 1.5189"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 33.03"
+        },
+        {
+          "step_description": "මෙම ක්‍රමය ආකාරයකින් සුළු නිශ්චිත",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "43.85 × 0.7532 = 10^1.6420 × 10^1̄.8769"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(1+0.8769)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3.303 × 10^1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 33.03"
+        }
+      ],
+      "final_answer": "33.03"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගුව භාවිතයෙන් ප්‍රකාශන සුළු කිරීම",
+      "question": "b. 0.0034 × 0.8752 ගණනය කරන්න.",
+      "steps": [
+        {
+          "step_description": "P = 0.0034 × 0.8752 අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "lg P = lg (0.0034 × 0.8752)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 0.0034 + lg 0.8752"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3̄.5315 + 1̄.9421"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -3 + 0.5315 - 1 + 0.9421"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -4 + 1.4736"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -4 + 1 + 0.4736"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -3 + 0.4736"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3̄.4736"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 3̄.4736"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.002975"
+        },
+        {
+          "step_description": "ඌනාත්මක ආකාරයකින් සුළු නිශ්චිත",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "0.0034 × 0.8752 = 10^3̄.5315 × 10^1̄.9421"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^3̄.4736"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2.975 × 10^-3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.002975"
+        }
+      ],
+      "final_answer": "0.002975"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගුව භාවිතයෙන් ප්‍රකාශන සුළු කිරීම",
+      "question": "c. 0.0875 ÷ 18.75 ගණනය කරන්න.",
+      "steps": [
+        {
+          "step_description": "P = 0.0875 ÷ 18.75 අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "එවිට, lg P = lg (0.0875 ÷ 18.75)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 0.0875 - lg 18.75"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2̄.9420 - 1.2730"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -2 + 0.9420 - 1 - 0.2730"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -3 + 0.6690"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3̄.6690"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 3̄.6690"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.004666"
+        },
+        {
+          "step_description": "ඌනාත්මක ආකාරයකින් සුළු නිශ්චිත",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "0.0875 ÷ 18.75 = 10^2̄.9420 ÷ 10^1.2730"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(2̄.9420 - 1.2730)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^3̄.6690"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 4.666 × 10^-3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.004666"
+        }
+      ],
+      "final_answer": "0.004666"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගුව භාවිතයෙන් ප්‍රකාශන සුළු කිරීම",
+      "question": "d. 0.3752 ÷ 0.9321 ගණනය කරන්න.",
+      "steps": [
+        {
+          "step_description": "P = 0.3752 ÷ 0.9321 අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "එවිට lg P = lg (0.3752 ÷ 0.9321)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 0.3752 - lg 0.9321"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.5742 - 1̄.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.5742 - (-1 + 0.9694)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.5742 + 1 - 0.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.5742 + 0.0306"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.6048"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.6048"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 1̄.6048"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.4026"
+        },
+        {
+          "step_description": "ඌනාත්මක ආකාරයකින් සුළු නිශ්චිත",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "0.3752 ÷ 0.9321 = 10^1̄.5742 ÷ 10^1̄.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(1̄.5742 - 1̄.9694)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^1̄.6048"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 4.026 × 10^-1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.4026"
+        }
+      ],
+      "final_answer": "0.4026"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගුව භාවිතයෙන් ප්‍රකාශන සුළු කිරීම",
+      "question": "නිදසුන 2: ලකුණු වෙනස් භාවිතයකින් සුළු කරන්න. (8.753 × 0.02203) / 0.9321",
+      "steps": [
+        {
+          "step_description": "P = (8.753 × 0.02203) / 0.9321 අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "එවිට, lg P = lg ((8.753 × 0.02203) / 0.9321)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 8.753 + lg 0.02203 - lg 0.9321"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.9421 + 2̄.3430 - 1̄.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.9421 - 2 + 0.3430 - 1̄.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.2851 - 1̄.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.2851 - (-1 + 0.9694)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.2851 + 1 - 0.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.3157"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 1̄.3157"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.2068"
+        },
+        {
+          "step_description": "ඌනාත්මක ආකාරයකින් සුළු නිශ්චිත",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "8.753 × 0.02203 / 0.9321 = 10^0.9421 × 10^2̄.3430 / 10^1̄.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^1̄.2851 / 10^1̄.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(1̄.2851 - 1̄.9694)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2.068 × 10^-1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.2068"
+        }
+      ],
+      "final_answer": "0.2068"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "a. 2.8111 × 2 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2.8111 × 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 5.6222"
+        }
+      ],
+      "final_answer": "5.6222"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "b. 2̄.7512 × 3 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2̄.7512 × 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3(-2 + 0.7512)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -6 + 2.2536"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -6 + 2 + 0.2536"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -4 + 0.2536"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 4̄.2536"
+        }
+      ],
+      "final_answer": "4̄.2536"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "c. 1̄.9217 × 3 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "1̄.9217 × 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3(-1 + 0.9217)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -3 + 2.7651"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -3 + 2 + 0.7651"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.7651"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.7651"
+        }
+      ],
+      "final_answer": "1̄.7651"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "a. 2̄.5142 ÷ 2 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2̄.5142 ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.2571"
+        }
+      ],
+      "final_answer": "1̄.2571"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "b. 3̄.5001 ÷ 3 සූත්‍ර කරන්න. (-3 + 0.5001) ÷ 3 නිසා",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "3̄.5001 ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 ÷ 3 = 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.5001 ÷ 3 = 0.1667"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 3̄.5001 ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.1667"
+        }
+      ],
+      "final_answer": "1̄.1667"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "c. 4̄.8322 ÷ 2 සූත්‍ර කරන්න. (-4 + 0.8322) ÷ 2 නිසා",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "4̄.8322 ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 4 ÷ 2 = 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.8322 ÷ 2 = 0.4161"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 4̄.8322 ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2̄.4161"
+        }
+      ],
+      "final_answer": "2̄.4161"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "a. 1̄.5412 ÷ 2 යන්න (-1 + 0.5412) ÷ 2 අගය හන ගන්නෙ ද. ප්‍රශ්නාත්මක 1̄ යන්න 2 න් හැරීම මෙ කොතැනකාදී නිසා, පසු 2̄ + 1 අගය සකම් කර ගත කළ යුතු ය ද ඇතුව",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "1̄.5412 ÷ 2 = (-1 + 0.5412) ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-2 + 1 + 0.5412) ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-2 + 1.5412) ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.7706"
+        }
+      ],
+      "final_answer": "1̄.7706"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "b. 1̄.3712 ÷ 3 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "1̄.3712 ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-1 + 0.3712) ÷ 3    (-1 = -3 + 2 නිසා)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-3 + 2 + 0.3712) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (3̄ + 2.3712) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.7904"
+        }
+      ],
+      "final_answer": "1̄.7904"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "c. 3̄.5112 ÷ 2 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "3̄.5112 ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-3 + 0.5112) ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-4 + 1 + 0.5112) ÷ 2    (-3 = -4 + 1 නිසා)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (4̄ + 1.5112) ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2̄.7556"
+        }
+      ],
+      "final_answer": "2̄.7556"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගු භාවිතයෙන් සංඛ්‍යාවක බල හා මූල සෙවීම",
+      "question": "a. 354² අගය සොයන්න.",
+      "steps": [
+        {
+          "step_description": "P = 354² අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "lg P = lg 354²",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2 lg 354"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2 lg 3.54 × 10²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2 × 2.5490"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 5.0980"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 5.0980"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1.253 × 10⁵"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 125300"
+        }
+      ],
+      "final_answer": "125300"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගු භාවිතයෙන් සංඛ්‍යාවක බල හා මූල සෙවීම",
+      "question": "b. 0.0275³ අගය තහවුරු කරමු.",
+      "steps": [
+        {
+          "step_description": "P = 0.0275³ අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "lg P = lg 0.0275³",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 lg 0.0275"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 × 2̄.4393"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 × (-2 + 0.4393)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -6 + 1.3179"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -6 + 1 + 0.3179"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -5 + 0.3179"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 5̄.3179"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 5̄.3179"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2.079 × 10⁻⁵"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.00002079"
+        },
+        {
+          "step_description": "ඌනාත්මක ආකාරයකින් සුළු නිශ්චිත.",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "0.9073⁴ = (10^(1̄.9577))⁴"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^((1̄.9577)×4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(1̄.8308)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 6.773 × 10⁻¹"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.6773"
+        }
+      ],
+      "final_answer": "0.00002079"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගු භාවිතයෙන් සංඛ්‍යාවක බල හා මූල සෙවීම",
+      "question": "c. 0.9073⁴ අගය තහවුරු කරමු.",
+      "steps": [
+        {
+          "step_description": "P = 0.9073⁴ අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "lg P = lg 0.9073⁴",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 4 lg 0.9073"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 4 × 1̄.9577"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 4 × (-1 + 0.9577)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -4 + 3.8308"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -4 + 3 + 0.8308"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.8308"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.8308"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 1̄.8308"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 6.773 × 10⁻¹"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.6773"
+        }
+      ],
+      "final_answer": "0.6773"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගු භාවිතයෙන් සංඛ්‍යාවක බල හා මූල සෙවීම",
+      "question": "a. √8.75 අගය තහවුරු කරමු.",
+      "steps": [
+        {
+          "step_description": "P = √8.75 අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "P = √8.75 නම්"
+        },
+        {
+          "step_description": null,
+          "step_answer": "P = 8.75^(1/2)"
+        },
+        {
+          "step_description": "lg P = lg 8.75^(1/2)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/2 lg 8.75"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/2 × 0.9420"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.4710"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 0.4710"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2.958"
+        }
+      ],
+      "final_answer": "2.958"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගු භාවිතයෙන් සංඛ්‍යාවක බල හා මූල සෙවීම",
+      "question": "b. ³√0.9371 අගය තහවුරු කරමු.",
+      "steps": [
+        {
+          "step_description": "P = ³√0.9371 අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "P = 0.9371^(1/3)"
+        },
+        {
+          "step_description": "lg P = lg 0.9371^(1/3)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/3 lg 0.9371"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/3 × 1̄.9717"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/3 × (1̄.9717) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-1 + 0.9717) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-3 + 2 + 0.9717) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-3 + 2.9717) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.9906"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.9906"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 1̄.9906"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.9786"
+        },
+        {
+          "step_description": "ඌනාත්මක ආකාරයකින් සුළු නිශ්චිත",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "³√0.9371 = 0.9371^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (10^(1̄.9717))^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(1̄.9906)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 9.786 × 10⁻¹"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.9786"
+        }
+      ],
+      "final_answer": "0.9786"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගු භාවිතයෙන් සංඛ්‍යාවක බල හා මූල සෙවීම",
+      "question": "c. ³√0.0549 අගය තහවුරු කරමු.",
+      "steps": [
+        {
+          "step_description": "P = ³√0.0549 අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "lg P = lg 0.0549^(1/3)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/3 × 2̄.7396"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (2̄.7396) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-2 + 0.7396) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-3 + 1 + 0.7396) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-3 + 1.7396) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.5799"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.5799"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 1̄.5799"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.3801"
+        },
+        {
+          "step_description": "ඌනාත්මක ආකාරයකින් සුළු නිශ්චිත",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "³√0.0549 = 0.0549^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (10^(2̄.7396))^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(2̄.7396)÷3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3.801 × 10⁻¹"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.3801"
+        }
+      ],
+      "final_answer": "0.3801"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බල හා මූල අතුළත් ප්‍රකාශන ලඝුගණක වගු භාවිතයෙන් සුළු කිරීම",
+      "question": "a. P = (7.543 × 0.987²) / √0.875 අගය තහවුරු කරමු.",
+      "steps": [
+        {
+          "step_description": "එවිට lg P = lg((7.543 × 0.987²) / √0.875)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 7.543 + lg 0.987² - lg 0.875^(1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 7.543 + 2 lg 0.987 - 1/2 × 1̄.9420"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.8776 + 2 × 1̄.9943 - (2̄ + 1.9420)/2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.8776 + 1̄.9886 - (1̄ + 0.9710)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.8776 + 1̄.9886 - 1̄.9710"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.8662 - 1̄.9710"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.8952"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 0.8952"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 7.855"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ (7.543 × 0.987²) / √0.875 = 7.9    (ආසන්න පමණ ඌනාත්මකයකට)"
+        },
+        {
+          "step_description": "මෙම දුවු නිශ්චිත ඌනාත්මක ආකාරයකින් ද සුළු ගන්නේ ද. ඒ මෙසේය.",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "(7.543 × 0.987²) / √0.875 = (7.543 × 0.987²) / 0.875^(1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (10^0.8776 × (10^(1̄.9943))²) / (10^(1̄.9420))^(1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (10^0.8776 × 10^(1̄.9886)) / 10^(1̄.9710)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (10^0.8662 - 1̄.9710) / 10^(1̄.9710)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(0.8662 - 1̄.9710)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^0.8952"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 7.855 × 10⁰"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 7.855"
+        },
+        {
+          "step_description": null,
+          "step_answer": "≃ 7.9"
+        }
+      ],
+      "final_answer": "7.9"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බල හා මූල අතුළත් ප්‍රකාශන ලඝුගණක වගු භාවිතයෙන් සුළු කිරීම",
+      "question": "b. P = (√0.4537 × 75.4) / 0.987² අගය තහවුරු කරමු.",
+      "steps": [
+        {
+          "step_description": "lg P = lg((0.4537^(1/2) × 75.4) / 0.987²)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 0.4537^(1/2) + lg 75.4 - lg 0.987²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/2 lg 0.4537 + lg 75.4 - 2 lg 0.987"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/2 × 1̄.6568 + 1.8774 - 2 × 1̄.9943"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.8284 + 1.8774 - 1̄.9886"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1.7058 - 1̄.9886"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1.7172"
+        },
+        {
+          "step_description": null,
+          "step_answer": "P = antilog 1.7172"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 52.15"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ (√0.4537 × 75.4) / 0.987² = 52.2 (ආසන්න පමණ ඌනාත්මකයකට)"
+        },
+        {
+          "step_description": "ඌනාත්මක ආකාරයකින් සුළු නිශ්චිත සහිත ඌනාත්මකද.",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "(√0.4537 × 75.4) / 0.987² = ((0.4537)^(1/2) × 75.4) / 0.987²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= ((10^(1̄.6568))^(1/2) × 10^1.8774) / (10^(1̄.9943))²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (10^(1̄.8284) × 10^1.8774) / 10^(1̄.9886)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(1̄.9948 - 1̄.9886)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^1.7172"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 52.15"
+        },
+        {
+          "step_description": null,
+          "step_answer": "≃ 52.2"
+        }
+      ],
+      "final_answer": "52.2"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වල භාවිත",
+      "question": "අගය V එක් ගෝලයක V = 4/3 πr³ ආකාරයෙන් ලබා ගැනිය හැකි. r = 0.64 cm නම්, π = 3.142 අගය ගෙන ගොලයේ පරිමාව ලඝුගණක වගුව භාවිතයෙන් ගණකයෙන් පළමු දශම්ශ තැන දක්වා ඌනාත්මකයකට හෙවත්නන් පළමු.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "V = 4/3 πr³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 4/3 × 3.142 × 0.64³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ lg V = lg(4/3 × 3.142 × 0.64³)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 4 + lg 3.142 + 3 lg 0.64 - lg 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.6021 + 0.4972 + 3 × 1̄.8062 - 0.4771"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.6021 + 0.4972 + 1̄.4186 - 0.4771"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.5179 - 0.4771"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.0408"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ V = antilog 0.0408"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1.098"
+        },
+        {
+          "step_description": null,
+          "step_answer": "≃ 1.1 (පළමු දශම්ශකයකට)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ මඬිල්ලෝ පරිමාව 1.1 cm³"
+        }
+      ],
+      "final_answer": "1.1 cm³"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "n වන පදය සොයා ගැනීම",
+      "question": "3, 7, 11, 15, ... සමාන්තර ශ්‍රේණියේ 15 වන පද සොයන්න.",
+      "steps": [
+        {
+          "step_description": "මෙහි a = 3, d = 7 - 3 = 4, n = 15",
+          "step_answer": null
+        },
+        {
+          "step_description": "Tₙ = a + (n - 1)d ප්‍රමේයයට මෙම අගය ආදේශනයෙන්,",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "T₁₅ = 3 + (15 - 1) × 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 + 56"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 59"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 15 වන පද 59 යි."
+        }
+      ],
+      "final_answer": "59"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "පළමු පදය සොයා ගැනීම",
+      "question": "සමාන්තර ශ්‍රේණියක් ප්‍රථම පදය අතර්ධය 4 ද විසිසය වන පද 105 ද යම් එහි මුල් පද සොයන්න.",
+      "steps": [
+        {
+          "step_description": "මෙහි d = 4 වන විට අතර්ධය n = 26 වන Tₙ = 105",
+          "step_answer": null
+        },
+        {
+          "step_description": "Tₙ = a + (n - 1)d ප්‍රමේයයට මෙම අගය ආදේශනයෙන්,",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "T₂₆ = a + (26 - 1) × 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "105 = a + (26 - 1) × 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 105 - 100 = a"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ a = 5"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ මුල් පද 5 යි."
+        }
+      ],
+      "final_answer": "5"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "මාන අතර්ධය සොයා ගැනීම",
+      "question": "සමාන්තර ශ්‍රේණිය මුල් පද -32 ද 12 වන පද 1 ද යම් එහි මාන අතර්ධය සොයන්න.",
+      "steps": [
+        {
+          "step_description": "මෙහි a = -32 වන n = 12 වන Tₙ = 1.",
+          "step_answer": null
+        },
+        {
+          "step_description": "Tₙ = a + (n - 1)d ප්‍රමේයයට මෙම අගය ආදේශනයෙන්,",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "T₁₂ = -32 + (12 - 1) × d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "1 = -32 + 11 × d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 33/11 = d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ d = 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ මාන අතර්ධය 3 යි."
+        }
+      ],
+      "final_answer": "3"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "පද අංකය සොයා ගැනීම",
+      "question": "30, 25, 20, ... සමාන්තර ශ්‍රේණියේ - 65 කවරක් වන පද දෝ?",
+      "steps": [
+        {
+          "step_description": "මෙහි a = 30, d = -5, Tₙ = -65",
+          "step_answer": null
+        },
+        {
+          "step_description": "Tₙ = a + (n - 1)d ප්‍රමේයයට මෙම අගය ආදේශනයෙන්,",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "-65 = 30 + (n - 1) × (-5)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "-65 = 30 - 5n + 5"
+        },
+        {
+          "step_description": null,
+          "step_answer": "-65 - 35 = -5n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "-100/-5 = n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "n = 20 ∴ -65 කවරක් 20 වන පද යි."
+        }
+      ],
+      "final_answer": "20"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "සමගාමී සමීකරණ භාවිතයෙන් a සහ d සොයා ගැනීම",
+      "question": "සමාන්තර ශ්‍රේණියක 7 වන පද 38 ද සිව්වළොස් වන පද 63 ද යම් එහි (i) පළමු පද සොයන්න. (ii) 20 වන පද සොයන්න.",
+      "steps": [
+        {
+          "step_description": "(i) මෙහි n = 7 වන Tₙ = 38 ද n = 12 වන Tₙ = 63 යොමු Tₙ = a + (n - 1)d ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "T₇ = a + (7 - 1) × d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "38 = a + 6d _____ ①"
+        },
+        {
+          "step_description": null,
+          "step_answer": "T₁₂ = a + (12 - 1) × d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "63 = a + 11d _____ ②"
+        },
+        {
+          "step_description": "දැන් සමීකරණ ① හා ② එකින් එක අඩු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "63 - 38 = a + 11d - (a + 6d)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "25 = a + 11d - a - 6d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "25 = 5d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "5 = d"
+        },
+        {
+          "step_description": "d = 5 ① ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "38 = a + 6 × 5"
+        },
+        {
+          "step_description": null,
+          "step_answer": "38 - 30 = a"
+        },
+        {
+          "step_description": null,
+          "step_answer": "a = 8"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ මුල් පද 8 ද මාන අතර්ධය 5 ද යි."
+        },
+        {
+          "step_description": "(ii) T₂₀ = a + (n - 1)d ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "T₂₀ = 8 + (20 - 1) × 5"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 8 + 19 × 5"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 8 + 95"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 103"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 20 වන පද 103 යි."
+        }
+      ],
+      "final_answer": "(i) a = 8, d = 5 (ii) T₂₀ = 103"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "n වන පද සූත්‍රය භාවිතයෙන් ශ්‍රේණියක් විශ්ලේෂණය",
+      "question": "කවරක් ශ්‍රේණියක n වන පද Tₙ යොමු Tₙ = 3n + 4 ලෙස ලබා දී ඇත. (i) මෙම ශ්‍රේණියේ මුල් පද දෙන් මගින් මාන අතර සොයන්න. (ii) ශ්‍රේණියේ n වන පද සහ Tₙ = n + 1 වන පද අතර පරතරය දක්වන්න, එසේ මෙය ශ්‍රේණියක් වන බව සොයන්න. (iii) ශ්‍රේණියේ 169 කවරක් වන පද සොයන්න. (iv) අගය 95 වන පද ශ්‍රේණියට තිබේද යත් සොයන්න.",
+      "steps": [
+        {
+          "step_description": "(i) Tₙ = 3n + 4",
+          "step_answer": null
+        },
+        {
+          "step_description": "n = 1 වන T₁ = 3 × 1 + 4 = 7",
+          "step_answer": null
+        },
+        {
+          "step_description": "n = 2 වන T₂ = 3 × 2 + 4 = 10",
+          "step_answer": null
+        },
+        {
+          "step_description": "n = 3 වන T₃ = 3 × 3 + 4 = 13",
+          "step_answer": null
+        },
+        {
+          "step_description": "n = 4 වන T₄ = 3 × 4 + 4 = 16",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ මුල් පද තමන් විසින් එකින් 7, 10, 13 සහ 16 යි."
+        },
+        {
+          "step_description": "(ii) Tₙ₊₁ = 3n + 4 හි අගය n = n + 1",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "Tₙ₊₁ = 3(n + 1) + 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3n + 3 + 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ Tₙ₊₁ - Tₙ = (3n + 7) - (3n + 4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "නිකම සමාන්තර ශ්‍රේණියකි."
+        },
+        {
+          "step_description": "(iii) Tₙ = 169 වන දී අගය",
+          "step_answer": null
+        },
+        {
+          "step_description": "Tₙ = 3n + 4 ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "169 = 3n + 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "169 - 4 = 3n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "165/3 = n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "55 = n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 169 කවරක් 55 වන පදයි."
+        },
+        {
+          "step_description": "(iv) අගය 95 වන පද ශ්‍රේණියට තිබේද යත් Tₙ = 95 වන n වන අගය සොයන්න. එබැවින්",
+          "step_answer": null
+        },
+        {
+          "step_description": "Tₙ = 95 වන n වන අගය සොයමු",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "95 = 3n + 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "95 - 4 = 3n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "91/3 = n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "91 = 3n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "මෙහි n සකල නැත. එබැවින්, අගය 95 වන පද ශ්‍රේණියට නැත."
+        }
+      ],
+      "final_answer": "(i) 7, 10, 13, 16 (ii) සමාන්තර ශ්‍රේණියකි (iii) n = 55 (iv) අගය 95 වන පද නැත"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "පද සමූච්චය ගණනය කිරීම",
+      "question": "5, 10, 15, 20, ... සමාන්තර ශ්‍රේණියේ මුල් පද 12හි සමූච්චය සොයන්න.",
+      "steps": [
+        {
+          "step_description": "මෙහි a = 5, d = 5, n = 12",
+          "step_answer": null
+        },
+        {
+          "step_description": "Sₙ = n/2{2a+(n-1)d} ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "S₁₂ = 12/2{2×5+(12-1)×5}"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 12/2{10+11×5}"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 6 {10+55}"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 6×65"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 390"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ මුල් පද 12හි සමූච්චය 390 යි."
+        }
+      ],
+      "final_answer": "390"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "පද සමූච්චය ගණනය කිරීම (අවසාන පදය ලබා දී ඇති විට)",
+      "question": "පද 16ක් ඇති සමාන්තර ශ්‍රේණියක මුල් පද 75 ද මාන අතර්ධය -5 ද, අවසාන පදය 0 ද යම් එහි පද සියල්ලේ සමූච්චය සොයන්න.",
+      "steps": [
+        {
+          "step_description": "මෙහි n = 16, a = 75, d = -5, l = 0",
+          "step_answer": null
+        },
+        {
+          "step_description": "Sₙ = n/2(a+l) ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "S₁₆ = 16/2(75+0)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 16/2×75"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 8×75"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 600"
+        },
+        {
+          "step_description": null,
+          "step_answer": "පද සියල්ලේ සමූච්චය 600 යි."
+        }
+      ],
+      "final_answer": "600"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "පද සමූච්චය ගණනය කිරීම (පළමුව පද ගණන සොයා ගැනීම)",
+      "question": "70, 66, 62, 58, ... සමාන්තර ශ්‍රේණියේ පද සියල්ලේ සමූච්චය සොයන්න. මෙහි a = 70, l = 2, d = -4",
+      "steps": [
+        {
+          "step_description": "Tₙ = a+(n-1)d ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "2 = 70+(n-1)×(-4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "2 = 70-4n+4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "2-74 = -4n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "-72/-4 = n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "18 = n"
+        },
+        {
+          "step_description": "ශ්‍රේණියේ පද 18 ක් ඇත, එය 18ක සමූච්චය",
+          "step_answer": null
+        },
+        {
+          "step_description": "Sₙ = n/2(a+l) ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "S₁₈ = 18/2(70+2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 18/2×72"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 9×72"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 648"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ ශ්‍රේණියේ පද සියල්ලේ සමූච්චය 648 යි."
+        }
+      ],
+      "final_answer": "648"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "පද ගණන සොයා ගැනීම",
+      "question": "සමාන්තර ශ්‍රේණියක මුල් පද 12 ද අවසාන පද 99 ද සහ පද සමූච්චය 1665 ද යම්. එම ශ්‍රේණියේ පද ගණන සොයන්න.",
+      "steps": [
+        {
+          "step_description": "මෙහි a = 12, l = 99, Sₙ = 1665",
+          "step_answer": null
+        },
+        {
+          "step_description": "Sₙ = n/2(a+l) ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "1665 = n/2(12+99)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3330 = n×111"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3330/111 = n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "30 = n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ ශ්‍රේණියේ පද ගණන 30 යි."
+        }
+      ],
+      "final_answer": "30"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "මාන අතර්ධය සොයා ගැනීම",
+      "question": "දැන් මෙම ශ්‍රේණියේ මාන අතර්ධය සොයමු.",
+      "steps": [
+        {
+          "step_description": "මෙහි a = 12, Tₙ = 99, n = 30",
+          "step_answer": null
+        },
+        {
+          "step_description": "Tₙ = a+(n-1)d ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "99 = 12+(30-1)×d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "99 = 12+29×d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "99-12 = 29×d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "87/29 = d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3 = d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ ශ්‍රේණියේ මාන අතර්ධය 3 යි."
+        }
+      ],
+      "final_answer": "d = 3"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "පද 15හි සමූච්චය ගණනය කිරීම",
+      "question": "දැන් පද 15හි සමූච්චය සොයමු.",
+      "steps": [
+        {
+          "step_description": "මෙහි n = 15, a = 12, d = 3",
+          "step_answer": null
+        },
+        {
+          "step_description": "Sₙ = n/2{2a+(n-1)d}",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "S₁₅ = 15/2{2×12+(15-1)×3}"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 15/2{24+14×3}"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 15/2{24+42}"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 15/2{66}"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 15×33"
+        },
+        {
+          "step_description": null,
+          "step_answer": "S₁₅ = 495"
+        },
+        {
+          "step_description": null,
+          "step_answer": "මුල් පද 15 හි සමූච්චය 495 යි."
+        }
+      ],
+      "final_answer": "495"
     }
   ]
 }

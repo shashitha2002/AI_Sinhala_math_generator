@@ -1,0 +1,2053 @@
+{
+  "examples": [
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "√27 සරල කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "³√27 = 27^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (3³)^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3^(3 × 1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3"
+        }
+      ],
+      "final_answer": "3"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "(√25)² සරල කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "(√25)² = (25^(1/2))²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= ((5²)^(1/2))²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (5^(2 × 1/2))²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 5²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/5²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/25"
+        }
+      ],
+      "final_answer": "1/25"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "(iii) ³√(3/8) සරල කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "³√(3/8) = ³√3 / ³√8"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (27/8)^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (3³/2³)^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3^(3 × 1/3) / 2^(3 × 1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3/2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1 1/2"
+        }
+      ],
+      "final_answer": "1 1/2"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "(1/√x)³ සූත්‍ර ස්වරූපයක් පවතින සාමාන්‍ය භාවිතා කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "(1/√x)³ = (x^(-1/2))³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= x^(-1/2 × 3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= x^(-3/2)"
+        }
+      ],
+      "final_answer": "x^(-3/2)"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "(ii) (⁶√a)^(-1/2) සූත්‍ර ස්වරූපයක් පවතින සාමාන්‍ය භාවිතා කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "(⁶√a)^(-1/2) = (a^(1/6))^(-1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= a^(1/6 × -1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= a^(-1/12)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/a^(1/12)"
+        }
+      ],
+      "final_answer": "1/a^(1/12)"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "(iii) 1/√x³ සූත්‍ර ස්වරූපයක් පවතින සාමාන්‍ය භාවිතා කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "1/√x³ = 1/(x³)^(1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/x^(3 × 1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/x^(3/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= x^(-3/2)"
+        }
+      ],
+      "final_answer": "x^(-3/2)"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "(i) (27/64)^(2/3) අගය සොයන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "(27/64)^(2/3) = (3³/4³)^(2/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (3/4)^(3 × 2/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (3/4)^2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (3)² / (4)²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 9/16"
+        }
+      ],
+      "final_answer": "9/16"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "(ii) (16/81)^(-3/4) අගය සොයන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "(16/81)^(-3/4) = (2⁴/3⁴)^(-3/4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (2/3)^(4 × -3/4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (2/3)^(-3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (3/2)³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 27/8"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 3/8"
+        }
+      ],
+      "final_answer": "3 3/8"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "දැන් කැමති සංකීර්ණ ප්‍රශ්නයක් එක (125/64)^(-1/3) × (√32)³ × 3⁶ හි අගය සොයන්න අගයන් විකසන නැවත.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "(125/64)^(-1/3) × (√32)³ × 3⁶ = (5³/2⁶)^(-1/3) × (32^(1/2))³ × 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (5/2²)^(-1) × (2⁵)^(3/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2^(-6 × 1/3) / 5^(-1 × 1/3) × 2³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2² / 5 × 2³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2⁵ / 5"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 32/5"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 6 2/5"
+        }
+      ],
+      "final_answer": "6 2/5"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බලයක භාගීය දර්ශක",
+      "question": "³√(343x²/x) සරල කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "³√(343x²/x) = (343x²/x)^(1/3) ÷ x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 343^(1/3) × (x²)^(1/3) ÷ x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (7³)^(1/3) × (x²)^(1/3) ÷ x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 7¹ × x^(2/3) ÷ x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 7 × x^(2/3-1)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 7 × x^(-1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 7/x^(1/3)"
+        }
+      ],
+      "final_answer": "7/x^(1/3)"
+    }
+  ],
+  "exponential_equations": [
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "දර්ශක අසමතා සමීකරණ විසඳීම",
+      "question": "(i) 4ˣ = 64 විසඳන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "4ˣ = 64"
+        },
+        {
+          "step_description": null,
+          "step_answer": "4ˣ = 4³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ x = 3"
+        }
+      ],
+      "final_answer": "x = 3"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "දර්ශක අසමතා සමීකරණ විසඳීම",
+      "question": "(ii) x³ = 343 විසඳන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "x³ = 343"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x³ = 7³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ x = 7"
+        }
+      ],
+      "final_answer": "x = 7"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "දර්ශක අසමතා සමීකරණ විසඳීම",
+      "question": "(iii) 3 × 9⁴ˣ⁻¹ = 27⁻ˣ විසඳන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "3 × 9⁴ˣ⁻¹ = 27⁻ˣ"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3 × (3²)⁴ˣ⁻¹ = (3³)⁻ˣ"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3 × 3²⁽⁴ˣ⁻¹⁾ = 3⁻³ˣ"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3¹⁺⁸ˣ⁻² = 3⁻³ˣ"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 1 + 4x - 2 = -3x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "4x + 3x - 2 - 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "7x = 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "x = 1/7"
+        }
+      ],
+      "final_answer": "x = 1/7"
+    }
+  ],
+  "logarithm_laws": [
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක නීති",
+      "question": "(i) lg1000 විසඳන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "lg1000 = lg10³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 lg10"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 × 1    (lg10 = 1 නිසා)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3"
+        }
+      ],
+      "final_answer": "3"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක නීති",
+      "question": "(ii) log₄√64 විසඳන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "log₄√64 = log₄64^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/3 log₄64"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/3 log₄4³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/3 × 3 log₄4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= log₄4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1"
+        }
+      ],
+      "final_answer": "1"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක නීති",
+      "question": "(iii) 2 log₂2 + 3 log₂4 - 2log₂8 = 2log₂2 + 3 log₂2² - 2log₂2³ විසඳන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2 log₂2 + 3 log₂4 - 2log₂8 = 2log₂2 + 3 log₂2² - 2log₂2³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= log₂2² + log₂(2²)³ - log₂(2³)²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= log₂(2² × (2²)³ / (2³)²)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= log₂(2² × 2⁶ / 2⁶)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= log₂2²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2 log₂2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2"
+        }
+      ],
+      "final_answer": "2"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක නීති",
+      "question": "(i) 2lg 8 + 2lg 5 = lg 4³ + lg x විසඳන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2lg 8 + 2lg 5 = lg 4³ + lg x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ lg x = 2lg 8 + 2lg 5 - lg 4³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 8² + lg 5² - lg 4³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ lg x = lg(8² × 5² / 4³)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ lg x = lg 25"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ x = 25"
+        }
+      ],
+      "final_answer": "x = 25"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක නීති",
+      "question": "(ii) 2 log₂3 + 3 log₂2 - log₂72 = 1/2 log₂x විසඳන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2 log₂3 + 3 log₂2 - log₂72 = 1/2 log₂x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 2 log₂3 + 3 log₂2 - log₂72 = 1/2 log₂x"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ log₂3² + log₂2³ - log₂72 = log₂x^(1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ log₂(3² × 2³ / 72) = log₂x^(1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 3² × 2³ / 72 = x^(1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 1² = (x^(1/2))²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 1 = x¹"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ x = 1"
+        }
+      ],
+      "final_answer": "x = 1"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක නීති",
+      "question": "සත්‍යාපනය කරන්න: log₅75 - log₅3 = log₅40 - log₅8 + 1",
+      "steps": [
+        {
+          "step_description": "වම් පාර්ශ්වය",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "log₅75 - log₅3 = log₅(75/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= log₅25"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= log₅5²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2"
+        },
+        {
+          "step_description": "දකුණු පාර්ශ්වය",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "log₅40 - log₅8 + 1 = log₅(40/8) + 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= log₅5 + 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1 + 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ log₅75 - log₅3 = log₅40 - log₅8 + 1"
+        }
+      ],
+      "final_answer": "සත්‍යාපිතයි"
+    }
+  ],
+  "characteristic_mantissa_operations": [
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "විශාල අතුළත් ලඝුගණක එකතු කිරීම හා අඩු කිරීම",
+      "question": "(i) 2̄.5143 + 1̄.2375 සූත්‍ර කරන්න; විශාලය සහ අතුළත ලැයිස්තු නම් එක විශාල ආකාරයකින් තබන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2̄.5143 + 1̄.2375 = -2 + 0.5143 + (-1) + 0.2375"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-2 - 1) + (0.5143 + 0.2375)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -3 + 0.7518"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3̄.7518"
+        }
+      ],
+      "final_answer": "3̄.7518"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "විශාල අතුළත් ලඝුගණක එකතු කිරීම හා අඩු කිරීම",
+      "question": "(ii) 3̄.9211 + 2̄.3142 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "3̄.9211 + 2̄.3142 = -3 + 0.9211 + 2 + 0.3142"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-3 + 2) + (0.9211 + 0.3142)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 1.2353"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 1 + 0.2353"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.2353"
+        }
+      ],
+      "final_answer": "0.2353"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "විශාල අතුළත් ලඝුගණක එකතු කිරීම හා අඩු කිරීම",
+      "question": "(iii) 3̄.8753 + 1̄.3475 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "3̄.8753 + 1̄.3475 = -3 + 0.8753 + 1 + 0.3475"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-3 + 1) + (0.8753 + 0.3475)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -2 + 1.2228"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -2 + 1 + 0.2228"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.2228"
+        }
+      ],
+      "final_answer": "1̄.2228"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "විශාල අතුළත් ලඝුගණක එකතු කිරීම හා අඩු කිරීම",
+      "question": "(i) 2̄.5143 - 1̄.3143 සූත්‍ර කරන්න; සඳහා අතුළත ලැයිස්තු නම් එක විශාල ආකාරයකින් තබන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2̄.5143 - 1̄.3143 = -2 + 0.5143 - (1 + 0.3143)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -2 + 0.5143 - 1 - 0.3143"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -2 - 1 + 0.5143 - 0.3143"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -3 + 0.2000"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3̄.2000"
+        }
+      ],
+      "final_answer": "3̄.2000"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "විශාල අතුළත් ලඝුගණක එකතු කිරීම හා අඩු කිරීම",
+      "question": "(ii) 2̄.5143 - 1̄.9143 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2̄.5143 - 1̄.9143 = 2 + 0.5143 - (-1 + 0.9143)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2 + 0.5143 + 1 - 0.9143"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 - 0.4000"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2.6000"
+        }
+      ],
+      "final_answer": "2.6000"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "විශාල අතුළත් ලඝුගණක එකතු කිරීම හා අඩු කිරීම",
+      "question": "(iii) 0.2143 - 1̄.8143 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "0.2143 - 1̄.8143 = 0.2143 - (-1 + 0.8143)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.2143 + 1 - 0.8143"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1 - 0.6000"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.4"
+        }
+      ],
+      "final_answer": "0.4"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "විශාල අතුළත් ලඝුගණක එකතු කිරීම හා අඩු කිරීම",
+      "question": "(iv) 2̄.5143 - 1̄.9143 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2̄.5143 - 1̄.9143 = -2 + 0.5143 - (-1 + 0.9143)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -2 + 0.5143 + 1 - 0.9143"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -2 + 1 + 0.5143 - 0.9143"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 - 0.4000"
+        },
+        {
+          "step_description": "මෙහි දී දැන් මෙටෙත් අගය ඍණයි ප්‍රමුඛයකයක ධනාත්මක වන",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "-1 - 0.4 = -1 - 1 + 1 - 0.4 (- 1+1 = 0 නිසා අතර හමුවුන එක)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -2 + 0.6"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2̄.6"
+        },
+        {
+          "step_description": "මෙහි දී වීය කොට ලැයිස්තු ප්‍රතිශක්යක - 1 ක් තව ඌනාකයකෙ + 1 ක් එකතු කිරීයි.",
+          "step_answer": null
+        },
+        {
+          "step_description": "උත්තරය: ඉහත (iv) හි ඉදිරිය වන විටයකින් දී මේ සඳහා අතර ඌනාකයකෙ ලැයිස්තු මිණෙහිය වන භාවින් දී නිරීක්ෂණය කරන්න ය:",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "-2 + 0.5143 + 1 - 0.9143 = -2 + 1.5143 - 0.9143 = -2 + 0.6 = 2̄.6"
+        }
+      ],
+      "final_answer": "2̄.6"
+    }
+  ],
+  "logarithm_table_simplification": [
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගුව භාවිතයෙන් ප්‍රකාශන සුළු කිරීම",
+      "question": "a. 43.85 × 0.7532 ගණනය කරන්න. මෙහි දී ප්‍රථමව පෙන්වීම සඳහා නිශ්චිතයන් සහ ගණිතීය ක්‍රමයන් විස්තරව තුළ P = 43.85 × 0.7532 අගය තහවුරු කරමු.",
+      "steps": [
+        {
+          "step_description": "එවිට, lg P = lg (43.85 × 0.7532)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 43.85 + lg 0.7532"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1.6420 + 1̄.8769"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1 + 0.6420 - 1 + 0.8769"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1.5189"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 1.5189"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 33.03"
+        },
+        {
+          "step_description": "මෙම ක්‍රමය ආකාරයකින් සුළු නිශ්චිත",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "43.85 × 0.7532 = 10^1.6420 × 10^1̄.8769"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(1+0.8769)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3.303 × 10^1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 33.03"
+        }
+      ],
+      "final_answer": "33.03"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගුව භාවිතයෙන් ප්‍රකාශන සුළු කිරීම",
+      "question": "b. 0.0034 × 0.8752 ගණනය කරන්න.",
+      "steps": [
+        {
+          "step_description": "P = 0.0034 × 0.8752 අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "lg P = lg (0.0034 × 0.8752)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 0.0034 + lg 0.8752"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3̄.5315 + 1̄.9421"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -3 + 0.5315 - 1 + 0.9421"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -4 + 1.4736"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -4 + 1 + 0.4736"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -3 + 0.4736"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3̄.4736"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 3̄.4736"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.002975"
+        },
+        {
+          "step_description": "ඌනාත්මක ආකාරයකින් සුළු නිශ්චිත",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "0.0034 × 0.8752 = 10^3̄.5315 × 10^1̄.9421"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^3̄.4736"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2.975 × 10^-3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.002975"
+        }
+      ],
+      "final_answer": "0.002975"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගුව භාවිතයෙන් ප්‍රකාශන සුළු කිරීම",
+      "question": "c. 0.0875 ÷ 18.75 ගණනය කරන්න.",
+      "steps": [
+        {
+          "step_description": "P = 0.0875 ÷ 18.75 අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "එවිට, lg P = lg (0.0875 ÷ 18.75)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 0.0875 - lg 18.75"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2̄.9420 - 1.2730"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -2 + 0.9420 - 1 - 0.2730"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -3 + 0.6690"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3̄.6690"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 3̄.6690"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.004666"
+        },
+        {
+          "step_description": "ඌනාත්මක ආකාරයකින් සුළු නිශ්චිත",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "0.0875 ÷ 18.75 = 10^2̄.9420 ÷ 10^1.2730"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(2̄.9420 - 1.2730)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^3̄.6690"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 4.666 × 10^-3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.004666"
+        }
+      ],
+      "final_answer": "0.004666"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගුව භාවිතයෙන් ප්‍රකාශන සුළු කිරීම",
+      "question": "d. 0.3752 ÷ 0.9321 ගණනය කරන්න.",
+      "steps": [
+        {
+          "step_description": "P = 0.3752 ÷ 0.9321 අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "එවිට lg P = lg (0.3752 ÷ 0.9321)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 0.3752 - lg 0.9321"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.5742 - 1̄.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.5742 - (-1 + 0.9694)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.5742 + 1 - 0.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.5742 + 0.0306"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.6048"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.6048"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 1̄.6048"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.4026"
+        },
+        {
+          "step_description": "ඌනාත්මක ආකාරයකින් සුළු නිශ්චිත",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "0.3752 ÷ 0.9321 = 10^1̄.5742 ÷ 10^1̄.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(1̄.5742 - 1̄.9694)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^1̄.6048"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 4.026 × 10^-1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.4026"
+        }
+      ],
+      "final_answer": "0.4026"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගුව භාවිතයෙන් ප්‍රකාශන සුළු කිරීම",
+      "question": "නිදසුන 2: ලකුණු වෙනස් භාවිතයකින් සුළු කරන්න. (8.753 × 0.02203) / 0.9321",
+      "steps": [
+        {
+          "step_description": "P = (8.753 × 0.02203) / 0.9321 අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "එවිට, lg P = lg ((8.753 × 0.02203) / 0.9321)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 8.753 + lg 0.02203 - lg 0.9321"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.9421 + 2̄.3430 - 1̄.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.9421 - 2 + 0.3430 - 1̄.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.2851 - 1̄.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.2851 - (-1 + 0.9694)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.2851 + 1 - 0.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.3157"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 1̄.3157"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.2068"
+        },
+        {
+          "step_description": "ඌනාත්මක ආකාරයකින් සුළු නිශ්චිත",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "8.753 × 0.02203 / 0.9321 = 10^0.9421 × 10^2̄.3430 / 10^1̄.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^1̄.2851 / 10^1̄.9694"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(1̄.2851 - 1̄.9694)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2.068 × 10^-1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.2068"
+        }
+      ],
+      "final_answer": "0.2068"
+    }
+  ],
+  "logarithm_multiplication_division": [
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "a. 2.8111 × 2 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2.8111 × 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 5.6222"
+        }
+      ],
+      "final_answer": "5.6222"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "b. 2̄.7512 × 3 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2̄.7512 × 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3(-2 + 0.7512)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -6 + 2.2536"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -6 + 2 + 0.2536"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -4 + 0.2536"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 4̄.2536"
+        }
+      ],
+      "final_answer": "4̄.2536"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "c. 1̄.9217 × 3 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "1̄.9217 × 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3(-1 + 0.9217)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -3 + 2.7651"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -3 + 2 + 0.7651"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.7651"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.7651"
+        }
+      ],
+      "final_answer": "1̄.7651"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "a. 2̄.5142 ÷ 2 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "2̄.5142 ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.2571"
+        }
+      ],
+      "final_answer": "1̄.2571"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "b. 3̄.5001 ÷ 3 සූත්‍ර කරන්න. (-3 + 0.5001) ÷ 3 නිසා",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "3̄.5001 ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 ÷ 3 = 1"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.5001 ÷ 3 = 0.1667"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 3̄.5001 ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.1667"
+        }
+      ],
+      "final_answer": "1̄.1667"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "c. 4̄.8322 ÷ 2 සූත්‍ර කරන්න. (-4 + 0.8322) ÷ 2 නිසා",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "4̄.8322 ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 4 ÷ 2 = 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.8322 ÷ 2 = 0.4161"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 4̄.8322 ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2̄.4161"
+        }
+      ],
+      "final_answer": "2̄.4161"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "a. 1̄.5412 ÷ 2 යන්න (-1 + 0.5412) ÷ 2 අගය හන ගන්නෙ ද. ප්‍රශ්නාත්මක 1̄ යන්න 2 න් හැරීම මෙ කොතැනකාදී නිසා, පසු 2̄ + 1 අගය සකම් කර ගත කළ යුතු ය ද ඇතුව",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "1̄.5412 ÷ 2 = (-1 + 0.5412) ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-2 + 1 + 0.5412) ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-2 + 1.5412) ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.7706"
+        }
+      ],
+      "final_answer": "1̄.7706"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "b. 1̄.3712 ÷ 3 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "1̄.3712 ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-1 + 0.3712) ÷ 3    (-1 = -3 + 2 නිසා)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-3 + 2 + 0.3712) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (3̄ + 2.3712) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.7904"
+        }
+      ],
+      "final_answer": "1̄.7904"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "සංඛ්‍යාවක ලඝුගණකය පූර්ණ සංඛ්‍යාවකින් ගුණ කිරීම හා බෙදීම",
+      "question": "c. 3̄.5112 ÷ 2 සූත්‍ර කරන්න.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "3̄.5112 ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-3 + 0.5112) ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-4 + 1 + 0.5112) ÷ 2    (-3 = -4 + 1 නිසා)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (4̄ + 1.5112) ÷ 2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2̄.7556"
+        }
+      ],
+      "final_answer": "2̄.7556"
+    }
+  ],
+  "powers_and_roots_using_logarithms": [
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගු භාවිතයෙන් සංඛ්‍යාවක බල හා මූල සෙවීම",
+      "question": "a. 354² අගය සොයන්න.",
+      "steps": [
+        {
+          "step_description": "P = 354² අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "lg P = lg 354²",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2 lg 354"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2 lg 3.54 × 10²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2 × 2.5490"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 5.0980"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 5.0980"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1.253 × 10⁵"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 125300"
+        }
+      ],
+      "final_answer": "125300"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගු භාවිතයෙන් සංඛ්‍යාවක බල හා මූල සෙවීම",
+      "question": "b. 0.0275³ අගය තහවුරු කරමු.",
+      "steps": [
+        {
+          "step_description": "P = 0.0275³ අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "lg P = lg 0.0275³",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 lg 0.0275"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 × 2̄.4393"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 × (-2 + 0.4393)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -6 + 1.3179"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -6 + 1 + 0.3179"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -5 + 0.3179"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 5̄.3179"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 5̄.3179"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2.079 × 10⁻⁵"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.00002079"
+        },
+        {
+          "step_description": "ඌනාත්මක ආකාරයකින් සුළු නිශ්චිත.",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "0.9073⁴ = (10^(1̄.9577))⁴"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^((1̄.9577)×4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(1̄.8308)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 6.773 × 10⁻¹"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.6773"
+        }
+      ],
+      "final_answer": "0.00002079"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගු භාවිතයෙන් සංඛ්‍යාවක බල හා මූල සෙවීම",
+      "question": "c. 0.9073⁴ අගය තහවුරු කරමු.",
+      "steps": [
+        {
+          "step_description": "P = 0.9073⁴ අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "lg P = lg 0.9073⁴",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 4 lg 0.9073"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 4 × 1̄.9577"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 4 × (-1 + 0.9577)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -4 + 3.8308"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -4 + 3 + 0.8308"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.8308"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.8308"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 1̄.8308"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 6.773 × 10⁻¹"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.6773"
+        }
+      ],
+      "final_answer": "0.6773"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගු භාවිතයෙන් සංඛ්‍යාවක බල හා මූල සෙවීම",
+      "question": "a. √8.75 අගය තහවුරු කරමු.",
+      "steps": [
+        {
+          "step_description": "P = √8.75 අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "P = √8.75 නම්"
+        },
+        {
+          "step_description": null,
+          "step_answer": "P = 8.75^(1/2)"
+        },
+        {
+          "step_description": "lg P = lg 8.75^(1/2)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/2 lg 8.75"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/2 × 0.9420"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.4710"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 0.4710"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2.958"
+        }
+      ],
+      "final_answer": "2.958"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගු භාවිතයෙන් සංඛ්‍යාවක බල හා මූල සෙවීම",
+      "question": "b. ³√0.9371 අගය තහවුරු කරමු.",
+      "steps": [
+        {
+          "step_description": "P = ³√0.9371 අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "P = 0.9371^(1/3)"
+        },
+        {
+          "step_description": "lg P = lg 0.9371^(1/3)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/3 lg 0.9371"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/3 × 1̄.9717"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/3 × (1̄.9717) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-1 + 0.9717) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-3 + 2 + 0.9717) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-3 + 2.9717) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.9906"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.9906"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 1̄.9906"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.9786"
+        },
+        {
+          "step_description": "ඌනාත්මක ආකාරයකින් සුළු නිශ්චිත",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "³√0.9371 = 0.9371^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (10^(1̄.9717))^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(1̄.9906)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 9.786 × 10⁻¹"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.9786"
+        }
+      ],
+      "final_answer": "0.9786"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වගු භාවිතයෙන් සංඛ්‍යාවක බල හා මූල සෙවීම",
+      "question": "c. ³√0.0549 අගය තහවුරු කරමු.",
+      "steps": [
+        {
+          "step_description": "P = ³√0.0549 අගය තහවුරු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "lg P = lg 0.0549^(1/3)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/3 × 2̄.7396"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (2̄.7396) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-2 + 0.7396) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-3 + 1 + 0.7396) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (-3 + 1.7396) ÷ 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= -1 + 0.5799"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.5799"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 1̄.5799"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.3801"
+        },
+        {
+          "step_description": "ඌනාත්මක ආකාරයකින් සුළු නිශ්චිත",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "³√0.0549 = 0.0549^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (10^(2̄.7396))^(1/3)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(2̄.7396)÷3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3.801 × 10⁻¹"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.3801"
+        }
+      ],
+      "final_answer": "0.3801"
+    }
+  ],
+  "complex_expressions_with_powers_roots": [
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බල හා මූල අතුළත් ප්‍රකාශන ලඝුගණක වගු භාවිතයෙන් සුළු කිරීම",
+      "question": "a. P = (7.543 × 0.987²) / √0.875 අගය තහවුරු කරමු.",
+      "steps": [
+        {
+          "step_description": "එවිට lg P = lg((7.543 × 0.987²) / √0.875)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 7.543 + lg 0.987² - lg 0.875^(1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 7.543 + 2 lg 0.987 - 1/2 × 1̄.9420"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.8776 + 2 × 1̄.9943 - (2̄ + 1.9420)/2"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.8776 + 1̄.9886 - (1̄ + 0.9710)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.8776 + 1̄.9886 - 1̄.9710"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.8662 - 1̄.9710"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.8952"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ P = antilog 0.8952"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 7.855"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ (7.543 × 0.987²) / √0.875 = 7.9    (ආසන්න පමණ ඌනාත්මකයකට)"
+        },
+        {
+          "step_description": "මෙම දුවු නිශ්චිත ඌනාත්මක ආකාරයකින් ද සුළු ගන්නේ ද. ඒ මෙසේය.",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "(7.543 × 0.987²) / √0.875 = (7.543 × 0.987²) / 0.875^(1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (10^0.8776 × (10^(1̄.9943))²) / (10^(1̄.9420))^(1/2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (10^0.8776 × 10^(1̄.9886)) / 10^(1̄.9710)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (10^0.8662 - 1̄.9710) / 10^(1̄.9710)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(0.8662 - 1̄.9710)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^0.8952"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 7.855 × 10⁰"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 7.855"
+        },
+        {
+          "step_description": null,
+          "step_answer": "≃ 7.9"
+        }
+      ],
+      "final_answer": "7.9"
+    },
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "බල හා මූල අතුළත් ප්‍රකාශන ලඝුගණක වගු භාවිතයෙන් සුළු කිරීම",
+      "question": "b. P = (√0.4537 × 75.4) / 0.987² අගය තහවුරු කරමු.",
+      "steps": [
+        {
+          "step_description": "lg P = lg((0.4537^(1/2) × 75.4) / 0.987²)",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 0.4537^(1/2) + lg 75.4 - lg 0.987²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/2 lg 0.4537 + lg 75.4 - 2 lg 0.987"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/2 × 1̄.6568 + 1.8774 - 2 × 1̄.9943"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1̄.8284 + 1.8774 - 1̄.9886"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1.7058 - 1̄.9886"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1.7172"
+        },
+        {
+          "step_description": null,
+          "step_answer": "P = antilog 1.7172"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 52.15"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ (√0.4537 × 75.4) / 0.987² = 52.2 (ආසන්න පමණ ඌනාත්මකයකට)"
+        },
+        {
+          "step_description": "ඌනාත්මක ආකාරයකින් සුළු නිශ්චිත සහිත ඌනාත්මකද.",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "(√0.4537 × 75.4) / 0.987² = ((0.4537)^(1/2) × 75.4) / 0.987²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= ((10^(1̄.6568))^(1/2) × 10^1.8774) / (10^(1̄.9943))²"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= (10^(1̄.8284) × 10^1.8774) / 10^(1̄.9886)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^(1̄.9948 - 1̄.9886)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 10^1.7172"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 52.15"
+        },
+        {
+          "step_description": null,
+          "step_answer": "≃ 52.2"
+        }
+      ],
+      "final_answer": "52.2"
+    }
+  ],
+  "applications_of_logarithms": [
+    {
+      "type": "exercises",
+      "topic": "ලඝුගණක",
+      "sub_topic": "ලඝුගණක වල භාවිත",
+      "question": "අගය V එක් ගෝලයක V = 4/3 πr³ ආකාරයෙන් ලබා ගැනිය හැකි. r = 0.64 cm නම්, π = 3.142 අගය ගෙන ගොලයේ පරිමාව ලඝුගණක වගුව භාවිතයෙන් ගණකයෙන් පළමු දශම්ශ තැන දක්වා ඌනාත්මකයකට හෙවත්නන් පළමු.",
+      "steps": [
+        {
+          "step_description": null,
+          "step_answer": "V = 4/3 πr³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 4/3 × 3.142 × 0.64³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ lg V = lg(4/3 × 3.142 × 0.64³)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= lg 4 + lg 3.142 + 3 lg 0.64 - lg 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.6021 + 0.4972 + 3 × 1̄.8062 - 0.4771"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.6021 + 0.4972 + 1̄.4186 - 0.4771"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.5179 - 0.4771"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 0.0408"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ V = antilog 0.0408"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1.098"
+        },
+        {
+          "step_description": null,
+          "step_answer": "≃ 1.1 (පළමු දශම්ශකයකට)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ මඬිල්ලෝ පරිමාව 1.1 cm³"
+        }
+      ],
+      "final_answer": "1.1 cm³"
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "exercises": [
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "මූල ලාඝව සම්භවය ලියන්න.",
+      "page": 19,
+      "metadata": {
+        "number": "1",
+        "main_question": "මූල ලාඝව සම්භවය ලියන්න.",
+        "sub_questions": [
+          {"question": "p^(1/2)"},
+          {"question": "a^(1/3)"},
+          {"question": "x^(2/3)"},
+          {"question": "m^(1/5)"},
+          {"question": "y^(-1/4)"},
+          {"question": "x^(-3/4)"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "කඩ දලඹන සම්භවය ලියන්න.",
+      "page": 19,
+      "metadata": {
+        "number": "2",
+        "main_question": "කඩ දලඹන සම්භවය ලියන්න.",
+        "sub_questions": [
+          {"question": "√m^3"},
+          {"question": "∜x^3"},
+          {"question": "∛p^2"},
+          {"question": "(∛a)^2"},
+          {"question": "∜x^3"},
+          {"question": "(∛p)^-2"},
+          {"question": "1/∜x^3"},
+          {"question": "1/∛a^-2"},
+          {"question": "2∛x^2"},
+          {"question": "1/(3∛a^2)"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "අගය සොයන්න.",
+      "page": 19,
+      "metadata": {
+        "number": "3",
+        "main_question": "අගය සොයන්න.",
+        "sub_questions": [
+          {"question": "√25"},
+          {"question": "∛16"},
+          {"question": "(∛4)^3"},
+          {"question": "(∛27)^2"},
+          {"question": "∜81"},
+          {"question": "√1000^2"},
+          {"question": "(27/125)^(2/3)"},
+          {"question": "(81/10000)^(3/4)"},
+          {"question": "(1/64)^(5/6)"},
+          {"question": "(27/64)^(2/3)"},
+          {"question": "(0.81)^(1/2)"},
+          {"question": "(0.125)^(1/3)"},
+          {"question": "(4/25)^(1/2) × (4/9)^(3/2) × 2^0"},
+          {"question": "(9/100)^(3/2) × (4/25)^(3/2)"},
+          {"question": "(27)^(1/3) × (81)^(-1/4)"},
+          {"question": "(1+1/4)^(1/2) × (6+1/4)^(1/2)"},
+          {"question": "(0.125)^(1/3) × (0.25)^(1/2)"},
+          {"question": "(∛8)^2 × ∜16^3"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "පුලු කර යන දලඹන සම්භවය විසඳන්න.",
+      "page": 19,
+      "metadata": {
+        "number": "4",
+        "main_question": "පුලු කර යන දලඹන සම්භවය විසඳන්න.",
+        "sub_questions": [
+          {"question": "∜a^3 ÷ ∜a"},
+          {"question": "∜a^2 ÷ ∜a"},
+          {"question": "∜a^2 ÷ ∜a^-3"},
+          {"question": "(∜x^2)^-3"},
+          {"question": "(∛a^2)^(1/3)"},
+          {"question": "∜(∜a)^-2"},
+          {"question": "√(4a^2/∜x)"},
+          {"question": "(∛27x)^-2"},
+          {"question": "(∜(x^4/x))^-2"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "පහත දැක්වෙන සම්භවයන් විසඳන්න.",
+      "page": 21,
+      "metadata": {
+        "number": "1",
+        "main_question": "පහත දැක්වෙන සම්භවයන් විසඳන්න.",
+        "sub_questions": [
+          {"question": "3^x = 9"},
+          {"question": "3^(x+2) = 243"},
+          {"question": "4^(3x) = 32"},
+          {"question": "2^(5x-2) = 8^x"},
+          {"question": "8^(x+1) = 4^x"},
+          {"question": "x^3 = 216"},
+          {"question": "2√x = 6"},
+          {"question": "∛(2x^2) = 2"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "පහත දැක්වෙන සම්භවයන් විසඳන්න.",
+      "page": 21,
+      "metadata": {
+        "number": "2",
+        "main_question": "පහත දැක්වෙන සම්භවයන් විසඳන්න.",
+        "sub_questions": [
+          {"question": "2^x × 8^x = 256"},
+          {"question": "8 × 2^(x-1) = 4^(x-2)"},
+          {"question": "5 × 25^(2x-1) = 125"},
+          {"question": "3^(2x) × 9^(3x-2) = 27^(-3x)"},
+          {"question": "4^x = 1/64"},
+          {"question": "(3^x)^(-1/2) = 1/27"},
+          {"question": "3^(4x) × 1/9 = 9^x"},
+          {"question": "x^2 = (1/8)^(2/3)"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "අගය සොයන්න.",
+      "page": 24,
+      "metadata": {
+        "number": "1",
+        "main_question": "අගය සොයන්න.",
+        "sub_questions": [
+          {"question": "log₅32"},
+          {"question": "lg 10000"},
+          {"question": "1/3 log₇27"},
+          {"question": "1/2 log₅√25"},
+          {"question": "log₉√81"},
+          {"question": "3 log₂∛8"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "පුලු කර අගය සොයන්න.",
+      "page": 24,
+      "metadata": {
+        "number": "2",
+        "main_question": "පුලු කර අගය සොයන්න.",
+        "sub_questions": [
+          {"question": "2 log₂16 - log₂8"},
+          {"question": "lg 80 - 3 lg 2"},
+          {"question": "2 lg 5 + 3 lg 2 - lg 2"},
+          {"question": "lg 75 - lg 3 + lg 28 - lg 7"},
+          {"question": "lg 18 - 3 lg 3 + 1/2 lg 9 + lg 5"},
+          {"question": "4 lg 2 + lg 15/4 - lg 6"},
+          {"question": "lg 1/256 - lg 125/4 - 3 lg 1/20"},
+          {"question": "log₅27 + 2 log₅3 - log₅3"},
+          {"question": "lg 12/5 + lg 25/21 - lg 2/7"},
+          {"question": "lg 3/4 - 2 lg 3/10 + lg 12 - 2"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "විසඳන්න.",
+      "page": 24,
+      "metadata": {
+        "number": "3",
+        "main_question": "විසඳන්න.",
+        "sub_questions": [
+          {"question": "lg x + lg 4 = lg 8 + lg 2"},
+          {"question": "4 lg 2 + 2 lg x + lg 5 = lg 15 + lg 12"},
+          {"question": "3 lg x + lg 96 = 2 lg 9 + lg 4"},
+          {"question": "lg x = 1/2 (lg 25 + lg 8 - lg 2)"},
+          {"question": "3 lg x + 2 lg 8 = lg 48 + 1/2 lg 25 - lg 30"},
+          {"question": "lg 125 + 2 lg 3 = 2 lg x + lg 5"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "අගය සොයන්න.",
+      "page": 25,
+      "metadata": {
+        "number": "1",
+        "main_question": "අගය සොයන්න.",
+        "sub_questions": [
+          {"question": "(√8)² × 1/√27"},
+          {"question": "(√125)³ × 1/√20 × 10"},
+          {"question": "32^(2/5) × 216^(2/3) / (81^(3/4) × ∛8⁰ × ∜27²)"},
+          {"question": "√(18 × 5²/8)"},
+          {"question": "(1/8)^(-4/3) × 5^-2 × 100"},
+          {"question": "27^(2/3) - 16^(3/4)"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "පුලු කර යන දලඹන සම්භව පූකාව කරන්න.",
+      "page": 25,
+      "metadata": {
+        "number": "2",
+        "main_question": "පුලු කර යන දලඹන සම්භව පූකාව කරන්න.",
+        "sub_questions": [
+          {"question": "√(a²b^(-1/2))"},
+          {"question": "(x^(-1/4)) × 1/√x^3"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": null,
+      "page": 25,
+      "metadata": {
+        "number": null,
+        "main_question": "(x^(1/2) - x^(-1/2))(x^(1/2) + x^(-1/2))",
+        "sub_questions": []
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": null,
+      "page": 25,
+      "metadata": {
+        "number": null,
+        "main_question": "(x ÷ ∜x)^y",
+        "sub_questions": []
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": null,
+      "page": 25,
+      "metadata": {
+        "number": null,
+        "main_question": "[(√a)²]^(-3/2)",
+        "sub_questions": []
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "සකනාවත්න කරන්න.",
+      "page": 25,
+      "metadata": {
+        "number": "3",
+        "main_question": "සකනාවත්න කරන්න.",
+        "sub_questions": [
+          {"question": "lg(217/38 ÷ 31/266) = 2 lg 7"},
+          {"question": "1/2 lg 9 + lg 2 = 2 lg 3 - lg 1.5"},
+          {"question": "log₅24 + log₅5 - log₅40 = 1"},
+          {"question": "lg 26 + lg 119 - lg 51 - lg 91 = lg 2 - lg 3"},
+          {"question": "2log₄3 + log₄20 - log₄36 = log₄10 - log₄2"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "පහත දැක්වෙන එක් එක් සංඛ්‍යාවට දශමාංශවේ පුර්වගණකයේ ලියා දක්වන්න.",
+      "page": 26,
+      "metadata": {
+        "number": "1",
+        "main_question": "පහත දැක්වෙන එක් එක් සංඛ්‍යාවට දශමාංශවේ පුර්වගණකයේ ලියා දක්වන්න.",
+        "sub_questions": [
+          {"question": "0.9843"},
+          {"question": "0.05"},
+          {"question": "0.0725"},
+          {"question": "0.0019"},
+          {"question": "0.003141"},
+          {"question": "0.000783"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "අගය සොයන්න.",
+      "page": 26,
+      "metadata": {
+        "number": "2",
+        "main_question": "අගය සොයන්න.",
+        "sub_questions": [
+          {"question": "lg 0.831"},
+          {"question": "lg 0.01175"},
+          {"question": "lg 0.0034"},
+          {"question": "lg 0.009"},
+          {"question": "lg 0.00005"},
+          {"question": "lg 0.00098"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "පහත දැක්වෙන සංඛ්‍යාව, දශමාංශ බල ලෙස ලියා දක්වන්න.",
+      "page": 26,
+      "metadata": {
+        "number": "3",
+        "main_question": "පහත දැක්වෙන සංඛ්‍යාව, දශමාංශ බල ලෙස ලියා දක්වන්න.",
+        "sub_questions": [
+          {"question": "0.831"},
+          {"question": "0.01175"},
+          {"question": "0.0034"},
+          {"question": "0.009"},
+          {"question": "0.00005"},
+          {"question": "0.00098"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "විද්‍යාත්මක අංකනයෙන් දී ඇති පහත දැක්වෙන එක් එක් සංඛ්‍යාවට දශමාංශ සංඛ්‍යාවක් ලෙස ලියා දක්වන්න.",
+      "page": 26,
+      "metadata": {
+        "number": "1",
+        "main_question": "විද්‍යාත්මක අංකනයෙන් දී ඇති පහත දැක්වෙන එක් එක් සංඛ්‍යාවට දශමාංශ සංඛ්‍යාවක් ලෙස ලියා දක්වන්න.",
+        "sub_questions": [
+          {"question": "3.37 × 10^-1"},
+          {"question": "5.99 × 10^-3"},
+          {"question": "6.0 × 10^-2"},
+          {"question": "5.745 × 10^0"},
+          {"question": "9.993 × 10^-4"},
+          {"question": "8.777 × 10^-3"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "ලඝුගණක වගුව භාවිතයෙන් අගය සොයන්න.",
+      "page": 29,
+      "metadata": {
+        "number": "2",
+        "main_question": "ලඝුගණක වගුව භාවිතයෙන් අගය සොයන්න.",
+        "sub_questions": [
+          {"question": "√25.1"},
+          {"question": "√947.5"},
+          {"question": "√0.0714"},
+          {"question": "√0.00913"},
+          {"question": "√0.7519"},
+          {"question": "√0.999"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "ලඝුගණක වගුව භාවිතයෙන් අගය සොයන්න.",
+      "page": 30,
+      "metadata": {
+        "number": null,
+        "main_question": "ලඝුගණක වගුව භාවිතයෙන් අගය සොයන්න.",
+        "sub_questions": [
+          {"question": "(8.765 × ∛27.03) / 24.51"},
+          {"question": "√(9.18 × 8.02²) / 9.83"},
+          {"question": "√(0.0945 × 4.821²) / 48.15"},
+          {"question": "(3 × 0.752²) / √17.96"},
+          {"question": "(6.591 × ∜0.0782) / 0.9821²"},
+          {"question": "(3.251 × ∛0.0234) / 0.8915"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "යකඩ සඳ සෙන්ටිමීටරයක් 7.86 g ස්කන්තයයකින් පූකිත වේ. දීප, පල්ල හා සතකම පිලිවෙලින් 5.4 m, 0.36 m හා 0.22 m වූ සතකනාගතාර යකඩ බල්ලියක ස්කන්තය සිදලාගයෙන් සොයන්න.",
+      "page": 31,
+      "metadata": {
+        "number": "1",
+        "main_question": "යකඩ සඳ සෙන්ටිමීටරයක් 7.86 g ස්කන්තයයකින් පූකිත වේ. දීප, පල්ල හා සතකම පිලිවෙලින් 5.4 m, 0.36 m හා 0.22 m වූ සතකනාගතාර යකඩ බල්ලියක ස්කන්තය සිදලාගයෙන් සොයන්න.",
+        "sub_questions": []
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "g = 4π²l/T² සූත්‍රවේ π = 3.142 ද l = 1.75 ද T = 2.7 නම් g හි අගය සොයන්න.",
+      "page": 31,
+      "metadata": {
+        "number": "2",
+        "main_question": "g = 4π²l/T² සූත්‍රවේ π = 3.142 ද l = 1.75 ද T = 2.7 නම් g හි අගය සොයන්න.",
+        "sub_questions": []
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "ආරය 0.75 m වූ වතුකාගාර කුණී ලෙලත කඩවිකින් අගය 0.07 m වූ වතුකාගාර කොකෙහක කතර ඉටන් කරන ලදී.",
+      "page": 31,
+      "metadata": {
+        "number": "3",
+        "main_question": "ආරය 0.75 m වූ වතුකාගාර කුණී ලෙලත කඩවිකින් අගය 0.07 m වූ වතුකාගාර කොකෙහක කතර ඉටන් කරන ලදී.",
+        "sub_questions": [
+          {"label": "i", "question": "තිපිරි කොකෙපේ වාසගතය π × 0.82 × 0.68 බව සොයන්න."},
+          {"label": "ii", "question": "π හි අගය 3.142 ලෙස ගෙන, ලඝුගණක වූ ආශ්‍රයෙන්, තිපිරි කොකෙපේ වාසගතය සොයන්න."}
+        ]
+      }
+    },
+  {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "ලගණක වගුව ආශ්‍රයෙන් අගය සොයන්න.",
+      "page": 26,
+      "metadata": {
+        "number": "2",
+        "main_question": "ලඝුගණක වගුව ආශ්‍රයෙන් අගය සොයන්න.",
+        "sub_questions": [
+          {"question": "antilog 2.5432"},
+          {"question": "antilog 1.9321"},
+          {"question": "antilog 0.9972"},
+          {"question": "antilog 4.5330"},
+          {"question": "antilog 2.0000"},
+          {"question": "antilog 3.5555"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "පුලු කරන්න.",
+      "page": 27,
+      "metadata": {
+        "number": "1",
+        "main_question": "පුලු කරන්න.",
+        "sub_questions": [
+          {"question": "0.7512 + 1.3142"},
+          {"question": "1.3072 + 2.2111"},
+          {"question": "2.5432 + 1.9513"},
+          {"question": "3.9121 + 1.5431"},
+          {"question": "0.7532 + 3.8542"},
+          {"question": "1.8311 + 2.5431 + 1.3954"},
+          {"question": "3.8760 - 2.5431"},
+          {"question": "2.5132 - 1.9332"},
+          {"question": "3.5114 - 2.4312"},
+          {"question": "2.9372 - 1.5449"},
+          {"question": "0.7512 + 1.9431"},
+          {"question": "1.9112 - 3.9543"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "පුලු කරන්න.",
+      "page": 27,
+      "metadata": {
+        "number": "2",
+        "main_question": "පුලු කරන්න.",
+        "sub_questions": [
+          {"question": "1.2513 + 0.9172 - 1.514"},
+          {"question": "3.2112 + 2.5994 - 1.5004"},
+          {"question": "3.2754 + 2.8211 - 1.4372"},
+          {"question": "0.8514 - 1.9111 - 2.3112"},
+          {"question": "3.7512 - (0.2511 + 1.8112)"},
+          {"question": "1.2572 + 3.9140 - 1.1111"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "ලඝුගණක වගුව භාවිතයෙන් අගය සොයන්න.",
+      "page": 28,
+      "metadata": {
+        "number": "1",
+        "main_question": "ලඝුගණක වගුව භාවිතයෙන් අගය සොයන්න.",
+        "sub_questions": [
+          {"question": "5.945 × 0.782"},
+          {"question": "0.7453 × 0.05921"},
+          {"question": "0.0085 × 0.0943"},
+          {"question": "5.21 × 0.752 × 0.093"},
+          {"question": "857 × 0.008321 × 0.457"},
+          {"question": "0.123 × 0.9857 × 0.79"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": null,
+      "page": 28,
+      "metadata": {
+        "number": "2",
+        "main_question": null,
+        "sub_questions": [
+          {"question": "7.543 ÷ 0.9524"},
+          {"question": "0.0752 ÷ 0.8143"},
+          {"question": "0.005273 ÷ 0.0078"},
+          {"question": "0.9347 ÷ 8.75"},
+          {"question": "0.0631 ÷ 0.003921"},
+          {"question": "0.0752 ÷ 0.0008531"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": null,
+      "page": 28,
+      "metadata": {
+        "number": "3",
+        "main_question": null,
+        "sub_questions": [
+          {"question": "(8.247 × 0.1973) / 0.9875"},
+          {"question": "(9.752 × 0.0054) / 0.09534"},
+          {"question": "(79.25 × 0.0043) / 0.3725"},
+          {"question": "(0.7135 × 0.4391) / 0.0059"},
+          {"question": "(5.378 × 0.9376) / (0.0731 × 0.471)"},
+          {"question": "(71.8 × 0.7823) / (23.19 × 0.0932)"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "අගය සොයන්න.",
+      "page": 29,
+      "metadata": {
+        "number": "1",
+        "main_question": "අගය සොයන්න.",
+        "sub_questions": [
+          {"question": "1.5413 × 2"},
+          {"question": "2.7321 × 3"},
+          {"question": "1.7315 × 3"},
+          {"question": "0.4882 × 3"},
+          {"question": "3.5111 × 2"},
+          {"question": "3.8111 × 4"}
+        ]
+      }
+    },
+    {
+      "type": "exercise",
+      "sub_topic": "ලඝුගණක",
+      "text": "අගය සොයන්න.",
+      "page": 29,
+      "metadata": {
+        "number": "2",
+        "main_question": "අගය සොයන්න.",
+        "sub_questions": [
+          {"question": "1.9412 ÷ 2"},
+          {"question": "0.5512 ÷ 2"},
+          {"question": "2.4312 ÷ 2"},
+          {"question": "3.5412 ÷ 3"},
+          {"question": "2.4712 ÷ 2"},
+          {"question": "4.5321 ÷ 2"},
+          {"question": "1.5432 ÷ 2"},
+          {"question": "2.9312 ÷ 3"},
+          {"question": "3.4112 ÷ 2"},
+          {"question": "1.7512 ÷ 3"},
+          {"question": "4.1012 ÷ 3"},
+          {"question": "5.1421 ÷ 3"}
+        ]
+      }
+}
+]
+}

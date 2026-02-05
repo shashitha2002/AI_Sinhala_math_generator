@@ -2,7 +2,7 @@
 
 An advanced AI-powered system that generates O/L (Ordinary Level) mathematics questions in Sinhala using Retrieval-Augmented Generation (RAG), Google Gemini API, and JWT-based authentication.
 
-## 🎯 Overview
+## Overview
 
 This project combines modern AI techniques with contextual learning materials to generate high-quality, contextually relevant mathematics problems in Sinhala. It leverages:
 
@@ -164,7 +164,7 @@ The core RAG system that:
 - `generate_questions()` - Generates questions based on topic
 - `retrieve_context()` - Retrieves relevant context using embeddings
 
-## 📊 API Usage
+##  API Usage
 
 ### 1. Authentication
 
@@ -303,7 +303,7 @@ ALGORITHM=HS256
 - **Password Hashing**: Uses bcrypt for secure password storage
 - **OAuth2 Password Bearer**: Standard OAuth2 scheme for token-based auth
 
-## 📦 Dependencies
+## Dependencies
 
 Key packages:
 

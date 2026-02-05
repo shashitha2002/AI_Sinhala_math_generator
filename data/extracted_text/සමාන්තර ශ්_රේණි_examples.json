@@ -1,0 +1,617 @@
+{
+  "examples": [
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "n වන පදය සොයා ගැනීම",
+      "question": "3, 7, 11, 15, ... සමාන්තර ශ්‍රේණියේ 15 වන පද සොයන්න.",
+      "steps": [
+        {
+          "step_description": "මෙහි a = 3, d = 7 - 3 = 4, n = 15",
+          "step_answer": null
+        },
+        {
+          "step_description": "Tₙ = a + (n - 1)d ප්‍රමේයයට මෙම අගය ආදේශනයෙන්,",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "T₁₅ = 3 + (15 - 1) × 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 + 56"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 59"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 15 වන පද 59 යි."
+        }
+      ],
+      "final_answer": "59"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "පළමු පදය සොයා ගැනීම",
+      "question": "සමාන්තර ශ්‍රේණියක් ප්‍රථම පදය අතර්ධය 4 ද විසිසය වන පද 105 ද යම් එහි මුල් පද සොයන්න.",
+      "steps": [
+        {
+          "step_description": "මෙහි d = 4 වන විට අතර්ධය n = 26 වන Tₙ = 105",
+          "step_answer": null
+        },
+        {
+          "step_description": "Tₙ = a + (n - 1)d ප්‍රමේයයට මෙම අගය ආදේශනයෙන්,",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "T₂₆ = a + (26 - 1) × 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "105 = a + (26 - 1) × 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 105 - 100 = a"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ a = 5"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ මුල් පද 5 යි."
+        }
+      ],
+      "final_answer": "5"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "මාන අතර්ධය සොයා ගැනීම",
+      "question": "සමාන්තර ශ්‍රේණිය මුල් පද -32 ද 12 වන පද 1 ද යම් එහි මාන අතර්ධය සොයන්න.",
+      "steps": [
+        {
+          "step_description": "මෙහි a = -32 වන n = 12 වන Tₙ = 1.",
+          "step_answer": null
+        },
+        {
+          "step_description": "Tₙ = a + (n - 1)d ප්‍රමේයයට මෙම අගය ආදේශනයෙන්,",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "T₁₂ = -32 + (12 - 1) × d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "1 = -32 + 11 × d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 33/11 = d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ d = 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ මාන අතර්ධය 3 යි."
+        }
+      ],
+      "final_answer": "3"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "පද අංකය සොයා ගැනීම",
+      "question": "30, 25, 20, ... සමාන්තර ශ්‍රේණියේ - 65 කවරක් වන පද දෝ?",
+      "steps": [
+        {
+          "step_description": "මෙහි a = 30, d = -5, Tₙ = -65",
+          "step_answer": null
+        },
+        {
+          "step_description": "Tₙ = a + (n - 1)d ප්‍රමේයයට මෙම අගය ආදේශනයෙන්,",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "-65 = 30 + (n - 1) × (-5)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "-65 = 30 - 5n + 5"
+        },
+        {
+          "step_description": null,
+          "step_answer": "-65 - 35 = -5n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "-100/-5 = n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "n = 20 ∴ -65 කවරක් 20 වන පද යි."
+        }
+      ],
+      "final_answer": "20"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "සමගාමී සමීකරණ භාවිතයෙන් a සහ d සොයා ගැනීම",
+      "question": "සමාන්තර ශ්‍රේණියක 7 වන පද 38 ද සිව්වළොස් වන පද 63 ද යම් එහි (i) පළමු පද සොයන්න. (ii) 20 වන පද සොයන්න.",
+      "steps": [
+        {
+          "step_description": "(i) මෙහි n = 7 වන Tₙ = 38 ද n = 12 වන Tₙ = 63 යොමු Tₙ = a + (n - 1)d ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "T₇ = a + (7 - 1) × d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "38 = a + 6d _____ ①"
+        },
+        {
+          "step_description": null,
+          "step_answer": "T₁₂ = a + (12 - 1) × d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "63 = a + 11d _____ ②"
+        },
+        {
+          "step_description": "දැන් සමීකරණ ① හා ② එකින් එක අඩු කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "63 - 38 = a + 11d - (a + 6d)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "25 = a + 11d - a - 6d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "25 = 5d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "5 = d"
+        },
+        {
+          "step_description": "d = 5 ① ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "38 = a + 6 × 5"
+        },
+        {
+          "step_description": null,
+          "step_answer": "38 - 30 = a"
+        },
+        {
+          "step_description": null,
+          "step_answer": "a = 8"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ මුල් පද 8 ද මාන අතර්ධය 5 ද යි."
+        },
+        {
+          "step_description": "(ii) T₂₀ = a + (n - 1)d ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "T₂₀ = 8 + (20 - 1) × 5"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 8 + 19 × 5"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 8 + 95"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 103"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 20 වන පද 103 යි."
+        }
+      ],
+      "final_answer": "(i) a = 8, d = 5 (ii) T₂₀ = 103"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "n වන පද සූත්‍රය භාවිතයෙන් ශ්‍රේණියක් විශ්ලේෂණය",
+      "question": "කවරක් ශ්‍රේණියක n වන පද Tₙ යොමු Tₙ = 3n + 4 ලෙස ලබා දී ඇත. (i) මෙම ශ්‍රේණියේ මුල් පද දෙන් මගින් මාන අතර සොයන්න. (ii) ශ්‍රේණියේ n වන පද සහ Tₙ = n + 1 වන පද අතර පරතරය දක්වන්න, එසේ මෙය ශ්‍රේණියක් වන බව සොයන්න. (iii) ශ්‍රේණියේ 169 කවරක් වන පද සොයන්න. (iv) අගය 95 වන පද ශ්‍රේණියට තිබේද යත් සොයන්න.",
+      "steps": [
+        {
+          "step_description": "(i) Tₙ = 3n + 4",
+          "step_answer": null
+        },
+        {
+          "step_description": "n = 1 වන T₁ = 3 × 1 + 4 = 7",
+          "step_answer": null
+        },
+        {
+          "step_description": "n = 2 වන T₂ = 3 × 2 + 4 = 10",
+          "step_answer": null
+        },
+        {
+          "step_description": "n = 3 වන T₃ = 3 × 3 + 4 = 13",
+          "step_answer": null
+        },
+        {
+          "step_description": "n = 4 වන T₄ = 3 × 4 + 4 = 16",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ මුල් පද තමන් විසින් එකින් 7, 10, 13 සහ 16 යි."
+        },
+        {
+          "step_description": "(ii) Tₙ₊₁ = 3n + 4 හි අගය n = n + 1",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "Tₙ₊₁ = 3(n + 1) + 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3n + 3 + 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ Tₙ₊₁ - Tₙ = (3n + 7) - (3n + 4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "නිකම සමාන්තර ශ්‍රේණියකි."
+        },
+        {
+          "step_description": "(iii) Tₙ = 169 වන දී අගය",
+          "step_answer": null
+        },
+        {
+          "step_description": "Tₙ = 3n + 4 ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "169 = 3n + 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "169 - 4 = 3n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "165/3 = n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "55 = n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ 169 කවරක් 55 වන පදයි."
+        },
+        {
+          "step_description": "(iv) අගය 95 වන පද ශ්‍රේණියට තිබේද යත් Tₙ = 95 වන n වන අගය සොයන්න. එබැවින්",
+          "step_answer": null
+        },
+        {
+          "step_description": "Tₙ = 95 වන n වන අගය සොයමු",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "95 = 3n + 4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "95 - 4 = 3n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "91/3 = n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "91 = 3n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "මෙහි n සකල නැත. එබැවින්, අගය 95 වන පද ශ්‍රේණියට නැත."
+        }
+      ],
+      "final_answer": "(i) 7, 10, 13, 16 (ii) සමාන්තර ශ්‍රේණියකි (iii) n = 55 (iv) අගය 95 වන පද නැත"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "පද සමූච්චය ගණනය කිරීම",
+      "question": "5, 10, 15, 20, ... සමාන්තර ශ්‍රේණියේ මුල් පද 12හි සමූච්චය සොයන්න.",
+      "steps": [
+        {
+          "step_description": "මෙහි a = 5, d = 5, n = 12",
+          "step_answer": null
+        },
+        {
+          "step_description": "Sₙ = n/2{2a+(n-1)d} ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "S₁₂ = 12/2{2×5+(12-1)×5}"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 12/2{10+11×5}"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 6 {10+55}"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 6×65"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 390"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ මුල් පද 12හි සමූච්චය 390 යි."
+        }
+      ],
+      "final_answer": "390"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "පද සමූච්චය ගණනය කිරීම (අවසාන පදය ලබා දී ඇති විට)",
+      "question": "පද 16ක් ඇති සමාන්තර ශ්‍රේණියක මුල් පද 75 ද මාන අතර්ධය -5 ද, අවසාන පදය 0 ද යම් එහි පද සියල්ලේ සමූච්චය සොයන්න.",
+      "steps": [
+        {
+          "step_description": "මෙහි n = 16, a = 75, d = -5, l = 0",
+          "step_answer": null
+        },
+        {
+          "step_description": "Sₙ = n/2(a+l) ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "S₁₆ = 16/2(75+0)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 16/2×75"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 8×75"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 600"
+        },
+        {
+          "step_description": null,
+          "step_answer": "පද සියල්ලේ සමූච්චය 600 යි."
+        }
+      ],
+      "final_answer": "600"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "පද සමූච්චය ගණනය කිරීම (පළමුව පද ගණන සොයා ගැනීම)",
+      "question": "70, 66, 62, 58, ... සමාන්තර ශ්‍රේණියේ පද සියල්ලේ සමූච්චය සොයන්න. මෙහි a = 70, l = 2, d = -4",
+      "steps": [
+        {
+          "step_description": "Tₙ = a+(n-1)d ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "2 = 70+(n-1)×(-4)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "2 = 70-4n+4"
+        },
+        {
+          "step_description": null,
+          "step_answer": "2-74 = -4n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "-72/-4 = n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "18 = n"
+        },
+        {
+          "step_description": "ශ්‍රේණියේ පද 18 ක් ඇත, එය 18ක සමූච්චය",
+          "step_answer": null
+        },
+        {
+          "step_description": "Sₙ = n/2(a+l) ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "S₁₈ = 18/2(70+2)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 18/2×72"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 9×72"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 648"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ ශ්‍රේණියේ පද සියල්ලේ සමූච්චය 648 යි."
+        }
+      ],
+      "final_answer": "648"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "පද ගණන සොයා ගැනීම",
+      "question": "සමාන්තර ශ්‍රේණියක මුල් පද 12 ද අවසාන පද 99 ද සහ පද සමූච්චය 1665 ද යම්. එම ශ්‍රේණියේ පද ගණන සොයන්න.",
+      "steps": [
+        {
+          "step_description": "මෙහි a = 12, l = 99, Sₙ = 1665",
+          "step_answer": null
+        },
+        {
+          "step_description": "Sₙ = n/2(a+l) ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "1665 = n/2(12+99)"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3330 = n×111"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3330/111 = n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "30 = n"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ ශ්‍රේණියේ පද ගණන 30 යි."
+        }
+      ],
+      "final_answer": "30"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "මාන අතර්ධය සොයා ගැනීම",
+      "question": "දැන් මෙම ශ්‍රේණියේ මාන අතර්ධය සොයමු.",
+      "steps": [
+        {
+          "step_description": "මෙහි a = 12, Tₙ = 99, n = 30",
+          "step_answer": null
+        },
+        {
+          "step_description": "Tₙ = a+(n-1)d ට ආදේශනයෙන්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "99 = 12+(30-1)×d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "99 = 12+29×d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "99-12 = 29×d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "87/29 = d"
+        },
+        {
+          "step_description": null,
+          "step_answer": "3 = d"
+        },
+        
+        {
+          "step_description": null,
+          "step_answer": "∴ ශ්‍රේණියේ මාන අතර්ධය 3 යි."
+        }
+      ],
+      "final_answer": "d = 3"
+    },
+    {
+      "type": "exercises",
+      "topic": "සමාන්තර ශ්‍රේණි",
+      "sub_topic": "පද 15හි සමූච්චය ගණනය කිරීම",
+      "question": "දැන් පද 15හි සමූච්චය සොයමු.",
+      "steps": [
+        {
+          "step_description": "මෙහි n = 15, a = 12, d = 3",
+          "step_answer": null
+        },
+        {
+          "step_description": "Sₙ = n/2{2a+(n-1)d}",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "S₁₅ = 15/2{2×12+(15-1)×3}"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 15/2{24+14×3}"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 15/2{24+42}"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 15/2{66}"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 15×33"
+        },
+        {
+          "step_description": null,
+          "step_answer": "S₁₅ = 495"
+        },
+        {
+          "step_description": null,
+          "step_answer": "මුල් පද 15 හි සමූච්චය 495 යි."
+        }
+      ],
+      "final_answer": "495"
+    }
+  ]
+}
