@@ -26,7 +26,7 @@ options = vision.FaceLandmarkerOptions(
     base_options=base_options,
     output_face_blendshapes=False,
     output_facial_transformation_matrixes=False,
-    num_faces=2,
+    num_faces=1,
     min_face_detection_confidence=0.5,
     min_face_presence_confidence=0.5,
     min_tracking_confidence=0.5)
@@ -113,7 +113,8 @@ class VideoCamera:
                 
                 # Draw landmarks manually
                 if detection_result.face_landmarks:
-                    for face_landmarks in detection_result.face_landmarks:
+                    # Enforce single face for mesh drawing
+                    for face_landmarks in detection_result.face_landmarks[:1]:
                         for landmark in face_landmarks:
                             x = int(landmark.x * frame.shape[1])
                             y = int(landmark.y * frame.shape[0])
@@ -164,11 +165,13 @@ class VideoCamera:
             # --------------------------------------
             faces = face_cascade.detectMultiScale(gray, 1.3, 5, minSize=(30, 30))
             
-            # Update faces detected count
-            emotion_data['faces_detected'] = len(faces)
-            
             if len(faces) > 0:
-                print(f"Detected {len(faces)} face(s)")
+                # Keep only the largest face (closest to camera)
+                faces = sorted(faces, key=lambda f: f[2] * f[3], reverse=True)[:1]
+                print(f"Detected {len(faces)} face(s) - Processing largest only")
+
+            # Update faces detected count (after filtering)
+            emotion_data['faces_detected'] = len(faces)
             
             for (x, y, w, h) in faces:
                 # Draw rectangle around face
