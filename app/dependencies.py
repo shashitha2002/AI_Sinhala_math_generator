@@ -2,11 +2,15 @@ import os
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from jose import JWTError, jwt
+from typing import Optional
+
 from app.database import users_collection
 from app.auth_utils import SECRET_KEY, ALGORITHM
-from app.models.rag_model import SinhalaRAGSystem  # Importing your class
+from app.models.rag_model import SinhalaRAGSystem
+from app.models.model_paper_generator import ModelPaperGenerator
 
-# 1. Auth Dependency
+# ==================== Auth Dependency ====================
+
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/token")
 
 async def get_current_user(token: str = Depends(oauth2_scheme)):
@@ -28,17 +32,32 @@ async def get_current_user(token: str = Depends(oauth2_scheme)):
         raise credentials_exception
     return user
 
-# 2. RAG System Dependency (Singleton Pattern)
-# We store the instance here so it loads only once
-rag_instance = None
 
-def get_rag_system():
-    global rag_instance
-    if rag_instance is None:
+# ==================== RAG System Dependency (Singleton) ====================
+
+_rag_instance: Optional[SinhalaRAGSystem] = None
+
+def get_rag_system() -> SinhalaRAGSystem:
+    global _rag_instance
+    if _rag_instance is None:
         api_key = os.getenv("GEMINI_API_KEY")
         if not api_key:
-            raise HTTPException(status_code=500, detail="API Key not configured")
-        print("Initializing RAG System...")
-        rag_instance = SinhalaRAGSystem(api_key=api_key)
-        # You can also call rag_instance.load_all_data() here if you want auto-load
-    return rag_instance
+            raise HTTPException(status_code=500, detail="GEMINI_API_KEY not configured")
+        print("🚀 Initializing RAG System...")
+        _rag_instance = SinhalaRAGSystem(api_key=api_key)
+    return _rag_instance
+
+
+# ==================== Model Paper Generator Dependency (Singleton) ====================
+
+_model_paper_generator_instance: Optional[ModelPaperGenerator] = None
+
+def get_model_paper_generator() -> ModelPaperGenerator:
+    global _model_paper_generator_instance
+    if _model_paper_generator_instance is None:
+        api_key = os.getenv("GEMINI_API_KEY")
+        if not api_key:
+            raise HTTPException(status_code=500, detail="GEMINI_API_KEY not configured")
+        print("🚀 Initializing Model Paper Generator...")
+        _model_paper_generator_instance = ModelPaperGenerator(api_key=api_key)
+    return _model_paper_generator_instance
