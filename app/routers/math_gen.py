@@ -48,3 +48,23 @@ async def generate_questions(
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@router.get("/topics")
+async def get_available_topics():
+    # Return a list of supported topics for generation
+    # Ideally fetched from RAG system config or DB
+    return {
+        "success": True,
+        "topics": [
+            {"sinhala": "වාරික ගණනය", "english": "Installments"},
+            {"sinhala": "වීජ ගණිතය", "english": "Algebra"},
+            {"sinhala": "ජ්‍යාමිතිය", "english": "Geometry"},
+            {"sinhala": "ත්‍රිකෝණමිතිය", "english": "Trigonometry"},
+            {"sinhala": "සංඛ්‍යානය", "english": "Statistics"},
+            {"sinhala": "සම්භාවිතාව", "english": "Probability"},
+            {"sinhala": "මිනුම්", "english": "Mensuration"},
+            {"sinhala": "ශ්‍රේණි", "english": "Progressions"},
+            {"sinhala": "වර්ගඵලය", "english": "Area"},
+            {"sinhala": "පරිමාව", "english": "Volume"}
+        ]
+    }

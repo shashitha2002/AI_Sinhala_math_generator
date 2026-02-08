@@ -26,6 +26,8 @@ async def get_current_user(token: str = Depends(oauth2_scheme)):
     user = await users_collection.find_one({"email": email})
     if user is None:
         raise credentials_exception
+    
+    # Ensure _id is a string if needed elsewhere, but typically we want the dict
     return user
 
 # 2. RAG System Dependency (Singleton Pattern)

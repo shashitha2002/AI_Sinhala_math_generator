@@ -102,7 +102,7 @@ class SinhalaRAGSystem:
         self,
         examples_path: str = "data/extracted_text/extracted_examples.json",
         exercises_path: str = "data/extracted_text/exteacted_exercises.json",
-        paragraphs_path: str = "data/extracted_text/paragraphs_and_tables. json",
+        paragraphs_path: str = "data/extracted_text/paragraphs_and_tables.json",
         guidelines_path:  str = "data/extracted_text/guidelines.json"
     ) -> bool:
         """

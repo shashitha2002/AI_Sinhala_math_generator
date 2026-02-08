@@ -10,7 +10,7 @@ load_dotenv()
 SECRET_KEY = os.getenv("SECRET_KEY", "unsafe_secret_key")
 ALGORITHM = "HS256"
 
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+pwd_context = CryptContext(schemes=["argon2"], deprecated="auto")
 
 def get_password_hash(password: str) -> str:
     # DEBUG: Print to terminal to see what is actually coming in
