@@ -45,7 +45,7 @@
           "answer": "10"
         }
       ],
-      "topic": "",
+      "topic": "ප්‍රතිලෝම සමානුපාතය",
       "difficulty": "EASY"
     },
     {
@@ -77,7 +77,7 @@
           "answer": "11/12x"
         }
       ],
-      "topic": "",
+      "topic": "වීජීය භාග",
       "difficulty": "EASY"
     },
     {
@@ -105,7 +105,7 @@
           "answer": "2(x - 3)(x + 3)"
         }
       ],
-      "topic": "",
+      "topic": "වර්ගජ ප්‍රකාශනවල සාධක",
       "difficulty": "EASY"
     },
     {
@@ -137,7 +137,7 @@
           "answer": "1.6375"
         }
       ],
-      "topic": "",
+      "topic": "ලඝුගණක",
       "difficulty": "MEDIUM"
     },
     {
@@ -173,7 +173,7 @@
           "answer": "6"
         }
       ],
-      "topic": "",
+      "topic": "ඝන වස්තුවල පෘෂ්ඨ වර්ගඵලය",
       "difficulty": "MEDIUM"
     },
     {
@@ -201,7 +201,7 @@
           "answer": "3/16"
         }
       ],
-      "topic": "",
+      "topic": "සම්භාවිතාව",
       "difficulty": "EASY"
     },
 
@@ -234,8 +234,8 @@
           "answer": "3x/4"
         }
       ],
-      "topic": "",
-      "difficulty": ""
+      "topic": "වීජීය භාග",
+      "difficulty": "EASY"
     },
     {
       "type": "short_answer",
@@ -270,7 +270,7 @@
           "answer": "5වන පදය = -48"
         }
       ],
-      "topic": "",
+      "topic": "ගුණෝත්තර ශ්‍රේණි",
       "difficulty": "MEDIUM"
     },
     {
@@ -318,7 +318,7 @@
           "answer": "30x²y²"
         }
       ],
-      "topic": "",
+      "topic": "විජීය ප්‍රකාශනවල කුඩා ම පොදු ගුණාකාරය",
       "difficulty": "EASY"
     },
     {
@@ -350,8 +350,8 @@
           "answer": "r = 14"
         }
       ],
-      "topic": "",
-      "difficulty": ""
+      "topic": "ඝන වස්තුවල පරිමාව",
+      "difficulty": "HARD"
     },
     {
       "type": "short_answer",
@@ -382,8 +382,8 @@
           "answer": "රු. 6000"
         }
       ],
-      "topic": "",
-      "difficulty": ""
+      "topic": "පොලිය",
+      "difficulty": "EASY"
     },
     {
       "type": "structured",
@@ -470,7 +470,7 @@
           "answer": ""
         }
       ],
-      "topic": "",
+      "topic": "බදු / කොටස් වෙළඳපොළ",
       "difficulty": "MEDIUM"
     },
     {
@@ -546,7 +546,7 @@
           "answer": "29.8%"
         }
       ],
-      "topic": "කොටස් වෙළඳපොළ",
+      "topic": "ප්‍රතිශත",
       "difficulty": "HARD"
     },
     {
@@ -584,7 +584,7 @@
           "answer": "මානෙල්ගේ පොලී අනුපාතිකය (24%) රුවිනිගේ පොලී අනුපාතිකයට (13%) වඩා වැඩි බැවින් ප්‍රකාශය සත්‍ය වේ."
         }
       ],
-      "topic": "",
+      "topic": "කොටස් වෙළඳපොළ",
       "difficulty": "HARD"
     },
     {
@@ -626,8 +626,8 @@
           "answer": ""
         }
       ],
-      "topic": "",
-      "difficulty": ""
+      "topic": "සමගාමී සමීකරණ",
+      "difficulty": "MEDIUM"
     },
     {
       "type": "essay_type",
@@ -714,7 +714,7 @@
           "answer": ""
         }
       ],
-      "topic": "",
+      "topic": "ඝන වස්තුවල පරිමාව/ලඝුගණක",
       "difficulty": "MEDIUM"
     },
     {
@@ -810,7 +810,7 @@
           "answer": ""
         }
       ],
-      "topic": "",
+      "topic": "සමාන්තර ශ්‍රේණි",
       "difficulty": "MEDIUM"
     }
   ]

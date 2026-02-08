@@ -3540,6 +3540,356 @@
         }
       ],
       "final_answer": "495"
+    },
+    {
+      "type": "exercises",
+      "topic": "ශ්‍රීඝ්‍රතාවය",
+      "sub_topic": "වේගය ගණනය කිරීම",
+      "question": "එක්තරා මෝටර් රථයක් එක් මී තත්පරයට මීටර් 100ක දුරක් ගමන් කරයි. මී තත්පරයකට කොපමණ දුරක් යන බව මීටර් වලින්ද ගණනය කරන්න.",
+      "steps": [
+        {
+          "step_description": "වේගය = යන දුර / ගත වන කාලය",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 100 m / 20 s"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 5 ms⁻¹"
+        }
+      ],
+      "final_answer": "5 ms⁻¹"
+    },
+    {
+      "type": "exercises",
+      "topic": "ශ්‍රීඝ්‍රතාවය",
+      "sub_topic": "දුර ගණනය කිරීම",
+      "question": "තත්පරයට මීටර් 5ක නියත වේගයකින් චලිතය වන වස්තුවක් මිනිත්තුවක් තුල චලිතය වන දුර ගණනය කරන්න.",
+      "steps": [
+        {
+          "step_description": "චලිතය වන දුර = වේගය × කාලය",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 5 ms⁻¹ × 60 s"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 300 m"
+        }
+      ],
+      "final_answer": "300 m"
+    },
+    {
+      "type": "exercises",
+      "topic": "ශ්‍රීඝ්‍රතාවය",
+      "sub_topic": "කාලය ගණනය කිරීම",
+      "question": "පැයට කිලෝමීටර් 60ක නියත වේගයකින් ගමන් කරන වාහනයක් කිලෝමීටර් 150ක් දුරක් ගමන් කරයි නම් ගත වන කාලය ගණනය කරන්න.",
+      "steps": [
+        {
+          "step_description": "ගත වන කාලය = දුර / වේගය",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 150 km / 60 kmh⁻¹"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2 1/2 h"
+        }
+      ],
+      "final_answer": "2 1/2 h"
+    },
+    {
+      "type": "exercises",
+      "topic": "ශ්‍රීඝ්‍රතාවය",
+      "sub_topic": "ඒකක පරිවර්තනය සහ දුර ගණනය",
+      "question": "මහා මාර්ගයේ ගමන් කරන වාහනයක වේගමාපකයේ 36 kmh⁻¹ දක්වා ඇත. මෙම වාහනය තත්පර 5ක් තුළ ගමන් කරන දුර ප්‍රමාණය කීයද? වේගය පැයට කිලෝමීටර්වලින් දී ඇත. එය තත්පරයට මීටර්වලට ගතහොත්?",
+      "steps": [
+        {
+          "step_description": "වේගය 36 kmh⁻¹ බැවින්",
+          "step_answer": null
+        },
+        {
+          "step_description": "පැය 1හ දී යන දුර = 36 km",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 36 × 1000 m"
+        },
+        {
+          "step_description": "පැය 1 = තත්පර 60 × 60",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ තත්පර 60 × 60හ දී යන දුර = 36 × 1000 m"
+        },
+        {
+          "step_description": null,
+          "step_answer": "තත්පර 1හ දී යන දුර = (36×1000)/(60×60) m"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ වාහනය තත්පරයකහ දී ගමන් කරන දුර = 10 m"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ තත්පර 5හ දී ගමන් කරන දුර = 10 × 5 m"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 50 m"
+        }
+      ],
+      "final_answer": "50 m"
+    },
+    {
+      "type": "exercises",
+      "topic": "ශ්‍රීඝ්‍රතාවය",
+      "sub_topic": "ඒකක පරිවර්තනය සහ කාලය ගණනය",
+      "question": "පැයට කිලෝමීටර් 60ක නියත වේගයකින් ගමන් කරන මීටර් 75ක් දිග දුර්ග සැගවුම් පසු කිරීමට ගත වන කාලය ගණනය කරන්න.",
+      "steps": [
+        {
+          "step_description": "සැගවුම් කෑම තුළ දුර්ගය ගමන් කරන දුර = 75 m",
+          "step_answer": null
+        },
+        {
+          "step_description": "පළමුව, වේගය පැයට කිලෝමීටර්ට තත්පරයට මීටර් බවට පරිවර්තන කරමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": "දුර්ගයේ වේගය 60 kmh⁻¹ වන බැවින්",
+          "step_answer": null
+        },
+        {
+          "step_description": "පැය 1හ දී යන දුර = 60 km",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 60×1000 m"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ තත්පරයකහ දී යන දුර = (60×1000)/(60×60) m"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 50/3 m"
+        },
+        {
+          "step_description": null,
+          "step_answer": "∴ දුර්ගයේ වේගය = 50/3 ms⁻¹"
+        },
+        {
+          "step_description": "කාලය = දුර / වේගය බැවින්",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "දුර්ගය සැගවුම් කෑම තුළ ගත කරන කාලය = 75 ÷ 50/3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= තත්පර 75 × 3/50"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= තත්පර 4.5"
+        }
+      ],
+      "final_answer": "තත්පර 4.5"
+    },
+    {
+      "type": "exercises",
+      "topic": "ශ්‍රීඝ්‍රතාවය",
+      "sub_topic": "ඒකක පරිවර්තනය සහ කාලය ගණනය",
+      "question": "පැයට කිලෝමීටර් 72ක නියත වේගයකින් ගමන් කරන මීටර් 100ක් දිග පාලමක් මීටර් 60ක් දිග දුර්ගයක් එය පසු කර යන කාලය ගණනය කරන්න.",
+      "steps": [
+        {
+          "step_description": "මෙහි දී දුර්ගය මීටර් දුරක් හා කාලය තත්පර්වලින් දී ඇති නිසා",
+          "step_answer": null
+        },
+        {
+          "step_description": "පළමුව වේගය පැයට කි.මී.හ දී ඇති මීටර්වලින් තත්පරයට මීටර් බවට පරිවර්තන කර ගනිමු.",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "72 kmh⁻¹ = (72×1000)/(60×60) ms⁻¹"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 20 ms⁻¹"
+        },
+        {
+          "step_description": "පාලම හා දුර්ගය යන දෙකම පසු කිරීමට ගමන් කරන මුළු දුර = 100 + 60 m",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 160 m"
+        },
+        {
+          "step_description": "දුර්ගය තත්පර 1හ දී ගමන් කරන දුර = 20 m",
+          "step_answer": null
+        },
+        {
+          "step_description": "එබැවින්, මීටර් 20ක් යන කාලය = තත්පර 1",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "මීටර් 160ක් යන කාලය = තත්පර 1/20 ×160"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= තත්පර 8"
+        }
+      ],
+      "final_answer": "තත්පර 8"
+    },
+    {
+      "type": "exercises",
+      "topic": "ශ්‍රීඝ්‍රතාවය",
+      "sub_topic": "සාමාන්‍ය වේගය ගණනය කිරීම",
+      "question": "නුවරඑළියට යන රථයක් කොළඹ සිට පළමු කිලෝමීටර් 25 ගමන් කිරීමට පැය 1/2 ක් ගත කරයි. ඉන් පසු කිලෝමීටර් 80ක් දුරක් ගමන් කිරීමට පැය 1 වන කාලයක් ගත කරයි. රථය කොළඹ සිට නුවරඑළිය දක්වා ගමන් කරන සාමාන්‍ය වේගය කිලෝමීටර්වලින් ගණනය කරන්න.",
+      "steps": [
+        {
+          "step_description": "රථය ගමන් කළ මුළු දුර = 25+80 km",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 105 km"
+        },
+        {
+          "step_description": "ගමන් කිරීමට ගත වූ මුළු කාලය = පැය 1/2 +1",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= පැය 1 1/2"
+        },
+        {
+          "step_description": "රථය ගමන් කරන මුළු සාමාන්‍ය වේගය = 105 km ÷ 1 1/2 h",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 105 × 2/3"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 70 kmh⁻¹"
+        }
+      ],
+      "final_answer": "70 kmh⁻¹"
+    },
+    {
+      "type": "exercises",
+      "topic": "ශ්‍රීඝ්‍රතාවය",
+      "sub_topic": "ප්‍රවාහ වේගය ගණනය කිරීම",
+      "question": "පයිපයක් මඟින් ඇති කළමණාකාර ප්‍රවාහයක් තත්පර 60ක කාලයක් තුළ ලීටර් 30ක් ජලය පිරවීමට ගත කරයි. කළමණාකාරයේ ප්‍රවාහ වේගය තත්පරයකට ලීටර්වලින් ගණනය කරන්න.",
+      "steps": [
+        {
+          "step_description": "ප්‍රවාහ වේගය = පිරවූ ජල ප්‍රමාණය / ගත වන කාලය",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 30 l / 60 s"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 1/2 ls⁻¹"
+        }
+      ],
+      "final_answer": "1/2 ls⁻¹"
+    },
+    {
+      "type": "exercises",
+      "topic": "ශ්‍රීඝ්‍රතාවය",
+      "sub_topic": "පරිමාව සහ ප්‍රවාහ වේගය ගණනය කිරීම",
+      "question": "සිද්ධාන්ත නිර්මාණය සඳහා භූමියේ මීටර් 2ක් හා මීටර් 1 1/2ක් දුරු මීටර් 1ක් උස වැසුම් පිරවීමේ දී මුදුන විය යුතු කාලය මිනිත්තු 50 බැවින් මූලික පරිමාව ලීටර්වලින් ගණනය කළ විට මූලිකාව ලීටර් 60 බැවින් තත්පරයකට ප්‍රවාහ වේගය තත්පරයට ලීටර්වලින් ගණනය කරන්න.",
+      "steps": [
+        {
+          "step_description": "වැසුම් පිරවීමේ පරිමාව = 2 m × 1 1/2 m × 1 m",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 2 × 3/2 × 1 m³"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3 m³"
+        },
+        {
+          "step_description": "1 m³ = 1000 ලීටර් බැවින්,",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "වැසුම් පිරවීමේ චිත්තයට යන ජල ප්‍රමාණය = 3 × 1000 l"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3000 l"
+        },
+        {
+          "step_description": "කළමණාකාරයේ ප්‍රවාහ වේගය = වැසුම් පිරවීමේ පරිමාව / ගත වූ කාලය",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 3000 l / මිනිත්තු 50"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= මිනිත්තුවට ලීටර් 60"
+        }
+      ],
+      "final_answer": "මිනිත්තුවට ලීටර් 60"
+    },
+    {
+      "type": "exercises",
+      "topic": "ශ්‍රීඝ්‍රතාවය",
+      "sub_topic": "කාලය ගණනය කිරීම",
+      "question": "තත්පරයකට මිලිලීටර් 0.2ක ප්‍රවාහයකින් හැරෙන ජලයෙන් මිලිලීටර් 450ක පරිමාවක් පිරවීමට ගත වන කාලය ගණනය කරන්න.",
+      "steps": [
+        {
+          "step_description": "ප්‍රවාහය = පරිමාව / කාලය බැවින්",
+          "step_answer": null
+        },
+        {
+          "step_description": "ගත වන කාලය = පිරවූ පරිමාව / ජල ප්‍රවාහය",
+          "step_answer": null
+        },
+        {
+          "step_description": null,
+          "step_answer": "= 450 ml / 0.2 mls⁻¹"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= තත්පර 2250"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= මිනිත්තු 2250/60"
+        },
+        {
+          "step_description": null,
+          "step_answer": "= මිනිත්තු 37 1/2"
+        }
+      ],
+      "final_answer": "මිනිත්තු 37 1/2"
     }
   ]
 }

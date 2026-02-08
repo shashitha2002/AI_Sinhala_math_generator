@@ -619,114 +619,208 @@ HARD සඳහා:
                     print(f"Failed to create {name}: {e}")
     
     def _load_data_file(self, name: str, path: str):
-        """Load a specific data file into ChromaDB - handles new structure"""
+        """Load a specific data file into ChromaDB - handles various structures"""
         print(f"📂 Loading {name} from {path}...")
         
-        with open(path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+        except Exception as e:
+            print(f"  ❌ Error reading file {path}: {e}")
+            return
         
-        texts, metadata, ids = [], [], []
+        texts, metadata_list, ids = [], [], []
         
         if name == 'examples':
-            examples = data.get('examples', [])
+            # Handle examples - could be list or dict with 'examples' key
+            examples = data if isinstance(data, list) else data.get('examples', [])
+            
             for i, example in enumerate(examples):
-                # Build full text from new structure
+                if not isinstance(example, dict):
+                    print(f"  ⚠️ Skipping non-dict example at index {i}")
+                    continue
+                    
+                # Build full text from structure
                 q_text = example.get('question', example.get('Question', ''))
                 full_text = f"උදාහරණය:\n{q_text}\n\nවිසඳුම:\n"
                 
-                # Handle both old and new step structures
-                steps = example.get('Steps', [])
+                # Handle steps
+                steps = example.get('Steps', example.get('steps', []))
                 for step in steps:
                     if isinstance(step, dict):
-                        step_text = step.get('step_answer', step.get('Step', ''))
+                        step_text = step.get('step_answer', step.get('Step', step.get('step', '')))
                         full_text += f"{step_text}\n"
-                    else:
+                    elif isinstance(step, str):
                         full_text += f"{step}\n"
                 
-                final_ans = example.get('Final_answer', '')
+                final_ans = example.get('Final_answer', example.get('final_answer', ''))
                 full_text += f"\nඅවසාන පිළිතුර: {final_ans}"
                 
                 texts.append(full_text)
                 meta = {
                     'type': 'example',
                     'index': i,
-                    'topic': example.get('topic', 'පොළිය'),
-                    'sub_topic': example.get('sub_topic', '')
+                    'topic': str(example.get('topic', '')),
+                    'sub_topic': str(example.get('sub_topic', ''))
                 }
-                metadata.append(meta)
+                metadata_list.append(meta)
                 ids.append(f"ex_{i}")
+            
             self.data['examples'] = examples
             
         elif name == 'exercises':
-            exercises = data.get('exercises', [])
-            for i, exercise in enumerate(exercises):
-                # Handle new structure
-                main_q = exercise.get('question', '')
-                if not main_q:
-                    # Fallback to old structure
-                    main_q = exercise.get('metadata', {}).get('main_question', exercise.get('text', ''))
+            # Handle exercises - could be list or dict with 'exercises' key
+            exercises_raw = data if isinstance(data, list) else data.get('exercises', [])
+            
+            # If still not a list, try other common keys
+            if not isinstance(exercises_raw, list):
+                for key in ['exercise', 'questions', 'data']:
+                    if key in data and isinstance(data[key], list):
+                        exercises_raw = data[key]
+                        break
+            
+            if not isinstance(exercises_raw, list):
+                print(f"  ⚠️ Could not find exercises list. Keys: {data.keys() if isinstance(data, dict) else 'N/A'}")
+                exercises_raw = []
+            
+            exercises = []
+            for i, exercise in enumerate(exercises_raw):
+                # Skip if not a dictionary
+                if not isinstance(exercise, dict):
+                    print(f"  ⚠️ Skipping non-dict exercise at index {i}: {type(exercise)}")
+                    continue
                 
+                exercises.append(exercise)
+                
+                # ===== Handle BOTH structures =====
+                
+                # Structure 1: Direct 'question' key
+                main_q = exercise.get('question', '')
+                
+                # Structure 2: 'text' key or nested in 'metadata'
+                if not main_q:
+                    main_q = exercise.get('text', '')
+                if not main_q:
+                    metadata_obj = exercise.get('metadata', {})
+                    if isinstance(metadata_obj, dict):
+                        main_q = metadata_obj.get('main_question', '')
+                
+                # Build full text
                 full_text = f"අභ්‍යාස ප්‍රශ්නය:\n{main_q}"
                 
-                # Handle new structure sub-questions
-                sub_qs = exercise.get('sub_questions', [])
-                if not sub_qs:
-                    # Fallback to old structure
-                    sub_qs = exercise.get('metadata', {}).get('sub_questions', [])
+                # ===== Handle sub_questions from BOTH structures =====
+                sub_qs = []
                 
+                # Structure 1: Direct 'sub_questions' key
+                direct_sub_qs = exercise.get('sub_questions', [])
+                if isinstance(direct_sub_qs, list):
+                    sub_qs = direct_sub_qs
+                
+                # Structure 2: Nested in 'metadata'
+                if not sub_qs:
+                    metadata_obj = exercise.get('metadata', {})
+                    if isinstance(metadata_obj, dict):
+                        nested_sub_qs = metadata_obj.get('sub_questions', [])
+                        if isinstance(nested_sub_qs, list):
+                            sub_qs = nested_sub_qs
+                
+                # Add sub-questions to text
                 if sub_qs:
                     full_text += "\n\nඅනු ප්‍රශ්න:\n"
                     for j, sub in enumerate(sub_qs, 1):
-                        q_text = sub.get('sub_question', sub.get('question', sub.get('text', '')))
-                        full_text += f"{j}. {q_text}\n"
+                        if isinstance(sub, dict):
+                            # Handle both 'sub_question' and 'question' keys
+                            q_text = sub.get('sub_question', sub.get('question', sub.get('text', '')))
+                            if q_text:
+                                full_text += f"{j}. {q_text}\n"
+                        elif isinstance(sub, str):
+                            full_text += f"{j}. {sub}\n"
+                
+                # Get topic - handle both structures
+                topic = exercise.get('topic', '')
+                sub_topic = exercise.get('sub_topic', '')
                 
                 texts.append(full_text)
                 meta = {
                     'type': 'exercise',
                     'index': i,
-                    'topic': exercise.get('topic', 'පොළිය'),
-                    'sub_topic': exercise.get('sub_topic', '')
+                    'topic': str(topic) if topic else '',
+                    'sub_topic': str(sub_topic) if sub_topic else ''
                 }
-                metadata.append(meta)
+                metadata_list.append(meta)
                 ids.append(f"exr_{i}")
+            
             self.data['exercises'] = exercises
+            print(f"  📊 Processed {len(exercises)} exercises")
             
         elif name == 'paragraphs':
-            paragraphs = data.get('paragraphs', [])
-            for i, para in enumerate(paragraphs):
-                texts.append(para.get('text', ''))
-                meta = {
-                    'type': 'paragraph',
-                    'page': para.get('page'),
-                    'topic': para.get('topic', '')
-                }
-                metadata.append(meta)
-                ids.append(para.get('id', f'para_{i}'))
+            # Handle paragraphs
+            paragraphs_raw = data if isinstance(data, list) else data.get('paragraphs', [])
+            
+            paragraphs = []
+            for i, para in enumerate(paragraphs_raw):
+                if isinstance(para, dict):
+                    text_content = para.get('text', para.get('content', ''))
+                    paragraphs.append(para)
+                    topic = para.get('topic', '')
+                    page = para.get('page')
+                elif isinstance(para, str):
+                    text_content = para
+                    paragraphs.append({'text': para})
+                    topic = ''
+                    page = None
+                else:
+                    continue
+                
+                if text_content:
+                    texts.append(text_content)
+                    meta = {
+                        'type': 'paragraph',
+                        'page': page,
+                        'topic': str(topic) if topic else ''
+                    }
+                    metadata_list.append(meta)
+                    ids.append(f'para_{i}')
+            
             self.data['paragraphs'] = paragraphs
             
         elif name == 'guidelines':
-            # Handle new nested structure
-            guidelines_data = data.get('guideline', [])
+            # Handle guidelines - can be nested or flat
+            guidelines_raw = data if isinstance(data, list) else data.get('guideline', data.get('guidelines', []))
+            
             guideline_idx = 0
             
-            for guideline_group in guidelines_data:
-                if isinstance(guideline_group, dict):
-                    topic = guideline_group.get('topic', '')
-                    content_list = guideline_group.get('content', [])
+            for item in guidelines_raw:
+                if isinstance(item, dict):
+                    # Nested structure with topic and content
+                    topic = item.get('topic', '')
+                    content_list = item.get('content', [])
                     
-                    for content in content_list:
-                        texts.append(content)
-                        metadata.append({
+                    if isinstance(content_list, list):
+                        for content in content_list:
+                            if isinstance(content, str) and content.strip():
+                                texts.append(content)
+                                metadata_list.append({
+                                    'type': 'guideline',
+                                    'index': guideline_idx,
+                                    'topic': str(topic) if topic else ''
+                                })
+                                ids.append(f"guide_{guideline_idx}")
+                                guideline_idx += 1
+                    elif isinstance(content_list, str) and content_list.strip():
+                        texts.append(content_list)
+                        metadata_list.append({
                             'type': 'guideline',
                             'index': guideline_idx,
-                            'topic': topic
+                            'topic': str(topic) if topic else ''
                         })
                         ids.append(f"guide_{guideline_idx}")
                         guideline_idx += 1
-                else:
-                    # Handle old flat structure
-                    texts.append(guideline_group)
-                    metadata.append({
+                        
+                elif isinstance(item, str) and item.strip():
+                    # Flat structure - just strings
+                    texts.append(item)
+                    metadata_list.append({
                         'type': 'guideline',
                         'index': guideline_idx,
                         'topic': ''
@@ -734,19 +828,21 @@ HARD සඳහා:
                     ids.append(f"guide_{guideline_idx}")
                     guideline_idx += 1
             
-            self.data['guidelines'] = guidelines_data
+            self.data['guidelines'] = guidelines_raw
         
         # Add to collection
         if texts and name in self.collections:
             try:
                 self.collections[name].add(
                     documents=texts,
-                    metadatas=metadata,
+                    metadatas=metadata_list,
                     ids=ids
                 )
-                print(f"Loaded {len(texts)} {name}")
+                print(f"  ✅ Loaded {len(texts)} {name}")
             except Exception as e:
-                print(f"Error adding to collection: {e}")
+                print(f"  �� Error adding to collection: {e}")
+        elif not texts:
+            print(f"  ⚠️ No valid {name} found to load")
     
     # ==================== Context Retrieval ====================
     
