@@ -20,8 +20,10 @@ This project combines modern AI techniques with contextual learning materials to
 - **Generate mathematics questions** with configurable difficulty levels (easy, medium, hard)
 - **RAG-based context retrieval** for relevant problem generation
 - **Batch question generation** (1-10 questions per request)
-- **Modular API Architecture** with separate routers for auth and math generation
-- **Protected Endpoints** - All math generation endpoints require authentication
+- **Model Paper Generation** (short answer, structured, essay types)
+- **Past-paper topic selection** for model paper questions
+- **Modular API Architecture** with separate routers for auth, lesson-wise math, and model paper
+- **Protected Endpoints** - All question generation endpoints require authentication
 - **Support for various mathematics topics** in Sinhala
 - **Automatic rate limiting** and error handling
 - **MongoDB Integration** for user persistence
@@ -82,11 +84,12 @@ backend/
 │   │   ├── auth.py                # Auth data models
 │   │   ├── math.py                # Math question models
 │   │   ├── rag_model.py           # SinhalaRAGSystem core implementation
-│   │   └── generated_questions.py # Generated questions model
+│   │   └── model_paper_generator.py # Model paper generator logic
 │   └── routers/
 │       ├── __init__.py
 │       ├── auth.py                # Authentication endpoints (/auth)
-│       └── math_gen.py            # Math generation endpoints (/math)
+│       ├── math_gen.py            # Math generation endpoints (/math)
+│       └── model_paper.py         # Model paper endpoints (/model-paper)
 ├── apis/
 │   └── api.py                     # Legacy API (standalone version)
 ├── data/
@@ -94,6 +97,7 @@ backend/
 │   │   ├── extracted_examples.json
 │   │   ├── exteacted_exercises.json
 │   │   ├── guidelines.json
+│   │   ├── model_paper_questions.json
 │   │   └── paragraphs_and_tables.json
 │   ├── pdfs/                      # Source PDF documents
 │   └── vector_store/              # ChromaDB vector storage
@@ -110,7 +114,8 @@ backend/
 **app/main.py** - FastAPI Application
 - FastAPI application with CORS middleware
 - Router integration for auth and math generation
-- Startup event to pre-load RAG data
+- Router integration for model paper generation
+- Startup event to pre-load RAG data and past papers
 
 **app/dependencies.py** - Dependency Injection
 - `get_current_user()` - JWT authentication dependency
@@ -135,6 +140,14 @@ backend/
 **app/routers/math_gen.py** - Math Generation Endpoints (Protected)
 - `POST /math/generate` - Generate mathematics questions
 - All endpoints require valid JWT token
+
+**app/routers/model_paper.py** - Model Paper Endpoints
+- `GET /model-paper/status` - Check generator status
+- `POST /model-paper/initialize` - Load past papers
+- `GET /model-paper/topics` - Available topics and stats
+- `POST /model-paper/generate/short-answer` - Generate short answer questions (Protected)
+- `POST /model-paper/generate/structured` - Generate structured questions (Protected)
+- `POST /model-paper/generate/essay` - Generate essay questions (Protected)
 
 ### Data Models
 
@@ -163,6 +176,15 @@ The core RAG system that:
 - `load_all_data()` - Loads all educational materials
 - `generate_questions()` - Generates questions based on topic
 - `retrieve_context()` - Retrieves relevant context using embeddings
+
+### ModelPaperGenerator (model_paper_generator.py)
+
+The model paper generator that:
+
+- Loads past paper questions and organizes topics
+- Generates short answer, structured, and essay-style questions
+- Supports topic filtering and multi-topic prompts
+- Applies rate limiting and parsing logic
 
 ##  API Usage
 
@@ -235,6 +257,62 @@ Response:
 }
 ```
 
+### 3. Model Paper Generation
+
+#### Check Status
+
+```bash
+curl -X GET "http://localhost:8000/model-paper/status"
+```
+
+#### Initialize Past Papers
+
+```bash
+curl -X POST "http://localhost:8000/model-paper/initialize"
+```
+
+#### List Topics
+
+```bash
+curl -X GET "http://localhost:8000/model-paper/topics"
+```
+
+#### Generate Short Answer Questions (Protected)
+
+```bash
+curl -X POST "http://localhost:8000/model-paper/generate/short-answer" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
+  -d '{
+    "count": 5,
+    "topics": ["පොළිය", "සමීකරණ"]
+  }'
+```
+
+#### Generate Structured Questions (Protected)
+
+```bash
+curl -X POST "http://localhost:8000/model-paper/generate/structured" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
+  -d '{
+    "count": 3,
+    "topics": ["කොටස් වෙළෙඳපොළ"]
+  }'
+```
+
+#### Generate Essay Questions (Protected)
+
+```bash
+curl -X POST "http://localhost:8000/model-paper/generate/essay" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
+  -d '{
+    "count": 2,
+    "topics": ["ලඝුගණක"]
+  }'
+```
+
 ## ▶️ Running the Application
 
 ### Using the New Modular Architecture (Recommended)
@@ -255,6 +333,12 @@ python -m uvicorn app.main:app --reload
 
 - **Interactive Documentation**: http://localhost:8000/docs
 - **Alternative Documentation**: http://localhost:8000/redoc
+
+4. Optional: Re-initialize past papers (if you want to reload from disk):
+
+```bash
+curl -X POST "http://localhost:8000/model-paper/initialize"
+```
 
 ### Using the Standalone API
 
@@ -356,6 +440,14 @@ curl -X POST "http://localhost:8000/math/generate" \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer <YOUR_TOKEN>" \
   -d '{"topic":"වාරික ගණනය","difficulty":"medium","num_questions":3}'
+```
+
+4. Generate short answer model paper questions:
+```bash
+curl -X POST "http://localhost:8000/model-paper/generate/short-answer" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer <YOUR_TOKEN>" \
+  -d '{"count":3}'
 ```
 
 ## ⚙️ Supported Difficulty Levels
